@@ -21,7 +21,7 @@ s_geomob <- c(
   "1: 01/22", # date
   "2", # session
   "[Geography of Upward Mobility in America](#lec1_geomobility)", # topic with link
-  "[Chetty, Friedman, Hendren, Jones and Porter (2018)-<br>**Non-technical summary**](https://utsa.instructure.com/courses/79928/files?preview=13165235) ", # reading
+  "[Chetty, Friedman, Hendren, Jones and Porter (2018)-<br>**Non-technical summary**](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202) ", # reading
   " ", # method
   " "
 ) # deliverable
@@ -47,7 +47,7 @@ s_causaleffects <- c(
   "3: 02/03", # date
   "5", # session
   "[Intro to Causal Effects of Neighborhoods](#lec2_causaleffect) ", # topic with link
-  "[Bergman, Chetty, DeLuca, Hendren, Katz and Palmer (2019) -<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files?preview=13165236) ", # reading
+  "[Bergman, Chetty, DeLuca, Hendren, Katz and Palmer (2019) -<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306205) ", # reading
   "Experiments (RCTs)", # method
   ""
 ) # deliverable
@@ -55,7 +55,7 @@ s_causaleffects2 <- c(
   "3: 02/05", # date
   "6", # session
   "[Characteristics of High-Mobility Areas](#lec2_causaleffect) and [Correlation Analysis](#regression) ", # topic with link
-  "[Bergman, Chetty, DeLuca, Hendren, Katz and Palmer (2019) -<br>Introduction](https://utsa.instructure.com/courses/79928/files?preview=13165238) ", # reading
+  "[Bergman, Chetty, DeLuca, Hendren, Katz and Palmer (2019) -<br>Introduction](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306208) ", # reading
   "Quasi-experiments ", # method
   "[Project 1](#project1) – Part 1 (for Saturday 02/07) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203153)"
 ) # deliverable
@@ -80,7 +80,7 @@ s_mob_hist_int <- c(
 s_review_mid <- c(
   "5: 02/17", # date
   "9", # session
-  "Review for midterm ", # topic with link
+  "Continuation of Historical and International Drivers of Mobility ", # topic with link
   " ", # reading
   " ", # method
   ""
@@ -88,7 +88,7 @@ s_review_mid <- c(
 s_mid <- c(
   "5: 02/19", # date
   "10", # session
-  "**Midterm**  ", # topic with link
+  "Review for Midterm ", # topic with link
   " ", # reading
   " ", # method
   " "
@@ -97,7 +97,7 @@ s_mid <- c(
 s_inClassR <- c(
   "6: 02/24", # date
   "11", # session
-  "Work in Class For Project 2 ", # topic with link
+  "**Midterm** ", # topic with link
   " ", # reading
   " ", # method
   ""
@@ -105,8 +105,8 @@ s_inClassR <- c(
 
 s_noclass1 <- c(
   "6: 02/26", # date
-  "-", # session
-  "No Class ", # topic with link
+  "13", # session
+  "Midterm solution, and Project 2 work in class ", # topic with link
   " ", # reading
   " ", # method
   ""
@@ -114,16 +114,16 @@ s_noclass1 <- c(
 
 s_mob_ed <- c(
   "7: 03/03", # date
-  "12", # session
+  "13", # session
   "[Higher Education and Upward Mobility](#lec5_mob-ed) ", # topic with link
-  "[Dynarski, Libassi, Michelmore and Owen (2018)](https://utsa.instructure.com/courses/79928/files?preview=13165240)", # reading
+  "[Dynarski, Libassi, Michelmore and Owen (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306212)", # reading
   "Regression discontinuity ", # method
   " "
 ) # deliverable
 
 s_recap_quarto <- c(
   "7: 03/05", # date
-  "13", # session
+  "14", # session
   "Recap of R and Quarto Documents ", # topic with link
   " ", # reading
   " ", # method
@@ -150,7 +150,7 @@ s_springbreak2 <- c(
 
 s_ed_higher <- c(
   "9: 03/17", # date
-  "14", # session
+  "15", # session
   "[Causal Effects of Higher Education](#lec6_ed-higher) ", # topic with link
   " ", # reading
   " ", # method
@@ -159,15 +159,15 @@ s_ed_higher <- c(
 
 s_k12 <- c(
   "9: 03/19", # date
-  "15", # session
+  "16", # session
   "[Primary education](#lec7_k12)", # topic with link
-  "[Chetty, Friedman and Rockoff (2011)-<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files?preview=13165241)	", # reading
+  "[Chetty, Friedman and Rockoff (2011)-<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213)	", # reading
   "Experiments ", # method
   " "
 ) # deliverable
 s_teachers <- c(
   "10: 03/24", # date
-  "16", # session
+  "17", # session
   "[Teachers and Charter Schools](#lec8_teachers-charters)", # topic with link
   "	", # reading
   "Event study designs, competitive equilibrium ", # method
@@ -175,32 +175,32 @@ s_teachers <- c(
 ) # deliverable
 s_racedis <- c(
   "10: 03/26", # date
-  "17", # session
+  "18", # session
   "[Racial Disparities in Economic Opportunity](#lec9_race-ineq) ", # topic with link
-  "[Bertrand, and Mullainathan (2004)](https://utsa.instructure.com/courses/79928/files?preview=13165242)	", # reading
+  "[Bertrand, and Mullainathan (2004)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306215)	", # reading
   "Dynamic models and steady states ", # method
   " "
 ) # deliverable
 
 s_jud_sys <- c(
   "11: 03/31", # date
-  "18", # session
+  "19", # session
   "[Improving judicial decisions](#lec10_criminal-justice)", # topic with link
-  "[Kleinberg, Lakkaraju, Leskovec, Ludwig and Mullainathan (2017)-<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files?preview=13165687) ", # reading
+  "[Kleinberg, Lakkaraju, Leskovec, Ludwig and Mullainathan (2017)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) ", # reading
   "Machine learning, implicit bias ", # method
   ""
 ) # deliverable
 s_immigration <- c(
   "11: 04/02", # date
-  "19", # session
+  "20", # session
   "Immigration ", # topic with link
-  "[Tabellini (2020)](https://utsa.instructure.com/courses/79928/files?preview=13165933)  ", # reading
+  "[Tabellini (2020)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306223)  ", # reading
   "Instrumental variables ", # method
   ""
 ) # deliverable
 s_ml <- c(
   "12: 04/07", # date
-  "20", # session
+  "21", # session
   "Implementing a simple machine learning model in R - Part 1", # topic with link
   "  ", # reading
   "  ", # method
@@ -208,7 +208,7 @@ s_ml <- c(
 ) # deliverable
 s_ml2 <- c(
   "12: 04/09", # date
-  "21", # session
+  "22", # session
   "Implementing a simple machine learning model in R - Part 2", # topic with link
   "  ", # reading
   "  ", # method
@@ -216,7 +216,7 @@ s_ml2 <- c(
 ) # deliverable
 s_ml3 <- c(
   "13: 04/14", # date
-  "22", # session
+  "23", # session
   "Implementing a simple machine learning model in R - Part 3", # topic with link
   "  ", # reading
   "  ", # method
@@ -224,7 +224,7 @@ s_ml3 <- c(
 ) # deliverable
 s_polecon <- c(
   "13: 04/16", # date
-  "23", # session
+  "24", # session
   "Political Economy ", # topic with link
   "  ", # reading
   " ", # method
@@ -233,34 +233,34 @@ s_polecon <- c(
 
 s_tax <- c(
   "14: 04/21", # date
-  "24", # session
+  "25", # session
   "Income taxation ", # topic with link
-  "[Diamond and Saez (2011)](https://utsa.instructure.com/courses/79928/files?preview=13165247)  ", # reading
+  "[Diamond and Saez (2011)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306227)  ", # reading
   "Supply and demand; synthetic control ", # method
   " "
 ) # deliverable
 s_pollution <- c(
   "14: 04/23", # date
-  "25", # session
+  "26", # session
   "Intro to air and water pollution, and externalities ", # topic with link
-  "[Isen, Rossin-Slater, and Walker (2017)-<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files?preview=13167967)", # reading
+  "[Isen, Rossin-Slater, and Walker (2017)-<br>Non-technical summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306233)", # reading
   "Difference in difference ", # method
   "[Project 4](#project4) - (for Saturday 04/25) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203213)"
 ) # deliverable
 # s_saving<-c("15: 12/03", #date
-#            "26", # session
+#            "27", # session
 #            "Savings and wealth ", #topic with link
 #            "  ", #reading
 #            "Behavioral Economics ", # method
 #            " ") #deliverable
 # s_housing<-c("13: 11/16", #date
-#            "25", # session
+#            "26", # session
 #            "Housing markets and COVID ", #topic with link
 #            "Glaeser, Edward, Kominers, Luca and Naik (2018)   ", #reading
 #            " ", # method
 #            "Project 4 – Part 1") #deliverable
 # s_pollution<-c("14: 11/21", #date
-#            "26", # session
+#            "27", # session
 #            "Intro to air and water pollution, and externalities ", #topic with link
 #            "Moore, Obradovich, Lehner and Baylis (2019)   ", #reading
 #            "Difference in difference ", # method
@@ -279,7 +279,7 @@ s_pollution <- c(
 #            " ") #deliverable
 s_review_final <- c(
   "15: 04/28", # date
-  "26", # session
+  "27", # session
   "Review session ", # topic with link
   " ", # reading
   " ", # method
