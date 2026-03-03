@@ -42,9 +42,9 @@ The `docs/` folder currently contains pre-built HTML from Fall 2024. After updat
    - Click the "Build" tab in the upper-right pane
    - Click "Build Book" (or press Ctrl/Cmd + Shift + B)
    
-   **Option B - Using R Console**:
-   ```r
-   bookdown::render_book("index.Rmd")
+   **Option B - Using the command line** (recommended for agents):
+   ```bash
+   conda run -n eco3253 /opt/homebrew/anaconda3/envs/eco3253/bin/Rscript -e "bookdown::render_book('index.Rmd')"
    ```
 
 4. **Verify the Build**:

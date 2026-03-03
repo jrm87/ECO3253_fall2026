@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-02-25" />
+<meta name="date" content="2026-03-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -864,8 +864,8 @@ point
 </ul>
 <p>After running the above code, you’ll notice two outputs: a warning message and the graphic shown in Figure <a href="viz.html#fig:noalpha">12.2</a>. Let’s first unpack the warning message:
 “y” axis</p>
-<pre><code>## Warning: Removed 1372 rows containing missing values or
-## values outside the scale range (`geom_point()`).</code></pre>
+<pre><code>## Warning: Removed 1372 rows containing missing values or values outside the scale range
+## (`geom_point()`).</code></pre>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:noalpha"></span>
 <img src="_main_files/figure-html/noalpha-1.png" alt="Median Household Income in 2016 vs Mobility for Children with Parents in Percentile 25" width="\textwidth" />
 <p class="caption">
@@ -967,10 +967,9 @@ Figure 12.5: Example histogram.
 <p>Let’s now present the <code>ggplot()</code> code to plot your first histogram! Unlike with scatterplots and linegraphs, there is now only one variable being mapped in <code>aes()</code>: the single numerical variable <code>temp</code>. The y-aesthetic of a histogram gets computed for you automatically. Furthermore, the geometric object layer is now a <code>geom_histogram()</code></p>
 <div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="viz.html#cb18-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> atlas, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> kfr_pooled_p25)) <span class="sc">+</span></span>
 <span id="cb18-2"><a href="viz.html#cb18-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>()</span></code></pre></div>
-<pre><code>## `stat_bin()` using `bins = 30`. Pick better value
-## `binwidth`.</code></pre>
-<pre><code>## Warning: Removed 1267 rows containing non-finite outside
-## the scale range (`stat_bin()`).</code></pre>
+<pre><code>## `stat_bin()` using `bins = 30`. Pick better value `binwidth`.</code></pre>
+<pre><code>## Warning: Removed 1267 rows containing non-finite outside the scale range
+## (`stat_bin()`).</code></pre>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:weather-histogram"></span>
 <img src="_main_files/figure-html/weather-histogram-1.png" alt="Histogram of mobility for children of p25 in the US." width="\textwidth" />
 <p class="caption">

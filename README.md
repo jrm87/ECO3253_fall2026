@@ -68,9 +68,9 @@ cd ECO3253_spring2026
    - Click the "Build" tab in the upper-right pane
    - Click "Build Book"
    
-   Option B - Using R console:
-   ```r
-   bookdown::render_book("index.Rmd")
+   Option B - Using the command line (recommended for agents):
+   ```bash
+   conda run -n eco3253 /opt/homebrew/anaconda3/envs/eco3253/bin/Rscript -e "bookdown::render_book('index.Rmd')"
    ```
 
 4. **View the site**:
