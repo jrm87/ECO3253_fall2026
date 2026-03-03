@@ -14,6 +14,12 @@ In this empirical project, you will use a regression discontinuity design to est
 
 The data file `grade5.rds` consists of test scores in fifth grade classes at public elementary schools in Israel. These data were originally used in Angrist and Lavy (1999). The graphs below were drawn using the same data.
 
+You can load the data directly from the class repository into R by running the following code:
+
+```{{r}}
+grade5 <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/grade5.rds")))
+```
+
 ```{r , echo=FALSE, caption="Class Size as a Function of Total School Enrollment in Public Schools in Israel - Forth Grade", out.width = '90%'}
 knitr::include_graphics("images/project2/angristlevy99_1.png")
 ```
