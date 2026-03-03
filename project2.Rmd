@@ -16,7 +16,7 @@ The data file `grade5.rds` consists of test scores in fifth grade classes at pub
 
 You can load the data directly from the class repository into R by running the following code:
 
-```{{r}}
+```{r}
 grade5 <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/grade5.rds")))
 ```
 

@@ -558,8 +558,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>You do not need to use all the variables in atlas_training for your prediction! Follow the instructions for each question.</p>
 </div>
 <p>You can load the data by using the following code:</p>
-<div class="sourceCode" id="cb139"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb139-1"><a href="project4.html#cb139-1" tabindex="-1"></a>train <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds&quot;</span>)))</span>
-<span id="cb139-2"><a href="project4.html#cb139-2" tabindex="-1"></a>test <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds&quot;</span>)))</span></code></pre></div>
+<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="project4.html#cb140-1" tabindex="-1"></a>train <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds&quot;</span>)))</span>
+<span id="cb140-2"><a href="project4.html#cb140-2" tabindex="-1"></a>test <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds&quot;</span>)))</span></code></pre></div>
 </div>
 <div id="instructions-3" class="section level2 unnumbered hasAnchor">
 <h2>Instructions<a href="project4.html#instructions-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -1120,17 +1120,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3>How to tell R that you have a categorical variable?<a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Recall that if you modify one variable in one data set, you should do the same on the other one as well (datasets are <code>train</code> and <code>test</code>)</p>
 <p>Below <code>X</code> is just a placeholder for the actual variable you want to converto into a factor.</p>
-<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="project4.html#cb140-1" tabindex="-1"></a>atlas_train<span class="sc">$</span>X <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(atlas_train<span class="sc">$</span>X)</span></code></pre></div>
+<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="project4.html#cb141-1" tabindex="-1"></a>atlas_train<span class="sc">$</span>X <span class="ot">&lt;-</span> <span class="fu">as.factor</span>(atlas_train<span class="sc">$</span>X)</span></code></pre></div>
 </div>
 <div id="load-package-2" class="section level3 unnumbered hasAnchor">
 <h3>Load package<a href="project4.html#load-package-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You will need three new packages for this project. Remember to install them first.</p>
-<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="project4.html#cb141-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;caret&quot;</span>)</span>
-<span id="cb141-2"><a href="project4.html#cb141-2" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;rpart&quot;</span>)</span>
-<span id="cb141-3"><a href="project4.html#cb141-3" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;rpart.plot&quot;</span>)</span>
-<span id="cb141-4"><a href="project4.html#cb141-4" tabindex="-1"></a><span class="fu">library</span>(caret)</span>
-<span id="cb141-5"><a href="project4.html#cb141-5" tabindex="-1"></a><span class="fu">library</span>(rpart)</span>
-<span id="cb141-6"><a href="project4.html#cb141-6" tabindex="-1"></a><span class="fu">library</span>(rpart.plot)</span></code></pre></div>
+<div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="project4.html#cb142-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;caret&quot;</span>)</span>
+<span id="cb142-2"><a href="project4.html#cb142-2" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;rpart&quot;</span>)</span>
+<span id="cb142-3"><a href="project4.html#cb142-3" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;rpart.plot&quot;</span>)</span>
+<span id="cb142-4"><a href="project4.html#cb142-4" tabindex="-1"></a><span class="fu">library</span>(caret)</span>
+<span id="cb142-5"><a href="project4.html#cb142-5" tabindex="-1"></a><span class="fu">library</span>(rpart)</span>
+<span id="cb142-6"><a href="project4.html#cb142-6" tabindex="-1"></a><span class="fu">library</span>(rpart.plot)</span></code></pre></div>
 </div>
 <div id="run-regression-2" class="section level3 unnumbered hasAnchor">
 <h3>Run regression<a href="project4.html#run-regression-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -1139,45 +1139,45 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Multivariate linear regression</li>
 </ol>
 <p>You might want to understand the relationship between <code>yvar</code> and variable <code>xvar1</code> <strong>while holding fixed</strong> another variable <code>xvar2</code> for neighborhoods only in Milwaukee. You can do this:</p>
-<div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="project4.html#cb142-1" tabindex="-1"></a>mod2 <span class="ot">&lt;-</span> <span class="fu">lm</span>(yvar <span class="sc">~</span> xvar1 <span class="sc">+</span> xvar2 <span class="sc">+</span> xvar3, <span class="at">data =</span> train)</span></code></pre></div>
+<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="project4.html#cb143-1" tabindex="-1"></a>mod2 <span class="ot">&lt;-</span> <span class="fu">lm</span>(yvar <span class="sc">~</span> xvar1 <span class="sc">+</span> xvar2 <span class="sc">+</span> xvar3, <span class="at">data =</span> train)</span></code></pre></div>
 <p>You would see the output from the model by running:</p>
-<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="project4.html#cb143-1" tabindex="-1"></a><span class="fu">summary</span>(mod2)</span></code></pre></div>
+<div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="project4.html#cb144-1" tabindex="-1"></a><span class="fu">summary</span>(mod2)</span></code></pre></div>
 </div>
 <div id="measures-of-accuracy-in-prediction-in-a-multiple-regression" class="section level3 unnumbered hasAnchor">
 <h3>Measures of accuracy in prediction in a Multiple regression<a href="project4.html#measures-of-accuracy-in-prediction-in-a-multiple-regression" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To assess how good is your model at predicting the outcome, you can use the Root Mean Square Error measurement. That will take the error in the prediction for each observation, square it, average it, and then take the root of that.</p>
 <p>You can estimate this measure <strong>in-sample</strong> (within the <code>train</code> dataset), or <strong>out-of-sample</strong> (for the <code>test</code> dataset).</p>
 <p>To do it <strong>in-sample</strong>, you can calculate it by checking the prediction directly from the estimated linear model:</p>
-<div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="project4.html#cb144-1" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>(mod2<span class="sc">$</span>residuals<span class="sc">^</span><span class="dv">2</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="project4.html#cb145-1" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>(mod2<span class="sc">$</span>residuals<span class="sc">^</span><span class="dv">2</span>))</span></code></pre></div>
 <p>where <code>residuals</code> is the error that the model predicts for each observation`</p>
 <p>To do it <strong>out-of-sample</strong>, you need to use the function <code>predict</code> that requires a model, and a dataset with the same variables for the prediction. In this case, you would do something like this:</p>
-<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="project4.html#cb145-1" tabindex="-1"></a>predict_mlr_model <span class="ot">&lt;-</span> <span class="fu">predict</span>(mlr_model, test)</span></code></pre></div>
+<div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="project4.html#cb146-1" tabindex="-1"></a>predict_mlr_model <span class="ot">&lt;-</span> <span class="fu">predict</span>(mlr_model, test)</span></code></pre></div>
 <p>and then you can do this:</p>
-<div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="project4.html#cb146-1" tabindex="-1"></a>actual_values <span class="ot">&lt;-</span> test<span class="sc">$</span>kfr_pooled_p25</span>
-<span id="cb146-2"><a href="project4.html#cb146-2" tabindex="-1"></a>rmse_mlrmodel_outsample <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="fu">mean</span>((actual_values <span class="sc">-</span> predict_mlr_model)<span class="sc">^</span><span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb146-3"><a href="project4.html#cb146-3" tabindex="-1"></a>rmse_mlrmodel_outsample</span></code></pre></div>
+<div class="sourceCode" id="cb147"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb147-1"><a href="project4.html#cb147-1" tabindex="-1"></a>actual_values <span class="ot">&lt;-</span> test<span class="sc">$</span>kfr_pooled_p25</span>
+<span id="cb147-2"><a href="project4.html#cb147-2" tabindex="-1"></a>rmse_mlrmodel_outsample <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="fu">mean</span>((actual_values <span class="sc">-</span> predict_mlr_model)<span class="sc">^</span><span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb147-3"><a href="project4.html#cb147-3" tabindex="-1"></a>rmse_mlrmodel_outsample</span></code></pre></div>
 </div>
 <div id="estimating-a-decision-tree" class="section level3 unnumbered hasAnchor">
 <h3>Estimating a Decision Tree<a href="project4.html#estimating-a-decision-tree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To estimate the decision tree, you can choose which variables you want to select for the prediction by listing them as before. Say, you want to use x1, x2 and x3 for the prediction, you can do:</p>
-<div class="sourceCode" id="cb147"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb147-1"><a href="project4.html#cb147-1" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(kfr_pooled_p25 <span class="sc">~</span> x1 <span class="sc">+</span> x2 <span class="sc">+</span> x3, <span class="at">data =</span> train)</span></code></pre></div>
+<div class="sourceCode" id="cb148"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb148-1"><a href="project4.html#cb148-1" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(kfr_pooled_p25 <span class="sc">~</span> x1 <span class="sc">+</span> x2 <span class="sc">+</span> x3, <span class="at">data =</span> train)</span></code></pre></div>
 <p>If you wan to use all other variables for the prediction, you can do:</p>
-<div class="sourceCode" id="cb148"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb148-1"><a href="project4.html#cb148-1" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(kfr_pooled_p25 <span class="sc">~</span> ., <span class="at">data =</span> train)</span></code></pre></div>
+<div class="sourceCode" id="cb149"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb149-1"><a href="project4.html#cb149-1" tabindex="-1"></a>tree <span class="ot">&lt;-</span> <span class="fu">rpart</span>(kfr_pooled_p25 <span class="sc">~</span> ., <span class="at">data =</span> train)</span></code></pre></div>
 <p>To plot the tree you estimated, just do this:</p>
-<div class="sourceCode" id="cb149"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb149-1"><a href="project4.html#cb149-1" tabindex="-1"></a><span class="co"># Plotting the regression tree</span></span>
-<span id="cb149-2"><a href="project4.html#cb149-2" tabindex="-1"></a><span class="fu">rpart.plot</span>(tree)</span></code></pre></div>
+<div class="sourceCode" id="cb150"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb150-1"><a href="project4.html#cb150-1" tabindex="-1"></a><span class="co"># Plotting the regression tree</span></span>
+<span id="cb150-2"><a href="project4.html#cb150-2" tabindex="-1"></a><span class="fu">rpart.plot</span>(tree)</span></code></pre></div>
 </div>
 <div id="measures-of-accuracy-in-a-decision-tree" class="section level3 unnumbered hasAnchor">
 <h3>Measures of accuracy in a Decision Tree<a href="project4.html#measures-of-accuracy-in-a-decision-tree" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The measurement is the same, but to calculate it you need to do use the <code>predict</code> function as before. For <strong>in-sample</strong> prediction you would do:</p>
-<div class="sourceCode" id="cb150"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb150-1"><a href="project4.html#cb150-1" tabindex="-1"></a><span class="co"># In-sample prediction</span></span>
-<span id="cb150-2"><a href="project4.html#cb150-2" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">predict</span>(tree, train)</span>
-<span id="cb150-3"><a href="project4.html#cb150-3" tabindex="-1"></a><span class="co"># Root mean squared error = 1944.108 (in sample)</span></span>
-<span id="cb150-4"><a href="project4.html#cb150-4" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>((train<span class="sc">$</span>kfr_pooled_p25 <span class="sc">-</span> p)<span class="sc">^</span><span class="dv">2</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb151"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb151-1"><a href="project4.html#cb151-1" tabindex="-1"></a><span class="co"># In-sample prediction</span></span>
+<span id="cb151-2"><a href="project4.html#cb151-2" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">predict</span>(tree, train)</span>
+<span id="cb151-3"><a href="project4.html#cb151-3" tabindex="-1"></a><span class="co"># Root mean squared error = 1944.108 (in sample)</span></span>
+<span id="cb151-4"><a href="project4.html#cb151-4" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>((train<span class="sc">$</span>kfr_pooled_p25 <span class="sc">-</span> p)<span class="sc">^</span><span class="dv">2</span>))</span></code></pre></div>
 <p>For <strong>out-of-sample</strong> prediction, you can run:</p>
-<div class="sourceCode" id="cb151"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb151-1"><a href="project4.html#cb151-1" tabindex="-1"></a>pred_tree_outofsample <span class="ot">&lt;-</span> <span class="fu">predict</span>(tree, test)</span>
-<span id="cb151-2"><a href="project4.html#cb151-2" tabindex="-1"></a><span class="co"># RMSE out of sample = 5965.278</span></span>
-<span id="cb151-3"><a href="project4.html#cb151-3" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>((test<span class="sc">$</span>kfr_pooled_p25 <span class="sc">-</span> pred_tree_outofsample)<span class="sc">^</span><span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb152"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb152-1"><a href="project4.html#cb152-1" tabindex="-1"></a>pred_tree_outofsample <span class="ot">&lt;-</span> <span class="fu">predict</span>(tree, test)</span>
+<span id="cb152-2"><a href="project4.html#cb152-2" tabindex="-1"></a><span class="co"># RMSE out of sample = 5965.278</span></span>
+<span id="cb152-3"><a href="project4.html#cb152-3" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>((test<span class="sc">$</span>kfr_pooled_p25 <span class="sc">-</span> pred_tree_outofsample)<span class="sc">^</span><span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
 
 </div>
 </div>
