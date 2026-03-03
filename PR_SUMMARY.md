@@ -30,8 +30,8 @@ This PR successfully migrates the ECO 3253 course website from Fall 2024 to Spri
 
 4. **Project Due Dates** (All updated to Spring 2026)
    - **Project 1**: Parts 1 & 2 due February 5 and 12, 2026
-   - **Project 2**: Due March 5, 2026
-   - **Project 3**: Due April 11, 2026  
+   - **Project 2**: Due March 8, 2026
+   - **Project 3**: Due April 14, 2026  
    - **Project 4**: Due April 25, 2026
 
 ### ✅ Documentation Created

@@ -13,7 +13,7 @@ create_session <- function(vector) {
   method <- vector[5]
   deliverable <- vector[6]
 
-  line <- paste0(c("|", week, "|", session, "|", topic, "|", reading, "|", method, "|", deliverable, "|", "\n"))
+  paste0(c("|", week, "|", session, "|", topic, "|", reading, "|", method, "|", deliverable, "|", "\n"))
 }
 # Spring 2026 Schedule - Classes on Tuesday and Thursday at 1pm
 s_intro <- c("1: 01/20", "1", "Introduction to the course", " ", " ", " ")
@@ -127,7 +127,7 @@ s_recap_quarto <- c(
   "Recap of R and Quarto Documents ", # topic with link
   " ", # reading
   " ", # method
-  "[Project 2](#project2) (Saturday 03/07) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203158) "
+  "[Project 2](#project2) (Tuesday 03/10) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203158) "
 ) # deliverable
 
 # Spring Break Week 8: 03/10-03/14
@@ -212,7 +212,7 @@ s_ml2 <- c(
   "Implementing a simple machine learning model in R - Part 2", # topic with link
   "  ", # reading
   "  ", # method
-  "[Project 3](#project3) (for Saturday 04/11) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203200)"
+  "[Project 3](#project3) (for Tuesday 04/14) [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203200)"
 ) # deliverable
 s_ml3 <- c(
   "13: 04/14", # date
