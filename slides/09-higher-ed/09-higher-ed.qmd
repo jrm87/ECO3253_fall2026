@@ -1,8 +1,8 @@
 ---
-title: "Education and Upward Mobility"
+title: "Causal Effect of College"
 subtitle: "Economics of Public and Social Issues"
-format: 
-  beamer: 
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
@@ -47,115 +47,155 @@ set.seed(76)
 #data <- readRDS("trials.rds")
 ```
 
-- Correlation of Mobility and Education
-- How to measure how much mobility each college provides
 
-# Education 
+1. Returns to College
+1. Regression Discontinuity Design (method also for Project 2)
+1. Policies for Access
 
-## Education and Upward Mobility
+# Returns to College
 
-- Education is widely viewed as one of the most scalable pathways to upward mobility
-
-- But there is growing concern that education no longer provides a strong pathway to opportunity in the U.S.
-
-    - U.S. students perform worse on standardized tests on average than in many European countries despite higher spending on schools
-
-    - Sharp differences in quality of schools across districts
-
-    - Rising costs of college  lack of access for low-income students
-
-    - Concern that some colleges (e.g., for-profit institutions) may not produce good outcomes
-
-## Education and Upward mobility
-
-- How can we improve education in America? 
-
-    - Traditionally, measuring impacts of education systematically was difficult
-
-    - Administrative data from colleges and school districts are giving us a more scientific understanding of the “education production function”
-
-- Start with higher education, then turn to K-12 education
-
->Reference: Chetty, Friedman, Saez, Turner, Yagan. “Mobility Report Cards: The Role of Colleges in Intergenerational Mobility” Working Paper 201
-
-
-## How Do Colleges Shape Income Mobility in the U.S.?
-
-- How does the higher education system affect intergenerational income mobility in the U.S.?
-
-    - In principle, higher education can provide a pathway to upward mobility that is not directly shaped by the neighborhood where a child happens to grow up
-
-    - But if children from higher-income families tend to attend  better colleges, higher education system may not promote mobility
-
-    - Colleges could actually increase intergenerational persistence of income if disparities in college attendance are sufficiently large
-
-## Effect of Higher Education System on Mobility
-
-- Effect of higher education system on mobility depends upon three factors:
-
-    - [Inputs] Parental income distributions by college
-
-    - [Outputs] Students’ earnings outcomes conditional on parental income by college
-
-    - [Causal share] Portion of variation in students’ earnings outcomes that is due to colleges’ causal effects
-
-## Estimating the Three Parameters: Data
-
-- Chetty et al. (2017) estimate these three parameters using data covering all college students in the U.S. from 1999-2013 (30 million students) 
-
-- Combine information from three sources to construct an anonymized dataset:
-
-    - Parental and Student Income from income tax records
-
-    - College attendance from 1098-T tax data and Pell grant data
-
-    - SAT scores from College Board
-
->Note: all statistics are based on college attendance (not completion)
-
-# Parents’ Income Distributions by College: Income Segregation in the American Higher Education System
-
-## Measuring Parents’ Incomes
-
-- Parent income: average pre-tax household income during five year period when child is aged 15-19 
-
-
-- Focus on percentile ranks, ranking parents relative to other parents with children in same birth cohort
-
-## Parent Household Income Distribution
+## Earnings by Age
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_density.png")
+knitr::include_graphics("../../images/lec6_higher_ed/earnings_age.png")
 ```
+
+## Earnings across time by education group
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/relative_earnings.png")
+```
+
+## Causal Effects of Colleges
+
+- What is the causal effect of a college degree on earnings? Why does this matter?
+
+    - Suppose differences in earnings outcomes between students with a HS diploma and a college degree were purely driven by selection of who gets in
+
+- Then increases access to postsecondary education would have no impact on earnings gaps
+
+    - Do different colleges matter? E.g., 4-year v. community college? Why does this matter? 
+
+    - Suppose differences in earnings outcomes between 4-year & 2-year college students were purely driven by selection 
+
+    - Then reducing segregation across colleges would have no impact on mobility
+
+
+## Implications for Public Policy
+
+- If differences reflect causal effects, we can think of policies that can have a big impact on earning gaps and mobility:
+    
+    - Changes in admissions policies
+
+    - Changes in financial aid policies
+
+    - College-readiness programs
+
+## Estimating the Causal Effects of Colleges
+
+- Ideal experiment to estimate each college’s causal effect: compare earnings at age 30 after random assignment of students to colleges
+
+- Lacking such an experiment, need to find quasi-experimental variation that effectively allocates comparable students to different colleges
+
+- Challenging problem because one needs one experiment per college
+
+    - Example: Zimmerman (2014) estimates causal effects by exploiting admissions cutoffs at Florida International University (**Regression Discontinuity Design**)
+
+## Regression Discontinuity Methods
+
+- Another quasi-experimental method to uncover causality instead of only correlation of outcomes
+
+- Zimmerman (2014) compares students just above and just below state-level GPA cutoff for admission to the Florida State University System 
+
+
+## Admission Rules at FIU 
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman1.png")
+```
+
+
+## Admission Rule for Students with Scores Below 970 in SAT
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman2.png")
+```
+
+
+## Regression Discontinuity
+
+- We can say that students with a 2.9 & 3.1 GPA (& same SAT test score) are really similar in dimensions that matter for their labor market outcomes (e.g, skills, college-readiness, etc.)
+
+- However, students with 2.9 GPA are denied admission and students with a 3.1 GPA are granted admission
+
+- We can argue that the only reason why students are on either side of the GPA cutoff is by chance
+
+- Given that these two very similar groups of students only differ in their admission status, we can compare their outcomes in the future and attribute any differences to the effect of  admission
+
+## Florida International University Admissions and Attendance Rates Around FIU GPA Admissions Cutoffs
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman3.png")
+```
+
+## Regression Discontinuity Methods
+
+- Zimmerman compares students just above and just below state-level GPA cutoff for admission to the Florida State University System 
+
+    - Those with GPA just above cutoff are “treatment” group and those below are “control”
+
+    - Control group typically attends a two-year community college instead of FIU
+
+## Regression Discontinuity Methods
+
+- Key identification assumption to estimate causal effects: all other determinants of earnings are balanced on either side of the cutoff
+
+    - Any difference in earnings at the threshold must then be due to the discrete jump in chance of attending FIU instead of community college
+
+- Assumption is plausible because admission threshold was not publicized
+
+    - If cutoffs were well publicized, may worry that students just above cutoff are different from those below (“manipulation” of running variable)
+
+- Evaluate validity of assumption by making sure observable characteristics are similar on both sides of cutoff
+
+## Tests for Covariate Balance Around GPA Admissions Cutoffs
+
+Race Shares:
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman4.png")
+```
+
+## Tests for Covariate Balance Around GPA Admissions Cutoffs
+
+Gender:
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman5.png")
+```
+
+## Mean Quarterly Earnings 8-14 Years after HS Graduation Around FIU GPA Admissions Cutoffs
+
+```{r, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("../../images/lec6_higher_ed/zimmerman6.png")
+```
+
+## Causal Effect of Colleges
+
+- Ideally, we would estimate causal effect of every college relative to every other college using a method analogous to the one we just discussed
+
+- This is infeasible in practice $\rightarrow$ use earnings controlling for SAT scores and parent income as an estimate of each college’s causal effect
+
+- At least in case of Florida International University, this simple regression estimate matches quasi-experimental estimate
+
+- Therefore use these estimates to gauge portion of variation in earnings that is due to colleges’ causal effects when analyzing impacts on mobility
+
+# Policies for Access
 
 ## College Attendance Rates vs. Parent Income Percentile
 
 ```{r, echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/lec6_higher_ed/parentrank_college.png")
-```
-
-## Parent Income Distribution at Harvard
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard1.png")
-```
-
-## Parent Income Distribution at Harvard
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard2.png")
-```
-
-## Parent Income Distribution at Harvard
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard3.png")
-```
-
-## Parental Income Distribution of Students at Some Highly Selective Colleges
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dis_selective.png")
 ```
 
 ## Income Composition of Ivy Leagues
@@ -164,176 +204,81 @@ knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dis_selective.png")
 knitr::include_graphics("../../images/lec6_higher_ed/access_ivy.png")
 ```
 
-## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile1.png")
-```
-
-## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile2.png")
-```
-
-## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile3.png")
-```
-
-## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile4.png")
-```
-
-## How does UTSA look?
-
-- All Schools: [https://www.nytimes.com/interactive/projects/college-mobility](https://www.nytimes.com/interactive/projects/college-mobility)
-
-- UTSA: [https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-san-antonio](https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-san-antonio)
-
-## Parental Income Segregation Across Colleges
-
-- Sharp differences in parental income distributions across colleges  there is significant segregation across colleges
-
-- Useful benchmark to quantify magnitude: compare to degree of segregation across neighborhoods
-
-- Common perception: colleges foster greater interaction between children from different socioeconomic backgrounds than places in which they grew up
-
-## Parental Income Distribution of Peers of Children from Bottom Quintile
+## Income and College Access
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq1.png")
+knitr::include_graphics("../../images/lec6_higher_ed/income_access.png")
 ```
 
-## Parental Income Distribution of Peers of Children from Top Quintile
+## Increasing Applications from High-Achieving, Low-Income Students 
+
+- There is some scope to increase low and middle-income shares at highly selective colleges by admitting and enrolling more high-achieving, lower-income students
+
+- Under-representation of low-income students at these colleges is partly driven by lower application rates of well qualified low-income students
+
+- This “undermatching” phenomenon is not simply explained by differences in costs of attendance [Hoxby and Avery 2013]
+
+## Cost of Attending College
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq2.png")
+knitr::include_graphics("../../images/lec6_higher_ed/cost_attending.png")
 ```
 
-## Parental Income Distribution of Peers of Ivy-Plus College Students from Top Quintile
+## University of Michigan HAIL Experiment
+
+- Alternative hypothesis: lack of information or application support for low-income students limits their applications even when tuition cost is low [Hoxby and Turner 2013]
+
+- **Dynarski et al. (2018)** test this hypothesis in a recent experiment at the University of Michigan that exploits big data for targeting
+
+    - Provide information about applying to U of M to high-achieving (GPA > 3.3, SAT > 1100) students from low-income families (incomes < $47K)
+
+    - Identify all such students in the state of Michigan using administrative data from schools on GPAs, SAT scores (mandatory in Michigan), and eligibility for free/reduced price lunch
+
+    - 2,000 students meet these criteria each year; 50% randomly assigned to receive treatment of additional information and support
+    
+## HAIL Scholarship Mailings Sent to Students in the Treatment Group
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq3.png")
+knitr::include_graphics("../../images/lec6_higher_ed/dynarski1.png")
 ```
 
-## Trends in Income Segregation
+## Excerpt of HAIL Scholarship Mailings Sent to Parents of Students in the Treatment Group
 
-- Preceding estimates are based on children born between 1980-82, who attended college in the early 2000s
+Dear Parent or Guardian of <<first name>> <<last name>>:
 
-- Substantial changes in higher education system since that time, e.g. substantial changes in financial aid and tuition policies
+Since your child is an excellent student, we want to offer a potentially transformative college opportunity: 
 
-- How has income segregation across colleges changed in recent years?
+If <<first name>> applies and is admitted to the University of Michigan - Ann Arbor, your child will be awarded the HAIL Scholarship covering the entire cost of U-M tuition and fees for four years. This is an offer we are delighted to make, worth approximately $60,000. Furthermore, after a review of their financial aid applications, your student will likely be eligible for additional aid to cover other costs such as housing and textbooks.
 
-## Fraction of Peers from the Top Quintile for Children from the Top Quintile
+Sincerely,
+Kedra Ishop, PhD
+Associate Vice President
+Office of Enrollment Management
+
+## Effect of HAIL Scholarship on **Application** to University of Michigan
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/frac_peers_topq_topq.png")
+knitr::include_graphics("../../images/lec6_higher_ed/dynarski2.png")
 ```
 
-## Trends in Low-Income Access from 2000-2011 at Selected Colleges
+
+## Effect of HAIL Scholarship on **Admission** to University of Michigan
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access.png")
+knitr::include_graphics("../../images/lec6_higher_ed/dynarski3.png")
 ```
 
-## Trends in Low-Income Access from 2000-2011 at Selected Colleges
+
+## Effect of HAIL Scholarship on **Enrollment** at University of Michigan
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access2.png")
+knitr::include_graphics("../../images/lec6_higher_ed/dynarski4.png")
 ```
 
-# Outcomes: Students’ Earnings Distributions
+## Implications from the HAIL Experiment
 
-## Students’ Earnings Outcomes
+- Main lesson: removing cost and informational barriers for high-achieving, low-income students can increase their access to highly selective colleges significantly
 
-- Measure children’s individual earnings in their mid-30s
+- However, such policies are probably insufficient to desegregate higher education system by themselves
 
-- Define percentile ranks by ranking children relative to others in same birth cohort
-
-## Distribution of Children’s Individual Labor Earnings at Age 34
-
-1980 Cohort
-
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics("../../images/lec5_mob_ed/dist_income_children.png")
-```
-
-## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny.png")
-```
-
-## Students’ Earnings Outcomes
-
-- Key lesson: most of the gap in outcomes between children from low vs. high-income families is explained by differences between rather than within colleges
-
-- Raises possibility that reallocating student across colleges could potentially have a significant impact on intergenerational mobility
-
-    - If gap in outcomes by parental income were large even within a given college, there would be little scope to have an impact through changes in college admissions policies
-
-
-## Differences in Mobility Rates Across Colleges
-
-- We can combine data on parents’ incomes and students’ outcomes to characterize colleges’ mobility rates
-
-    - At which colleges in America do the largest number of children come from poor families and end up in the upper middle class?
-
-## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny2.png")
-```
-
-## Measuring Mobility Rates
-
-Define a college’s mobility rate (MR) as the fraction of its students who come from bottom quintile and end up in top quintile
-
-Mobility rate is: 
-
-\begin{align*}
-\underbrace{\text{Mobility Rate}}_{\text{Frac. of Parents in Q1 and Children in Q5}}= & \underbrace{\text{Low-Inc. Access}}_{\text{Frac. of Parents in Q1}} \times \\
-& \underbrace{\text{Top-Quintile Rate}}_{\text{Frac. of Students who Reach Q5 Given Parents in Q1}}
-\end{align*}
-
-At SUNY:     
-	
-$$
-8.4\%	=      	     16\%       	\times        	  51\%
-$$
-
-## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny3.png")
-```
-
-## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny4.png")
-```
-
-## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny5.png")
-```
-
-## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny6.png")
-```
-
-## Top 10 Colleges in America By Bottom-to-Top Quintile Mobility Rate
-
-Fraction of Students who come from Bottom Fifth and End up in Top Fifth
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec5_mob_ed/coll_mob_top.png")
-```
+- Higher education system can play an important role in increasing social mobility, but requires active effort to undo disparities that emerge before college

@@ -1,5 +1,5 @@
 ---
-title: "K-12 Education"
+title: "Education and Upward Mobility"
 subtitle: "Economics of Public and Social Issues"
 format: 
   beamer: 
@@ -47,342 +47,293 @@ set.seed(76)
 #data <- readRDS("trials.rds")
 ```
 
-- K-12 Education Review 
-- Education Production Function
+- Correlation of Mobility and Education
+- How to measure how much mobility each college provides
 
-# K-12 Education 
+# Education 
 
-## K-12 Education: Background
+## Education and Upward Mobility
 
-- U.S. spends nearly $1 trillion per year on K-12 education
+- Education is widely viewed as one of the most scalable pathways to upward mobility
 
-- Decentralized system with substantial variation across schools
+- But there is growing concern that education no longer provides a strong pathway to opportunity in the U.S.
 
-    - Public schools funded by local property taxes  sharp differences in funding across areas
+    - U.S. students perform worse on standardized tests on average than in many European countries despite higher spending on schools
 
-    - Private schools and growing presence of charter schools
+    - Sharp differences in quality of schools across districts
 
-## K-12 Education: Overview
+    - Rising costs of college  lack of access for low-income students
 
-- Main question: how can we maximize the effectiveness of this system to produce the best outcomes for students?
+    - Concern that some colleges (e.g., for-profit institutions) may not produce good outcomes
 
-    - Traditional approach to study this question: qualitative work in schools
+## Education and Upward mobility
 
-    - More recent approach: analyzing big data to evaluate impacts
+- How can we improve education in America? 
 
+    - Traditionally, measuring impacts of education systematically was difficult
 
->Reference 1: Chetty, Friedman, Hilger, Saez, Schanzenbach, Yagan. “How Does Your Kindergarten Classroom Affect Your Earnings? Evidence from Project STAR” QJE 2011.
+    - Administrative data from colleges and school districts are giving us a more scientific understanding of the “education production function”
 
->Reference 2: Reardon, Kalogrides, Fahle, Shores. “The Geography of Racial/Ethnic Test Score Gaps.” Stanford CEPA Working Paper 2016
+- Start with higher education, then turn to K-12 education
 
->Reference 3: Fredriksson, Ockert, Oosterbeek. “Long-Term Effects of Class Size.” QJE 2012
-
->Reference 4: Chetty, Friedman, Rockoff. “Measuring the Impacts of Teachers I and II” AER 2014
-
-
-## Using Test Score Data to Study K-12 Education
-
-- Primary source of big data on education: standardized test scores obtained from school districts
-
-    - Quantitative outcome recorded in existing administrative databases for virtually all students
-
-    - Observed much more quickly than long-term outcomes like college attendance and earnings
+>Reference: Chetty, Friedman, Saez, Turner, Yagan. “Mobility Report Cards: The Role of Colleges in Intergenerational Mobility” Working Paper 201
 
 
-## Using Test Score Data to Evaluate Primary Education
+## How Do Colleges Shape Income Mobility in the U.S.?
 
-- Common concern: are test scores a good measure of learning?
+- How does the higher education system affect intergenerational income mobility in the U.S.?
 
-    - Do improvements in test scores reflect better test-taking ability or acquisition of skills that have value later in life?
+    - In principle, higher education can provide a pathway to upward mobility that is not directly shaped by the neighborhood where a child happens to grow up
 
-- Chetty et al. (2011) examine this issue using data on 12,000 children who were in Kindergarten in Tennessee in 1985
+    - But if children from higher-income families tend to attend  better colleges, higher education system may not promote mobility
 
-    - Link school district and test score data to tax records
+    - Colleges could actually increase intergenerational persistence of income if disparities in college attendance are sufficiently large
 
-    - Ask whether KG test score performance predicts later outcomes
+## Effect of Higher Education System on Mobility
+
+- Effect of higher education system on mobility depends upon three factors:
+
+    - [Inputs] Parental income distributions by college
+
+    - [Outputs] Students’ earnings outcomes conditional on parental income by college
+
+    - [Causal share] Portion of variation in students’ earnings outcomes that is due to colleges’ causal effects
+
+## Estimating the Three Parameters: Data
+
+- Chetty et al. (2017) estimate these three parameters using data covering all college students in the U.S. from 1999-2013 (30 million students) 
+
+- Combine information from three sources to construct an anonymized dataset:
+
+    - Parental and Student Income from income tax records
+
+    - College attendance from 1098-T tax data and Pell grant data
+
+    - SAT scores from College Board
+
+>Note: all statistics are based on college attendance (not completion)
+
+# Parents’ Income Distributions by College: Income Segregation in the American Higher Education System
+
+## Measuring Parents’ Incomes
+
+- Parent income: average pre-tax household income during five year period when child is aged 15-19 
 
 
-## A Kindergarten Test
+- Focus on percentile ranks, ranking parents relative to other parents with children in same birth cohort
 
-- I’ll say a word to you.  Listen for the ending sound.
-
-- You circle the picture that starts with the same sound
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/testkind.png")
-```
-
-## Earnings vs. Kindergarten Test Score
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/earningstest.png")
-```
-
-## Earnings vs. Kindergarten Test Score
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/earningstest2.png")
-```
-
-## Earnings vs. Kindergarten Test Score
+## Parent Household Income Distribution
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/earningstest3.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_density.png")
 ```
 
-## Earnings vs. Kindergarten Test Score
+## College Attendance Rates vs. Parent Income Percentile
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/earningstest4.png")
+knitr::include_graphics("../../images/lec6_higher_ed/parentrank_college.png")
 ```
 
-## Earnings vs. Kindergarten Test Score
+## Parent Income Distribution at Harvard
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard1.png")
+```
+
+## Parent Income Distribution at Harvard
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard2.png")
+```
+
+## Parent Income Distribution at Harvard
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/earningstest5.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard3.png")
 ```
 
-## College Attendance Rates vs. KG Test Score
+## Parental Income Distribution of Students at Some Highly Selective Colleges
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/collegetest.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dis_selective.png")
 ```
 
-##  Marriage by Age 27 vs. KG Test Score
+## Income Composition of Ivy Leagues
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/marriagetest.png")
+knitr::include_graphics("../../images/lec6_higher_ed/access_ivy.png")
 ```
 
-## Studying Differences in Test Score Outcomes
+## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-- Test scores can provide a powerful data source to compare performance across schools and subgroups (e.g., poor vs. rich)
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile1.png")
+```
 
-- Problem: tests are not the same across school districts and grades 
-    - $\rightarrow$ makes comparisons very difficult
+## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-- Reardon et al. (2016) solve this problem and create a standardized measure of test score performance for all schools in America
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile2.png")
+```
 
-    - Use 215 million test scores for students from 11,000 school districts across the U.S. from 2009-13 in grades 3-8
+## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-## Making Test Score Scales Comparable Across the U.S.
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile3.png")
+```
 
-- Convert test scores to a single national scale in three steps:
+## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-    1. Rank each school district’s average scores in the statewide distribution (for a given grade-year-subject)
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile4.png")
+```
 
-    2. Use data from a national test administered to a sample of students by Dept. of Education to convert state-specific rankings to national scale
+## How does UTSA look?
 
-        - Ex: suppose CA students score 5 percentiles below national average
+- All Schools: [https://www.nytimes.com/interactive/projects/college-mobility](https://www.nytimes.com/interactive/projects/college-mobility)
 
-        - Then a CA school whose mean score is 10 percentiles below CA mean is 15 percentiles below national mean
+- UTSA: [https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-san-antonio](https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-san-antonio)
 
-    3. Convert mean test scores to “grade level” equivalents
+## Parental Income Segregation Across Colleges
 
+- Sharp differences in parental income distributions across colleges  there is significant segregation across colleges
 
-## Nationwide District Achievement Variation, 2009-2013
+- Useful benchmark to quantify magnitude: compare to degree of segregation across neighborhoods
+
+- Common perception: colleges foster greater interaction between children from different socioeconomic backgrounds than places in which they grew up
+
+## Parental Income Distribution of Peers of Children from Bottom Quintile
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/achievementdis.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq1.png")
 ```
 
-## Geography of District Achievement Variation, 2009-2013
+## Parental Income Distribution of Peers of Children from Top Quintile
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/map1.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq2.png")
 ```
 
-## Geography of District Achievement Variation, 2009-2013
+## Parental Income Distribution of Peers of Ivy-Plus College Students from Top Quintile
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/map2.png")
+knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq3.png")
 ```
-## Achievement Gaps in Test Scores by Socioeconomic Status
 
-- Next, use these data to examine how test scores vary across socioeconomic groups
+## Trends in Income Segregation
 
-- Define an index of socioeconomic status (SES) using Census data on income, fraction of college graduates, single parent rates, etc.
+- Preceding estimates are based on children born between 1980-82, who attended college in the early 2000s
 
-## Academic Achievement and SES 
+- Substantial changes in higher education system since that time, e.g. substantial changes in financial aid and tuition policies
+
+- How has income segregation across colleges changed in recent years?
+
+## Fraction of Peers from the Top Quintile for Children from the Top Quintile
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/academicses.png")
+knitr::include_graphics("../../images/lec5_mob_ed/frac_peers_topq_topq.png")
 ```
 
-## Academic Achievement and SES 
+## Trends in Low-Income Access from 2000-2011 at Selected Colleges
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/academicses2.png")
+knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access.png")
 ```
 
-## Academic Achievement and SES 
+## Trends in Low-Income Access from 2000-2011 at Selected Colleges
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/academicses3.png")
+knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access2.png")
 ```
 
+# Outcomes: Students’ Earnings Distributions
 
-## How Can We Improve Poorly Performing Schools?
+## Students’ Earnings Outcomes
 
-- There are many school districts in America where students are two grade levels behind national average, controlling for SES
+- Measure children’s individual earnings in their mid-30s
 
-- How can we improve performance in these schools?
+- Define percentile ranks by ranking children relative to others in same birth cohort
 
-    - Simply spending more money on schools is not necessarily the solution…
+## Distribution of Children’s Individual Labor Earnings at Age 34
 
-## Test Scores vs. Expenditures on Primary Education Across Countries
+1980 Cohort
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec5_mob_ed/dist_income_children.png")
+```
+
+## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/test_exp.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny.png")
 ```
 
-## Two Policy Paradigms to Improve Schools
+## Students’ Earnings Outcomes
 
-- Two distinct policy paradigms to improve schools
+- Key lesson: most of the gap in outcomes between children from low vs. high-income families is explained by differences between rather than within colleges
 
-    1. Government-based solutions: improve public schools by reducing class size, increasing teacher quality, etc.
+- Raises possibility that reallocating student across colleges could potentially have a significant impact on intergenerational mobility
 
-    2. Market-based solutions: charter schools or vouchers for private schools
+    - If gap in outcomes by parental income were large even within a given college, there would be little scope to have an impact through changes in college admissions policies
 
-- Contentious policy debate between these two approaches
 
-- We will consider each approach in turn
+## Differences in Mobility Rates Across Colleges
 
-# Government-Based Solutions: Improving Schools
+- We can combine data on parents’ incomes and students’ outcomes to characterize colleges’ mobility rates
 
-## Improving Schools: The Education Production Function
+    - At which colleges in America do the largest number of children come from poor families and end up in the upper middle class?
 
-- Improving public schools requires understanding the education production function
-
-- How should we change schools to produce better outcomes?
-
-    - Better Teachers?
-    - Smaller Classes?
-    - Better Technology?
-
-## Effects of Class Size: Tennessee STAR Experiment
-
-- Student/Teacher Achievement Ratio (STAR) experiment
-
-    - Conducted from 1985 to 1989 in Tennessee
-
-    - About 12,000 children in grades K-3 at 79 schools
-
-- Students and teachers randomized into classrooms within schools
-
-    - Class size differs: small (~15 students) or large (~22 students)
-
-    - Classes also differ in teachers and peers
-
-## Effects of Class Size: Tennessee STAR Experiment
-
-- Evaluate impacts of STAR experiment by comparing mean outcomes of students in small vs. large classes.
-
-- Report impacts using regressions of outcomes on an indicator (0-1 variable) for being in a small class [Krueger 1999, Chetty et al. 2011]
-
-## STAR Experiment: Impacts of Class Size
+## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star1.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny2.png")
 ```
 
-## STAR Experiment: Impacts of Class Size
+## Measuring Mobility Rates
+
+Define a college’s mobility rate (MR) as the fraction of its students who come from bottom quintile and end up in top quintile
+
+Mobility rate is: 
+
+\begin{align*}
+\underbrace{\text{Mobility Rate}}_{\text{Frac. of Parents in Q1 and Children in Q5}}= & \underbrace{\text{Low-Inc. Access}}_{\text{Frac. of Parents in Q1}} \times \\
+& \underbrace{\text{Top-Quintile Rate}}_{\text{Frac. of Students who Reach Q5 Given Parents in Q1}}
+\end{align*}
+
+At SUNY:     
+	
+$$
+8.4\%	=      	     16\%       	\times        	  51\%
+$$
+
+## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star2.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny3.png")
 ```
 
-
-## STAR Experiment: Impacts of Class Size
+## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star3.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny4.png")
 ```
 
-## STAR Experiment: Impacts of Class Size
+## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star4.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny5.png")
 ```
 
-## STAR Experiment: Impacts of Class Size
+## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star5.png")
+knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny6.png")
 ```
 
-## STAR Experiment: Impacts of Class Size
+## Top 10 Colleges in America By Bottom-to-Top Quintile Mobility Rate
+
+Fraction of Students who come from Bottom Fifth and End up in Top Fifth
 
 ```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/star6.png")
+knitr::include_graphics("../../images/lec5_mob_ed/coll_mob_top.png")
 ```
-
-## Effects of Class Size: Quasi-Experimental Evidence
-
-- Limitation of STAR experiment: sample is too small to estimate impacts of class size on earnings precisely
-
-- Fredriksson et al. (2013) use administrative data from Sweden to obtain more precise estimates
-
-    - No experiment here; instead use a quasi-experimental method: regression discontinuity.
-
-## Regression Discontinuity Using Class Size Cutoffs
-
-- Sweden imposes a maximum class size of 25 students
-
-    - School that has 26 students in a given grade will therefore have two classes of 13 students each
-
-    - School that has 25 students may have one class of 25 students
-
-- School that have 26 students in a grade are likely to be comparable to those that have 25 students
-
-    - $\rightarrow$ Can identify causal effects of class size by comparing outcomes in schools with 26 vs. 25 students in a given grade
-
-## Discontinuities in Class Size Created by Maximum Class Size Rule
-
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson1.png")
-```
-
-## Discontinuities in Class Size Created by Maximum Class Size Rule
-
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson2.png")
-```
-
-## Discontinuities in Class Size Created by Maximum Class Size Rule
-
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson3.png")
-```
-
-## Test Score Achievement: Regression Discontinuity Estimates
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson4.png")
-```
-
-## Test Score Achievement: Regression Discontinuity Estimates
-
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson5.png")
-```
-
-## Earnings Impacts: Regression Discontinuity Estimates
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec7_k12/fredriksson6.png")
-```
-
-## Lessons on Class Size
-
-- Reducing class sizes in primary school by hiring more teachers can have large returns
-
-    - Present value of lifetime earnings of a child growing up in a family at 25th percentile is about $500,000 on average
-
-    - 4% earnings gain from smaller class = $20,000
-
-    - Dividing a class of 30 students into two would increase total earnings of students by more than $600,000
-
-    - Costs (hiring another teacher and an additional room) likely to be well below $600,000
