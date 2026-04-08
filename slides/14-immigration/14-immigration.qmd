@@ -77,13 +77,13 @@ Immigration:
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec11_immigration/wages1.png")
 ```
 :::
 
 ::: {.column width="50%"}
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec11_immigration/wages2.png")
 ```
 ::: 
@@ -232,7 +232,7 @@ knitr::include_graphics("../../images/lec11_immigration/KL1.png")
 
 ## What happens to capital after big increase in population?
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec11_immigration/KL_synth_israel.png")
 ```
 
@@ -309,7 +309,7 @@ knitr::include_graphics("../../images/lec11_immigration/peri_yasenov.png")
 
 ## Miami vs Synthetic Miami
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec11_immigration/peri_yasenov2.png")
 ```
 
@@ -349,26 +349,26 @@ Findings:
 
 ## Cross-Sectional Earning Gaps for First and Second-Generation Imms and US-born men by Country of Origin
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '55%'}
 knitr::include_graphics("../../images/lec11_immigration/abramitzky1.png")
 ```
 
 
 ## Cross-Sectional Earning Gaps for First and Second-Generation Imms and US-born men by Country of Origin
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '55%'}
 knitr::include_graphics("../../images/lec11_immigration/abramitzky2.png")
 ```
 
 ## Cross-Sectional Earning Gaps for First and Second-Generation Imms and US-born men by Country of Origin
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '55%'}
 knitr::include_graphics("../../images/lec11_immigration/abramitzky3.png")
 ```
 
 ## Intergenerational mobility of Imms and US-born (rank-rank)
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec11_immigration/abramitzky4.png")
 ```
 

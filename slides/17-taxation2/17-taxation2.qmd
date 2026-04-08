@@ -69,7 +69,7 @@ Three examples:
 
 ## Federal Income Tax Rates for a Single Earner with 2 Children in 2006
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/mg_tax.png")
 ```
 
@@ -99,13 +99,13 @@ knitr::include_graphics("../../images/lec17_tax2/exp_sales_tax_pic.png")
 
 ## Effect of Posting Tax-Inclusive Prices: Mean Quantity Sold
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_exp_table1.png")
 ```
 
 ## Effects of Changes in State Beer Excise Taxes on Changes in Beer Consumption
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_exp_fig1.png")
 ```
 
@@ -129,27 +129,27 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_exp_fig2.png")
 
 ## 2008 Federal EITC Schedule for a Single Filer with Children
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc1.png")
 ```
 
 
 ## Income Distributions for Individuals with Children in 2008
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc2.png")
 ```
 
 ## Earnings Distribution Around EITC-Maximizing Threshold in Texas
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc3.png")
 ```
 
 
 ## Earnings Distribution Around EITC-Maximizing Threshold in Kansas
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc4.png")
 ```
 
@@ -201,7 +201,7 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_eitc9.png")
 
 ## Event Study of Sharp Bunching Around Moves
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc10.png")
 ```
 
@@ -228,28 +228,28 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_eitc12.png")
 
 ## Income Distribution For Single Wage Earners with One Child
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc13.png")
 ```
 
 
 ## Income Distribution For Single Wage Earners with One Child: High vs. Low Bunching Areas
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc14.png")
 ```
 
 
 ## Earnings Distribution in the Year Before First Child Birth for Wage Earners 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc15.png")
 ```
 
 
 ## Earnings Distribution in the Year of First Child Birth for Wage Earners 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_eitc16.png")
 ```
 
@@ -323,21 +323,21 @@ knitr::include_graphics("../../images/lec17_tax2/madrian2.png")
 
 ## Event Study around Switches to Firm with $>3\%$ Increase in Employer Pension Rate
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions1.png")
 ```
 
 
 ## Event Study around Switches to Firm with $>3\%$ Increase in Employer Pension Rate
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions2.png")
 ```
 
 
 ## Event Study around Switches to Firm with $>3\%$ Increase in Employer Pension Rate
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions3.png")
 ```
 
@@ -358,7 +358,7 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_pensions3.png")
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions4.png")
 ```
 
@@ -366,49 +366,49 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_pensions4.png")
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions5.png")
 ```
 
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions6.png")
 ```
 
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions7.png")
 ```
 
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions8.png")
 ```
 
 
 ## Impact of 1999 Pension Subsidy Reduction On Pension Contributions
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions9.png")
 ```
 
 
 ## Change in Marginal Propensity to Save in Retirement vs. Non-Retirement Accounts at Top Tax Cutoff by Year
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions10.png")
 ```
 
 
 ## Change in Marginal Propensity to Save in Retirement vs. Non-Retirement Accounts at Top Tax Cutoff by Year
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions11.png")
 ```
 
@@ -425,7 +425,7 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_pensions11.png")
 
 ## Heterogeneity in Responses to Subsidies by Educational Attainment
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec17_tax2/chetty_pensions12.png")
 ```
 

@@ -113,43 +113,43 @@ knitr::include_graphics("../../images/lec7_k12/testkind.png")
 
 ## Earnings vs. Kindergarten Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/earningstest.png")
 ```
 
 ## Earnings vs. Kindergarten Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/earningstest2.png")
 ```
 
 ## Earnings vs. Kindergarten Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/earningstest3.png")
 ```
 
 ## Earnings vs. Kindergarten Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/earningstest4.png")
 ```
 
 ## Earnings vs. Kindergarten Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/earningstest5.png")
 ```
 
 ## College Attendance Rates vs. KG Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/collegetest.png")
 ```
 
 ##  Marriage by Age 27 vs. KG Test Score
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/marriagetest.png")
 ```
 
@@ -181,13 +181,13 @@ knitr::include_graphics("../../images/lec7_k12/marriagetest.png")
 
 ## Nationwide District Achievement Variation, 2009-2013
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec7_k12/achievementdis.png")
 ```
 
 ## Geography of District Achievement Variation, 2009-2013
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec7_k12/map1.png")
 ```
 
@@ -231,7 +231,7 @@ knitr::include_graphics("../../images/lec7_k12/academicses3.png")
 
 ## Test Scores vs. Expenditures on Primary Education Across Countries
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/test_exp.png")
 ```
 
@@ -287,14 +287,14 @@ knitr::include_graphics("../../images/lec7_k12/star1.png")
 
 ## STAR Experiment: Impacts of Class Size
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/star2.png")
 ```
 
 
 ## STAR Experiment: Impacts of Class Size
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/lec7_k12/star3.png")
 ```
 
@@ -312,7 +312,7 @@ knitr::include_graphics("../../images/lec7_k12/star5.png")
 
 ## STAR Experiment: Impacts of Class Size
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec7_k12/star6.png")
 ```
 
@@ -339,38 +339,38 @@ knitr::include_graphics("../../images/lec7_k12/star6.png")
 ## Discontinuities in Class Size Created by Maximum Class Size Rule
 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson1.png")
 ```
 
 ## Discontinuities in Class Size Created by Maximum Class Size Rule
 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson2.png")
 ```
 
 ## Discontinuities in Class Size Created by Maximum Class Size Rule
 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson3.png")
 ```
 
 ## Test Score Achievement: Regression Discontinuity Estimates
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson4.png")
 ```
 
 ## Test Score Achievement: Regression Discontinuity Estimates
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson5.png")
 ```
 
 ## Earnings Impacts: Regression Discontinuity Estimates
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/lec7_k12/fredriksson6.png")
 ```
 

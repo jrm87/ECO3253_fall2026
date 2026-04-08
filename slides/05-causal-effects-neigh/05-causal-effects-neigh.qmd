@@ -77,31 +77,31 @@ Two very different explanations for variation in children’s outcomes across ar
 
 ## Income Gain from Moving to a Better Neighborhood
 
-```{r fig_mob_better1, echo=FALSE, out.width = '90%'}
+```{r fig_mob_better1, echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/mob_better1.png")
 ```
 
 ## Income Gain from Moving to a Better Neighborhood
 
-```{r fig_mob_better2, echo=FALSE, out.width = '90%'}
+```{r fig_mob_better2, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/mob_better2.png")
 ```
 
 ## Income Gain from Moving to a Better Neighborhood
 
-```{r fig_mob_better3, echo=FALSE, out.width = '90%'}
+```{r fig_mob_better3, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/mob_better3.png")
 ```
 
 ## Income Gain from Moving to a Better Neighborhood
 
-```{r fig_mob_better4, echo=FALSE, out.width = '90%'}
+```{r fig_mob_better4, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/mob_better4.png")
 ```
 
 ## Income Gain from Moving to a Better Neighborhood
 
-```{r fig_mob_better5, echo=FALSE, out.width = '90%'}
+```{r fig_mob_better5, echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/mob_better5.png")
 ```
 
@@ -142,7 +142,7 @@ knitr::include_graphics("../../images/mob_better5.png")
 
 ## Upward Mobility vs. Job Growth in the 30 Largest Metro Areas
 
-```{r fig_mob_jobs, echo=FALSE, out.width = '90%'}
+```{r fig_mob_jobs, echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/mob_jobs.png")
 ```
 

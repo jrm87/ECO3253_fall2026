@@ -73,113 +73,113 @@ knitr::include_graphics("../../images/lec9_race_ineq/medianhhinc2016_race.png")
 
 Mean Child Household Income Rank vs. Parent Household Income Rank
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob1.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob2.png")
 ```
 
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob3.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob4.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob5.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob6.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob7.png")
 ```
 
 ## Convergence in Black-White Gap if Intergenerational Mobility is Race-Invariant
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob8.png")
 ```
 
 
 ## Intergenerational Mobility for Whites vs. Blacks
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob_b_w1.png")
 ```
 
 
 ## Intergenerational Mobility for Whites vs. Blacks
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob_b_w2.png")
 ```
 
 
 ## Intergenerational Mobility for Whites vs. Blacks
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob_b_w3.png")
 ```
 
 ## Intergenerational Mobility for Whites vs. Blacks
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob_b_w4.png")
 ```
 
 ## Intergenerational Mobility for Whites vs. Blacks
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/mob_b_w5.png")
 ```
 
 ## Mean Child Income Rank vs. Parent Income Rank by Race and Ethnicity
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/rank_parent_child_race1.png")
 ```
 
 ## Mean Child Income Rank vs. Parent Income Rank by Race and Ethnicity
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/rank_parent_child_race2.png")
 ```
 
 ## Mean Child Income Rank vs. Parent Income Rank by Race and Ethnicity
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/rank_parent_child_race3.png")
 ```
 
 ## Mean Child Income Rank vs. Parent Income Rank by Race and Ethnicity
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/rank_parent_child_race4.png")
 ```
 
 ## Current Mean Ranks vs. Predicted Ranks in Steady State, by Race
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec9_race_ineq/predicted_ss.png")
 ```
 
@@ -219,13 +219,13 @@ knitr::include_graphics("../../images/lec9_race_ineq/b_w_female.png")
 
 Male Children
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/b_w_male_employment.png")
 ```
 
 ## Employment Rates vs. Parent Income Rank
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/b_w_male_employment_all.png")
 ```
 
@@ -233,7 +233,7 @@ knitr::include_graphics("../../images/lec9_race_ineq/b_w_male_employment_all.png
 
 Male Children
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/b_w_male_incarceration.png")
 ```
 
@@ -241,7 +241,7 @@ knitr::include_graphics("../../images/lec9_race_ineq/b_w_male_incarceration.png"
 
 Female Children
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/b_w_female_incarceration.png")
 ```
 
@@ -259,7 +259,7 @@ Family-Level Factors:
 
 ## The Geography of Upward Mobility in the United States
 
-```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '90%'}
+```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/mobility_CZ_chetty18.png")
 ```
 
@@ -378,7 +378,7 @@ Four key results:
 
 ## The big picture: a "hockey stick"
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt1.png")
 ```
 
@@ -475,7 +475,7 @@ knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt_fig3_simulatio
 
 ## The puzzle: the gap stopped closing after 1980
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt_fig5_post1980.png")
 ```
 
@@ -522,7 +522,7 @@ Three simulations, all starting from the 1983 gap of about 5.3:
 
 ## Capital gains counterfactual: what if only stocks had appreciated?
 
-```{r, echo=FALSE, out.width = '75%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt2.png")
 ```
 
@@ -550,15 +550,3 @@ Four lessons for thinking about the racial wealth gap:
 
 4. **Portfolio differences are the mechanism.** Black households' wealth is concentrated in housing; white households' wealth is more diversified into stocks and business equity --- assets that have boomed since 1980
 
-## Implications for policy
-
-- If the *only* wealth-accumulating condition you equalize is income (the target of most traditional anti-poverty policy), the wealth gap would **still** take 200+ years to close
-
-- Two kinds of policies can attack the wealth gap:
-
-    - **Stock-based** (e.g., reparations, baby bonds): directly change the wealth you start with. These can move the gap immediately
-    - **Flow-based** (e.g., financial inclusion, portfolio diversification, education and labor market policies): change the savings and returns going forward
-
-- The authors argue these are **complementary**: a one-time transfer without equalizing the flows would wear off over generations; equalizing the flows without addressing the stock would take centuries
-
-- Closing the wealth gap requires **both**

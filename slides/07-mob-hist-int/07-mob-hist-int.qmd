@@ -92,37 +92,37 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_halikiasreeves16.png")
 
 ## Percent of Children Earning More than their Parents
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist1.png")
 ```
 
 ## Percent of Children Earning More than their Parents
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist2.png")
 ```
 
 ## Percent of Children Earning More than their Parents
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist3.png")
 ```
 
 ## Percent of Children Earning More than their Parents
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist4.png")
 ```
 
 ## Percent of Children Earning More than their Parents
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist5.png")
 ```
 
 ## Percent of Children Earning More than Their Parents, by Birth Cohort
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_childparent.png")
 ```
 
@@ -135,19 +135,19 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_childparent.png
 
 ## Household Income Distributions of Parents and Children at Age 30 (Children in 1940 Birth Cohort)
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_dist_childparent1.png")
 ```
 
 ## Household Income Distributions of Parents and Children at Age 30 (Children in 1940 Birth Cohort)
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_dist_childparent2.png")
 ```
 
 ## Household Income Distributions of Parents and Children at Age 30 (Children in 1940 Birth Cohort)
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_dist_childparent3.png")
 ```
 
@@ -161,7 +161,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_dist_childparent3.png")
 
 ##  Household Income Distributions of Parents and Children at Age 30 (Children in 1980 Birth Cohort)
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_dist_childparent80.png")
 ```
  
@@ -191,7 +191,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_piketty_saez_zucman17.p
 
 ## Share of Income Going to Households in the Top 1%, by Year
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_piketty_saez_zucman17-2.png")
 ```
 
@@ -207,19 +207,19 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_piketty_saez_zucman17-2
 
 ## Percent of Children Earning More than Their Parents: Hypothetical Scenarios
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_hipot1.png")
 ```
 
 ## Percent of Children Earning More than Their Parents: Hypothetical Scenarios
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_hipot2.png")
 ```
 
 ## Percent of Children Earning More than Their Parents: Hypothetical Scenarios
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_hipot3.png")
 ```
 
@@ -243,7 +243,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_berman18_1.png")
 
 ## Mobility in Denmark
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/lec4_hist_mob/lec4_berman18_2.png")
 ```
 

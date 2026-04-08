@@ -97,7 +97,7 @@ We will focus on 3) today
 
 ## Immigration and redistribution
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec15_political_economy/immig.png")
 ```
 
@@ -127,13 +127,13 @@ knitr::include_graphics("../../images/lec15_political_economy/immig.png")
 
 ## Eliciting Perceptions of Number of Immigrants
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec15_political_economy/beliefs_immigrants.png")
 ```
 
 ## Eliciting Perceptions on Origin of Immigrants
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '45%'}
 knitr::include_graphics("../../images/lec15_political_economy/beliefs_immigrants2.png")
 ```
 
@@ -155,13 +155,13 @@ U.S. born residents receive government transfers in the form of public assistanc
 
 ## Misperception of Number of Immigrants
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '45%'}
 knitr::include_graphics("../../images/lec15_political_economy/beliefs_immigrants3.png")
 ```
 
 ## Misperception of Number of Immigrants by Individual Chars
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '50%'}
 knitr::include_graphics("../../images/lec15_political_economy/beliefs_immigrants4.png")
 ```
 
@@ -175,7 +175,7 @@ knitr::include_graphics("../../images/lec15_political_economy/beliefs_immigrants
 
 ## Willingness to Pay to Receive Correct Info about Immigrants
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '40%'}
 knitr::include_graphics("../../images/lec15_political_economy/wtp_info.png")
 ```
 
@@ -223,7 +223,7 @@ knitr::include_graphics("../../images/lec15_political_economy/tabellini2.png")
 
 ## Are you a Kandinsky or Klee type of person? [Tajfel et al (1971)](https://onlinelibrary.wiley.com/doi/10.1002/ejsp.2420010202)
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec15_political_economy/tajfel1.png")
 ```
 
@@ -250,7 +250,7 @@ knitr::include_graphics("../../images/lec15_political_economy/chen_li1.png")
 
 ## Large Share of Individuals Show Preference for their In-Group
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '50%'}
 knitr::include_graphics("../../images/lec15_political_economy/chen_li2.png")
 ```
 
@@ -302,13 +302,13 @@ knitr::include_graphics("../../images/lec15_political_economy/stantcheva1.png")
 
 ## Probability of Staying in Bottom Quintile (Actual vs. Perceived)
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec15_political_economy/stantcheva2.png")
 ```
 
 ## Probability of Moving to Top Quintile (Actual vs. Perceived)
 
-```{r, echo=FALSE, out.width = '90%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec15_political_economy/stantcheva3.png")
 ```
 
@@ -320,7 +320,7 @@ knitr::include_graphics("../../images/lec15_political_economy/stantcheva4.png")
 
 ## Pessimism, Optimism, and Top Tax Rate
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec15_political_economy/stantcheva5.png")
 ```
 

@@ -117,7 +117,7 @@ The plan for what we will covered in the semester includes:
 
 ## Number of data-driven articles in leading journals
 
-```{r fig_econJournals, fig.cap="Source: Mamermesh (JEL 2013)", echo=FALSE, out.width = '80%'}
+```{r fig_econJournals, fig.cap="Source: Mamermesh (JEL 2013)", echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/econ_journals_data_hamermesh13.png")
 ```
 

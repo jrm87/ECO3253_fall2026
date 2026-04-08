@@ -62,7 +62,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/earnings_age.png")
 
 ## Earnings across time by education group
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec6_higher_ed/relative_earnings.png")
 ```
 
@@ -110,7 +110,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/relative_earnings.png")
 
 ## Admission Rules at FIU 
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/zimmerman1.png")
 ```
 
@@ -176,7 +176,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/zimmerman5.png")
 
 ## Mean Quarterly Earnings 8-14 Years after HS Graduation Around FIU GPA Admissions Cutoffs
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/zimmerman6.png")
 ```
 
@@ -194,19 +194,19 @@ knitr::include_graphics("../../images/lec6_higher_ed/zimmerman6.png")
 
 ## College Attendance Rates vs. Parent Income Percentile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/parentrank_college.png")
 ```
 
 ## Income Composition of Ivy Leagues
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec6_higher_ed/access_ivy.png")
 ```
 
 ## Income and College Access
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec6_higher_ed/income_access.png")
 ```
 
@@ -220,7 +220,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/income_access.png")
 
 ## Cost of Attending College
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/cost_attending.png")
 ```
 
@@ -238,7 +238,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/cost_attending.png")
     
 ## HAIL Scholarship Mailings Sent to Students in the Treatment Group
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '30%'}
 knitr::include_graphics("../../images/lec6_higher_ed/dynarski1.png")
 ```
 
@@ -257,21 +257,21 @@ Office of Enrollment Management
 
 ## Effect of HAIL Scholarship on **Application** to University of Michigan
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/dynarski2.png")
 ```
 
 
 ## Effect of HAIL Scholarship on **Admission** to University of Michigan
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/dynarski3.png")
 ```
 
 
 ## Effect of HAIL Scholarship on **Enrollment** at University of Michigan
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/dynarski4.png")
 ```
 

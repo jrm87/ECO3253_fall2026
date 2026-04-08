@@ -72,7 +72,7 @@ set.seed(76)
 
 ## Job Callback Rates by Race for Resumes with Otherwise Identical Credentials
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/bertrand1.png")
 ```
 
@@ -165,7 +165,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 ## Data Used for Empirical Analysis
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg1.png")
 ```
 
@@ -247,7 +247,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/loss1.png")
 
 ## Judges' Release Decisions vs. Machine Predictions
 
-```{r, echo=FALSE, out.width = '85%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig2_judgesvsml.png")
 ```
 
@@ -277,7 +277,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig2_judg
 
 ## The algorithm beats every judge quintile
 
-```{r, echo=FALSE, out.width = '65%'}
+```{r, echo=FALSE, out.width = '40%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig5_contraction.png")
 ```
 
@@ -365,7 +365,7 @@ Compare the difference in detention rates between the top and bottom quartile of
 :::: {.columns}
 
 ::: {.column width="50%"}
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '30%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/lm2024_fig7_morph_pairs.png")
 ```
 :::
@@ -433,7 +433,7 @@ When they ask independent MTurk subjects --- not the researchers --- to name wha
 
 Source: [Mohler, Short, Brantingham, Schoenberg, Tita. "Self-Exciting Point Process Modeling of Crime." JASA 2011](https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.ap09546)
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/mohler1.png")
 ```
 

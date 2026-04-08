@@ -79,7 +79,7 @@ Reminder: Friday is deadline for submission of Project Part 1 **and** Part 2
 
 ## Common MTO Residential Locations in New York
 
-```{r fig_mob_better1, echo=FALSE, out.width = '80%'}
+```{r fig_mob_better1, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_nyc.png")
 ```
 
@@ -114,25 +114,25 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_nyc.png")
 
 ## Impacts of MTO on Children *Below Age 13* at Random Assignment
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_below13.png")
 ```
 
 ## Impacts of MTO on Children *Below Age 13* at Random Assignment
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_below13-2.png")
 ```
 
 ## Impacts of MTO on Children *Between Age 13 and 18* at Random Assignment
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_1318.png")
 ```
 
 ## Impacts of MTO on Earnings *as Adults*
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '40%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_adult.png")
 ```
 
@@ -158,14 +158,14 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_adult.png")
 
 ## Impacts of Experimental Voucher by Age of Random Assignment
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_income_age.png")
 ```
 
 
 ## Income Gain from Moving to a Better Neighborhood By Child’s Age at Move
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/mob_better5.png")
 ```
 
@@ -205,7 +205,7 @@ knitr::include_graphics("../../images/mob_better5.png")
 
 ## Childhood Exposure Effects Around the World
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_exposure_world.png")
 ```
 
@@ -250,20 +250,20 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_seattle_locations
 
 ## The Price of Opportunity in Seattle
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mob_seattle_rent.png")
 ```
 
 ## The Price of Opportunity in Seattle
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mob_seattle_rent2.png")
 ```
 
 
 ## The Price of Opportunity in Seattle
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mob_seattle_rent3.png")
 ```
 
@@ -281,7 +281,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mob_seattle_rent3
 
 Regression Estimates Using Estimates by Birth Cohort:
 
-```{r , echo=FALSE, out.width = '70%'}
+```{r , echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_coef_stability.png")
 ```
 
@@ -291,7 +291,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_coef_stability.pn
 
 > References: [CMTO summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306205); [Bergman, Chetty, DeLuca, Hendren, Katz, Palmer "Creating Moves to Opportunity" (2019)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306208)
 
-```{r , echo=FALSE, out.width = '90%'}
+```{r , echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_cmto.png")
 ```
 
@@ -304,7 +304,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_cmto.png")
     
 ## Impacts of MTO Experiment on Annual Income Tax Revenue in Adulthood for Children Below Age 13 at Random Assignment
 
-```{r , echo=FALSE, out.width = '50%'}
+```{r , echo=FALSE, out.width = '45%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_tax.png")
 ```
     
@@ -320,7 +320,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_tax.png")
 
 ## Children’s Outcomes vs. Parents Incomes in Salt Lake City vs. Charlotte
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_charlotte_salktlake.png")
 ```
 
@@ -345,19 +345,19 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_chars_highmob.png
 
 ## Spatial Decay of Correlation between Upward Mobility and Tract-Level Poverty Rates
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_spatial_decay.png")
 ```
 
 ## Spatial Decay of Correlation between Upward Mobility and Tract-Level Poverty Rates
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_spatial_decay2.png")
 ```
 
 ## Spatial Decay of Correlation between Upward Mobility and Block-Level Poverty Rates
 
-```{r , echo=FALSE, out.width = '80%'}
+```{r , echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_spatial_decay3.png")
 ```
 

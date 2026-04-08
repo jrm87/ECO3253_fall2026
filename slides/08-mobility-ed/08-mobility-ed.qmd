@@ -124,31 +124,31 @@ set.seed(76)
 
 ## Parent Household Income Distribution
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_density.png")
 ```
 
 ## College Attendance Rates vs. Parent Income Percentile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec6_higher_ed/parentrank_college.png")
 ```
 
 ## Parent Income Distribution at Harvard
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard1.png")
 ```
 
 ## Parent Income Distribution at Harvard
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard2.png")
 ```
 
 ## Parent Income Distribution at Harvard
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_harvard3.png")
 ```
 
@@ -160,31 +160,31 @@ knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dis_selective.png")
 
 ## Income Composition of Ivy Leagues
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec6_higher_ed/access_ivy.png")
 ```
 
 ## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile1.png")
 ```
 
 ## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile2.png")
 ```
 
 ## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile3.png")
 ```
 
 ## Parent Income Distributions by Quintile for 1980-82 Birth Cohorts - Selected Colleges
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile4.png")
 ```
 
@@ -204,19 +204,19 @@ knitr::include_graphics("../../images/lec5_mob_ed/parent_inc_dist_quintile4.png"
 
 ## Parental Income Distribution of Peers of Children from Bottom Quintile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq1.png")
 ```
 
 ## Parental Income Distribution of Peers of Children from Top Quintile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq2.png")
 ```
 
 ## Parental Income Distribution of Peers of Ivy-Plus College Students from Top Quintile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq3.png")
 ```
 
@@ -230,19 +230,19 @@ knitr::include_graphics("../../images/lec5_mob_ed/parent_income_peers_bottomq3.p
 
 ## Fraction of Peers from the Top Quintile for Children from the Top Quintile
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec5_mob_ed/frac_peers_topq_topq.png")
 ```
 
 ## Trends in Low-Income Access from 2000-2011 at Selected Colleges
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access.png")
 ```
 
 ## Trends in Low-Income Access from 2000-2011 at Selected Colleges
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access2.png")
 ```
 
@@ -258,13 +258,13 @@ knitr::include_graphics("../../images/lec5_mob_ed/trends_lowincome_access2.png")
 
 1980 Cohort
 
-```{r, echo=FALSE, out.width = '70%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/dist_income_children.png")
 ```
 
 ## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny.png")
 ```
 
@@ -285,7 +285,7 @@ knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny.png")
 
 ## Students’ Earnings Outcomes: Columbia vs. SUNY-Stony Brook
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny2.png")
 ```
 
@@ -308,25 +308,25 @@ $$
 
 ## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny3.png")
 ```
 
 ## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny4.png")
 ```
 
 ## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny5.png")
 ```
 
 ## Mobility Rates: Top-Quintile Outcome Rate vs. Access by College
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny6.png")
 ```
 
@@ -334,6 +334,6 @@ knitr::include_graphics("../../images/lec5_mob_ed/columbia_suny6.png")
 
 Fraction of Students who come from Bottom Fifth and End up in Top Fifth
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/lec5_mob_ed/coll_mob_top.png")
 ```

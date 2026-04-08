@@ -100,13 +100,13 @@ School district records |  Tax records
 
 ## A Quasi-Experiment: Entry of High Value-Added Teacher
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva1.png")
 ```
 
 ## A Quasi-Experiment: Entry of Low Value-Added Teacher
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva2.png")
 ```
 
@@ -121,19 +121,19 @@ knitr::include_graphics("../../images/lec8_teachers_charters/tva2.png")
 
 ## Effect of Teacher Quality on College Attendance Rates
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva3.png")
 ```
 
 ## Effect of Teacher Quality on Earnings
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva4.png")
 ```
 
 ## Effect of Teacher Quality on Teenage Birth Rates
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva5.png")
 ```
 
@@ -170,19 +170,19 @@ knitr::include_graphics("../../images/lec8_teachers_charters/tva_dist2.png")
 
 ## Selecting Teachers on the Basis of Value-Added Estimates
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva_dist3.png")
 ```
 
 ## Selecting Teachers on the Basis of Value-Added Estimates
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/tva_dist4.png")
 ```
 
 ## Earnings Gain from Teacher Replacement Based on Estimated VA
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/earninggains.png")
 ```
 
@@ -264,7 +264,7 @@ References:
 
 ## Effects of Boston Charter and Pilot Schools on Test Scores
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/abdikaduroglu1.png")
 ```
 
@@ -292,14 +292,14 @@ knitr::include_graphics("../../images/lec8_teachers_charters/abdikaduroglu1.png"
 
 ## Distribution of School Math Value-Added by Year: Texas Charters vs. Public Schools
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/baude1.png")
 ```
 
 
 ## Market Share of “No Excuses" Charter Schools in Texas
 
-```{r, echo=FALSE, out.width = '80%'}
+```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec8_teachers_charters/baude2.png")
 ```
 

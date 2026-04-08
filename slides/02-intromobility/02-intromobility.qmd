@@ -89,13 +89,13 @@ Lecture based primarily on the following paper:
 
 ## Intergenerational Income Mobility for Children Raised in Chicago
 
-```{r fig_mob_chicago, fig.cap="Source: [Chetty, Hendren, Kline, Saez (QJE 2014)](https://academic.oup.com/qje/article/129/4/1553/1853754)", echo=FALSE, out.width = '80%'}
+```{r fig_mob_chicago, fig.cap="Source: [Chetty, Hendren, Kline, Saez (QJE 2014)](https://academic.oup.com/qje/article/129/4/1553/1853754)", echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/mob_chicago.png")
 ```
 
 ## Intergen. Mobility for Children Raised in Hypothetical Census Tract
 
-```{r fig_mob_hyptract, fig.cap="Source: [Chetty, Hendren, Kline, Saez (QJE 2014)](https://academic.oup.com/qje/article/129/4/1553/1853754)", echo=FALSE, out.width = '70%'}
+```{r fig_mob_hyptract, fig.cap="Source: [Chetty, Hendren, Kline, Saez (QJE 2014)](https://academic.oup.com/qje/article/129/4/1553/1853754)", echo=FALSE, out.width = '65%'}
 knitr::include_graphics("../../images/mob_hyptract.png")
 ```
 
@@ -110,7 +110,7 @@ knitr::include_graphics("../../images/mob_hyptract.png")
 
 ## The Geography of Upward Mobility in the United States
 
-```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '90%'}
+```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/mobility_CZ_chetty18.png")
 ```
 
