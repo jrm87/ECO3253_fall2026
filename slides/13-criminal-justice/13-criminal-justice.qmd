@@ -245,35 +245,179 @@ knitr::include_graphics("../../images/lec10_criminal_justice/loss1.png")
 
 - Answer is not obvious: judges can see things that are not in the case file, such as defendant’s demeanor in courtroom
 
-## Judges’ Release Decisions vs. Machine Predictions and Crime Risk
+## Judges' Release Decisions vs. Machine Predictions
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg2.png")
+```{r, echo=FALSE, out.width = '85%'}
+knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig2_judgesvsml.png")
 ```
 
-## Judges’ Release Decisions vs. Machine Predictions and Crime Risk
+*Source: [Kleinberg et al. (QJE 2018), Figure II](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220). Each dot is a 1000th-percentile bin of predicted risk.*
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg3.png")
+## What does Figure II tell us?
+
+- **Left panel (judges vs. the algorithm).** At the low end of predicted risk, judges release more than 90% of defendants --- they mostly agree with the algorithm. But as predicted risk rises, the judges and the algorithm **disagree more and more**
+- The riskiest 1% of defendants have a predicted crime rate of **62.6%**, yet judges release them at a rate of **48.5%**
+- If the judges were just using a simple risk threshold, this curve would look like a step function. It does not --- judges release some very high-risk people
+
+- **Right panel (is the algorithm right?).** The observed crime rate tracks predicted risk almost perfectly along the 45-degree line. So the defendants the algorithm *flags as risky are in fact risky*, even among those judges chose to release
+
+## How do we compare judges to the algorithm?
+
+- We'd like to ask: "if we replaced judges with the algorithm, how much crime could we prevent, holding the jail population constant?"
+
+- The problem: we only observe crime for the **released** defendants. We never see what the detained ones would have done. Kleinberg et al. call this the **selective labels problem**
+
+- Their fix: compare judges *to each other* using a **contraction procedure**
+
+    - Start with the set of people the **most lenient** judges released
+    - Add defendants to jail **one at a time**, in descending order of the algorithm's predicted risk
+    - Compare the resulting crime curve to what the **stricter** judges actually produced
+
+- This lets us benchmark against judges who faced similar defendants but made different choices --- no need to know the judge's secret risk threshold
+
+## The algorithm beats every judge quintile
+
+```{r, echo=FALSE, out.width = '65%'}
+knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig5_contraction.png")
 ```
 
-## Judges’ Release Decisions vs. Machine Predictions and Crime Risk
+*Source: [Kleinberg et al. (QJE 2018), Figure V](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220).*
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg4.png")
+## Reading Figure V
+
+- The four dots are the **2nd through 5th stricter quintiles** of judges. Each dot shows how much more they jailed and how much less crime they got, relative to the most lenient quintile
+
+- The **solid black curve** is the algorithm's "contraction" path: what happens if we start from the most lenient quintile and jail additional defendants *by predicted risk*, not by judge preference
+
+- **Every stricter judge quintile lies above the algorithm's curve**. For example:
+
+    - Judges in the 2nd quintile: jail 6.6 pp more, reduce crime by 9.9%
+    - Algorithm matching that crime reduction: needs only **2.8 pp** more jail (less than half)
+    - Alternatively, at the same 6.6 pp extra jail, algorithm would cut crime by **20.1%** --- twice as much as judges
+
+- The **dashed line** is the (mechanical) effect of randomly jailing people. The algorithm beats random, but the comparison that matters is against judges --- and it wins there too
+
+## Does this come at the expense of racial equity?
+
+- One worry: maybe the algorithm's gains come from locking up *more* minority defendants. Let's check
+
+- **Same crime rate as judges**, but the algorithm can get there while jailing:
+
+    - **40.8% fewer minorities** overall
+    - **38.8% fewer Black defendants**
+    - **44.6% fewer Hispanic defendants**
+
+- Put differently: at the 2nd quintile's crime reduction, judges jail 7.9% more Black defendants; the algorithm needs only 3.7% more --- less than half
+
+- So the algorithm doesn't just reduce crime or the jail population --- it reduces both **and** the racial disparity. Whatever judges are picking up on that the algorithm misses, it isn't an unobserved feature that makes their decisions more racially balanced
+
+*Source: [Kleinberg et al. (QJE 2018), Tables VI and VII](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220).*
+
+# What are judges actually looking at?
+
+## A follow-up paper: Ludwig & Mullainathan (2024)
+
+- Kleinberg et al. show that judges do worse than a simple algorithm, including for the riskiest defendants. **Why?** What are judges actually paying attention to that the algorithm is not?
+
+- Two of the original co-authors follow up on this question using the same pretrial setting:
+
+> Reference: [Ludwig and Mullainathan. "Machine Learning as a Tool for Hypothesis Generation." QJE 2024](https://academic.oup.com/qje/article/139/2/751/7510811)
+
+- Their approach: train an algorithm **on the judge's decision, not on the crime outcome**, and see what it picks up on
+
+## A striking fact: the face alone predicts jailing
+
+- They train a deep learning model that has access to **only the pixels of the defendant's mug shot** --- no criminal record, no current charge, nothing else
+
+- Astonishingly, the mug-shot-only model explains roughly **25--50%** of the predictable variation in judges' jailing decisions
+
+- Compared to a model with **everything** (current charge, prior record, demographics, etc.) the face alone recovers a large share of the signal
+
+- **The face matters a lot for whether you get jailed** --- even though it has no obvious reason to predict flight risk
+
+## How big is "a lot"?
+
+Compare the difference in detention rates between the top and bottom quartile of each feature, on a baseline detention rate of 23.3%:
+
+| Feature | Difference in detention rate |
+|---|---|
+| **Mug-shot algorithm** (top vs. bottom quartile) | **20.4 pp** |
+| Gender (men vs. women) | 10.2 pp |
+| Skin tone (top vs. bottom quartile) | 4.3 pp |
+| **Violent vs. nonviolent charge** | **4.8 pp** |
+
+- The face alone moves detention **more than four times as much** as whether the current charge is violent or nonviolent
+
+*Source: [Ludwig & Mullainathan (2024), Section IV.A](https://academic.oup.com/qje/article/139/2/751/7510811).*
+
+## Is the algorithm just rediscovering known stuff?
+
+- Maybe the mug shot is just a proxy for things we already knew judges react to: age, gender, race, skin tone, or the "classic" psychology features (attractiveness, competence, dominance, trustworthiness)?
+
+- They add **all** of those as controls. The mug-shot algorithm's predictive power barely budges
+
+- Together, all the known features explain only **22.3%** of the predicted signal --- the algorithm is seeing **something else** in the face
+
+- Important caveat: **none of this analysis uses cross-race variation.** Race is controlled for. The authors are finding within-race (and within-gender, within-age) features of faces that predict judge decisions
+
+## What does the algorithm see? Paired face morphs
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("../../images/lec10_criminal_justice/lm2024_fig7_morph_pairs.png")
 ```
+:::
 
-## Judges’ Release Decisions vs. Machine Predictions and Crime Risk
+::: {.column width="50%"}
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg5.png")
-```
+The authors use a technique (GAN morphing) to show synthetic pairs of the same face where the algorithm predicts **higher** vs. **lower** detention risk.
 
-## Judges’ Release Decisions vs. Machine Predictions and Crime Risk
+When they ask independent MTurk subjects --- not the researchers --- to name what differs across the pairs, two features come up again and again:
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg6.png")
-```
+1. **"Well-groomed"** --- tidy vs. scruffy, clean-shaven vs. unkempt
+2. **"Heavy-faced"** --- wider facial shape, puffier face
+:::
+
+::::
+
+*Source: [Ludwig & Mullainathan (2024), Figure VII](https://academic.oup.com/qje/article/139/2/751/7510811).*
+
+## Magnitudes of the new features
+
+- When the authors collect actual "well-groomed" and "heavy-faced" ratings for all defendants in their sample, these two features show up as very strong predictors of judge decisions:
+
+    - **Well-groomed**: top vs. bottom quartile differ by **5.5 pp** in detention (≈ 24% of the base rate)
+    - **Heavy-faced**: top vs. bottom quartile differ by **7.0 pp** in detention (≈ 30% of the base rate)
+
+- **Both are larger than the 4.8 pp difference between violent and nonviolent charges**
+
+- Neither feature is on any judge's decision sheet. Neither is a standard legal factor. Neither is even well-known in the existing psychology-of-faces literature
+
+- Public defenders and legal aid workers shown the same morph pairs did **not** already know about these features --- so this isn't folklore researchers are rediscovering
+
+## Are these causal effects?
+
+- **No.** The authors are explicit: "Establishing whether these hypotheses are truly causally related to judge decisions is obviously beyond the scope of the present article"
+
+- What they can say:
+
+    - The face's predictive power is **not** explained away by demographics, skin tone, or classic psychology features
+    - The novel features don't appear to be proxies for substance abuse, mental health, or SES
+    - In a lab experiment with randomly morphed faces, subjects asked to act as judges detain the "less well-groomed" or "heavier-faced" face more often even though risk information is identical
+
+- So the findings are **correlational, but hard to explain away**, and they come from features that have no obvious legal or economic reason to affect flight risk
+
+## Takeaways from the criminal justice cases
+
+1. **Judges are not using information optimally.** Machine learning can match or beat them on crime-reduction, even using a smaller set of features, and can do so with less racial disparity (Kleinberg et al. 2018)
+
+2. **Judges are using features that have no clear legal basis.** The defendant's face --- specifically how well-groomed and heavy-faced they look --- predicts jailing at a magnitude larger than whether the current charge is violent (Ludwig & Mullainathan 2024)
+
+3. These findings don't mean judges are doing nothing right. They mean that there is **large, unexplained variation** in detention decisions and that at least some of it looks like it's coming from features we don't want judges to be reacting to
+
+4. This is why **algorithmic tools**, despite their own well-known problems, have become an active policy frontier for pretrial detention, parole decisions, and sentencing
 
 ## Predictive Policing
 
