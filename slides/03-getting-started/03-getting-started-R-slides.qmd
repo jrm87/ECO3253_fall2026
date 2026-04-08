@@ -1,12 +1,13 @@
 ---
 title: "Getting Started with Data (in R)"
-subtitle: ""
-format: 
-  beamer: 
+subtitle: "Economics of Public and Social Issues"
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
       urlcolor: blue
+      slide-level: 2
 author: Jonathan Moreno-Medina
 institute: ECO3253, UTSA
 date: today
@@ -169,7 +170,7 @@ We will soon learn what they are for.
 
 # Simple coding in R {#code}
 
-## How do I code in R? {#code}
+## How do I code in R? {#how-code}
 
 "OK. Now how do I use R?" Unlike other statistical software programs like Excel, STATA, or SAS that provide [point and click](https://en.wikipedia.org/wiki/Point_and_click) interfaces, R is an [interpreted language](https://en.wikipedia.org/wiki/Interpreted_language)
 
@@ -547,7 +548,7 @@ Step 1: Load all the packages needed for this exercise (assuming you've already 
 ```{r message=FALSE}
 library(dplyr)
 library(tibble)
-atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds")))
+atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas.rds")))
 atlas<-tibble(atlas)
 ```
 
@@ -644,7 +645,7 @@ We've given you what we feel are the most essential concepts to know before you 
 
 ### Additional resources
 
-If you want to dive more and feel you could benefit from a more detailed introduction, check this short book: [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/) short book. 
+If you want to dive more and feel you could benefit from a more detailed introduction, check this short book: [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.app/) short book. 
 
 It has screencast recordings that you can follow along and pause as you learn. Furthermore, there is an introduction to R Markdown, a tool used for reproducible research in R.
 

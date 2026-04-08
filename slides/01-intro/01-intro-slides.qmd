@@ -1,12 +1,13 @@
 ---
 title: "Intro to ECO 3253"
 subtitle: "Economics of Public and Social Issues"
-format: 
-  beamer: 
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
       urlcolor: blue
+      slide-level: 2
 author: Jonathan Moreno-Medina
 institute: ECO3253, UTSA
 date: today
@@ -76,7 +77,7 @@ Let me briefly tell you about me:
 
 We will have a cool website with the materials covered in class: 
 
-[https://jrm87.github.io/ECO3253_repo/](https://jrm87.github.io/ECO3253_repo/index.html)
+[https://jrm87.github.io/ECO3253_spring2026/](https://jrm87.github.io/ECO3253_spring2026/index.html)
 
 Info on blackboard. Write it down. Keep in in mind!
 

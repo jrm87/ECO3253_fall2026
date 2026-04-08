@@ -13,6 +13,10 @@ moderndive_book.Rproj
 
 # bookdown output files
 *_bookdown_files
+
+# quarto intermediate output
+*_files/
+.quarto/
 moderndive.Rmd
 moderndive.pdf
 *.tex

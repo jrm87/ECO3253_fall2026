@@ -1,12 +1,13 @@
 ---
 title: "Policies to Increase Upward Mobility"
 subtitle: "Economics of Public and Social Issues"
-format: 
-  beamer: 
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
       urlcolor: blue
+      slide-level: 2
 author: Jonathan Moreno-Medina
 institute: ECO3253, UTSA
 date: today
@@ -50,7 +51,7 @@ Reminder: Friday is deadline for submission of Project Part 1 **and** Part 2
 
 1. MTO Experiment
 1. Place based policies
-1. 15 minutes for regression analysis in R: see [https://jrm87.github.io/ECO3253_fall2023/regression.html](https://jrm87.github.io/ECO3253_fall2023/regression.html)
+1. 15 minutes for regression analysis in R: see [https://jrm87.github.io/ECO3253_spring2026/regression.html](https://jrm87.github.io/ECO3253_spring2026/regression.html)
 
 ## Two Approaches to Increasing Upward Mobility
 

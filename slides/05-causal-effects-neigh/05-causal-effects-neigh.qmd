@@ -1,12 +1,13 @@
 ---
 title: "Causal Effect of Neighborhoods"
 subtitle: "Economics of Public and Social Issues"
-format: 
-  beamer: 
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
       urlcolor: blue
+      slide-level: 2
 author: Jonathan Moreno-Medina
 institute: ECO3253, UTSA
 date: today
@@ -199,7 +200,7 @@ A few weeks ago Chetty and co-authors published a paper and a website exploring 
 
 ## Check the correlation yourself
 
-Go to the Section on [Simple and Multivariate Regression](https://jrm87.github.io/ECO3253_repo/regression.html) and check for yourself the correlation of `kfr_pooled_p25` and at least one of these: 
+Go to the Section on [Simple and Multivariate Regression](https://jrm87.github.io/ECO3253_spring2026/regression.html) and check for yourself the correlation of `kfr_pooled_p25` and at least one of these: 
 
 - `gsmn_math_g3_2013`
 - `ann_avg_job_growth_2004_2013`

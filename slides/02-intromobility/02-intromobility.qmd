@@ -1,12 +1,13 @@
 ---
 title: "Equality of Opportunity"
 subtitle: "Economics of Public and Social Issues"
-format: 
-  beamer: 
+format:
+  beamer:
       aspectratio: 169
       navigation: horizontal
       colortheme: rose
       urlcolor: blue
+      slide-level: 2
 author: Jonathan Moreno-Medina
 institute: ECO3253, UTSA
 date: today
