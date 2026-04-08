@@ -346,52 +346,219 @@ Four key results:
 
 # Racial Wealth Gap
 
-## Racial Wealth Gap in the US
+## From income to wealth: why does it matter?
 
-- So far we have ignored the role of wealth. 
+- So far everything we have looked at has been about **income**
 
-- (Very!) recent work has started to make important progress in estimating wealth gaps as well (beyond income)
+- But the racial **wealth** gap is *much* larger than the income gap:
 
-> [Ellora Derenoncourt, Chi Hyun Kim, Moritz Kuhn, Moritz Schularick (QJE 2024) "Wealth of two nations: The U.S. racial wealth gap, 1860-2020"](https://academic.oup.com/qje/article/139/2/693/7404432)
+    - Black Americans earn about **50 cents** for every white dollar of income
+    - But they hold only about **17 cents** for every white dollar of wealth
+    - That is a white-to-Black wealth ratio of about **6 to 1** today
 
-## wealth gap, 1860-2020
+- Why is the wealth gap so much larger than the income gap? And why has it barely budged in the past 40 years?
 
-- Data: 
-    - Historical census data
-    - Early state tax records
-    - Historical waves of the Survey of Consumer Finance
-    
-- Several things could affect wealth accumulation across race groups: 
+> Reference: [Derenoncourt, Kim, Kuhn, Schularick (QJE 2024) "Wealth of Two Nations: The U.S. Racial Wealth Gap, 1860--2020"](https://academic.oup.com/qje/article/139/2/693/7404432)
 
-    - Initial conditions (initial wealth)
-    - Income growth
-    - Savings behavior
-    - Capital returns
-    - What's the role of each?
-    
-## 'Hockey-stick' plot of wealth convergence
+## The challenge: we had no long-run data
 
-```{r, echo=FALSE, out.width = '80%'}
+- Most existing work studies the wealth gap **today** — using the Survey of Consumer Finances (SCF)
+
+- But we had very limited information about how the wealth gap **evolved** since Emancipation
+
+- Derenoncourt et al. build the **first continuous series** of the white-to-Black per capita wealth ratio going back to 1860
+
+- They combine three sources:
+
+    1. **1860--1920**: Southern state tax records + historical censuses (digitized by the authors for this paper)
+    2. **1930s**: Monroe Work's *Negro Year Book* + census of agriculture
+    3. **1950--2020**: historical waves of the Survey of Consumer Finances (SCF+)
+
+- With this new 160-year series they ask a simple question: **what has driven the evolution of the racial wealth gap?**
+
+## The big picture: a "hockey stick"
+
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt1.png")
 ```
 
-## Contribution of capital gains to the racial wealth gap
+*Source: [Derenoncourt et al. (QJE 2024), Figure I](https://academic.oup.com/qje/article/139/2/693/7404432)*
 
-```{r, echo=FALSE, out.width = '80%'}
+## Three distinct eras
+
+Reading the hockey stick from left to right:
+
+1. **1860: the wealth gap is 56 to 1.** On the eve of the Civil War, 89% of the Black population was enslaved and legally barred from owning any wealth. The average Black American had about **2 cents** for every white dollar of wealth
+
+2. **1860--1870: gap falls from 56:1 to 23:1.** A stunning drop in a single decade --- more than 50%
+
+3. **1870--1950: slow but steady convergence.** The gap falls from 23:1 to about 7:1 despite the rise of Jim Crow, the Ku Klux Klan, and systematic exclusion from land, credit, and labor markets
+
+4. **1950--1980: civil-rights-era acceleration.** Gap narrows to about 5:1
+
+5. **1980--today: the gap stalls and then *widens* again.** Today it is back to about 6:1 --- roughly where it was in 1950
+
+## What drove the 1860--1870 collapse?
+
+- Obvious guess: **freeing enslaved people eliminated "slave wealth"** that had been counted as white wealth
+
+- The authors compute: removing slave wealth from white wealth in 1860 drops the gap from 56:1 to **47:1**
+
+- But the actual 1870 gap is **23:1** --- eliminating slave wealth explains only about **27%** of the drop
+
+- What explains the other 73%?
+
+    - Land prices in the South collapsed after the war
+    - Newly emancipated Black Southerners began rapidly accumulating property
+    - Black per capita wealth **tripled** from ≈\$13 to ≈\$39 in one decade
+
+- **Takeaway**: the post-Emancipation collapse in the gap is mostly a story of rapid *Black* wealth accumulation starting from almost nothing, not just accounting for slave wealth disappearing
+
+## A framework for thinking about wealth
+
+- Wealth grows through two channels:
+
+    1. **Savings:** you earn income, you save a share $s$ of it, and that flow adds to your wealth
+    2. **Capital gains:** the assets you already hold (housing, stocks) appreciate at rate $q$
+
+- So the evolution of any group's wealth depends on:
+
+    - **Initial wealth** (what you start with)
+    - **Income growth** (how much you can save)
+    - **Savings rate** $s$
+    - **Return rate** $q$ on assets held
+
+- Derenoncourt et al. ask: **which of these matters most** for the racial wealth gap?
+
+## A thought experiment: what if Black and white Americans had had *equal* conditions since 1870?
+
+- Take the observed income convergence between Black and white Americans as given
+- Then **assume both groups had identical savings rates and capital gains rates** from 1870 onward
+- Simulate: what would the wealth gap look like today?
+
+## The equal-conditions benchmark
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt_fig3_simulation.png")
+```
+
+*Source: [Derenoncourt et al. (QJE 2024), Figure III](https://academic.oup.com/qje/article/139/2/693/7404432). Red dots: observed data. Solid black line: simulation with equal $q$ and $s$ from 1870.*
+
+## What the simulation tells us
+
+- Even under **equal** wealth-accumulating conditions since 1870, the 1870 gap of 23:1 would still only shrink to about **3:1** today
+
+- And full convergence would be **more than 150 years away**
+
+- Why? Because the 1870 starting point was so extreme that even equal flows take centuries to close a stock gap that large
+
+- **Key intuition**: the legacy of slavery is a *wealth* legacy, not just an *income* legacy. Even if you gave Black and white Americans the same savings and returns starting in 1870, it would still take 300+ years to equalize wealth
+
+- But wait --- the **observed** gap (red dots) is actually *above* the equal-conditions line. So the real world has been **even worse** than equal conditions. Why?
+
+## The slow period (1870--1930): inferior conditions matter
+
+- Between 1870 and 1930, observed convergence was **slower** than the equal-conditions benchmark would predict
+
+- Not surprising --- this is the Jim Crow era:
+
+    - Expropriation of Black property (Tulsa 1921, Rosewood 1923, etc.)
+    - Exclusion from banks, credit, and land markets
+    - Labor market discrimination
+    - Legal segregation
+
+- All of this translates into **lower savings and lower returns** for Black households relative to the equal-conditions counterfactual
+
+- Civil rights era (1950--1980) temporarily reversed this --- Black wealth grew *faster* than the benchmark
+
+- But then something new happened after 1980...
+
+## The puzzle: the gap stopped closing after 1980
+
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt_fig5_post1980.png")
+```
+
+*Source: [Derenoncourt et al. (QJE 2024), Figure V](https://academic.oup.com/qje/article/139/2/693/7404432). Light dashed: equal $q$ and $s$. Solid: unequal savings only. Dark dashed: unequal $q$ and unequal $s$.*
+
+## Reading Figure V
+
+Three simulations, all starting from the 1983 gap of about 5.3:
+
+- **Light dashed line** (equal $q$ and $s$): gap would have shrunk to about 3.6 by 2020
+- **Solid line** (only unequal savings): gap roughly flat, not diverging
+- **Dark dashed line** (unequal $q$ *and* unequal $s$): gap rises to 5.6 --- matches the data
+
+**The only way to explain the post-1980 widening is if white households earn higher capital gains than Black households.** Not income differences. Not savings differences. **Capital gains.**
+
+## Why the capital-gains gap? Portfolio composition
+
+- Black and white households hold very different kinds of assets.
+- Using the SCF+, the authors document average portfolio composition (1983--2019):
+
+|                | Black | White |
+|----------------|:-----:|:-----:|
+| Housing        | **58%** | 39%  |
+| Stocks         | 9%    | **18%** |
+| Business       | 8%    | **19%** |
+| Fixed income   | 16%   | 20%  |
+| Other          | 9%    | 4%   |
+
+- Black households hold nearly **60% of their wealth in housing**; white households hold a much larger share in stocks and business equity
+
+*Source: [Derenoncourt et al. (QJE 2024), Table II](https://academic.oup.com/qje/article/139/2/693/7404432)*
+
+## Why portfolio composition matters: asset prices
+
+- Since 1980, housing prices have roughly kept up with inflation
+
+- But the **stock market has boomed**: roughly **5x** the real appreciation of housing
+
+- If your wealth is mostly in houses, you barely participated in that boom
+
+- If your wealth is mostly in stocks and business equity, you got rich
+
+- So the stock-market boom has **disproportionately benefited white households** --- not because of discrimination in a specific market, but because of whose wealth was already exposed to equity
+
+## Capital gains counterfactual: what if only stocks had appreciated?
+
+```{r, echo=FALSE, out.width = '75%'}
 knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt2.png")
 ```
 
-## Contribution of capital gains to the racial wealth gap
+*Source: [Derenoncourt et al. (QJE 2024), Figure VI Panel A](https://academic.oup.com/qje/article/139/2/693/7404432). Fix 1983 portfolios; let only equity (or only housing) appreciate.*
 
-```{r, echo=FALSE, out.width = '80%'}
-knitr::include_graphics("../../images/lec9_race_ineq/derenoncourt3.png")
-```
+## Reading Figure VI
 
-## Conclusions about the wealth gap
+- **Dashed black line (only equity gains)**: the wealth gap would have **grown by 40%** (from 5.7 to 8.0)
+- **Dashed gray line (only housing gains)**: the wealth gap would have **shrunk by 21%** (from 5.7 to 5.2)
+- **Solid red line (actual data)**: the observed gap widened modestly
 
-- The shape of convergence is well explained by initial wealth and income levels of Black and white Americans and observed income convergence between the two groups. 
-- Given extremely low levels of Black wealth under slavery, even modest accumulation can imply a high growth rate for Black wealth that greatly exceeds that of white wealth, thus generating rapid convergence initially
-- As racial wealth gap decreases, convergence slows and differences in returns on wealth and savings begin to matter more for the shape of convergence. 
-- Rising asset prices have become important driver of racial wealth inequality in recent decades. 
+- Takeaway: the two forces partly offset each other, but **equity gains dominate** because equity appreciated so much more than housing
 
-    - Average white household holds a significant share of their wealth in equity (benefited from booming stock prices), while the average Black household mainly holds housing as main asset been largely left out of these gains
+- If we give Black households housing gains and no equity gains, they lose ground to white households who get both
+
+## Stepping back: what the paper tells us
+
+Four lessons for thinking about the racial wealth gap:
+
+1. **Initial conditions matter for centuries.** Starting at 56:1 in 1860 set a trajectory that even equal conditions cannot fully undo in 150 years --- let alone an environment of continued discrimination
+
+2. **The post-1980 stall is not about income or savings.** Black-white income convergence stalled, but that alone does not explain the widening gap. The dominant force is that white households were more exposed to the stock-market boom
+
+3. **Capital gains are the modern driver.** In a world of high wealth-to-income ratios, asset price movements matter more than savings flows
+
+4. **Portfolio differences are the mechanism.** Black households' wealth is concentrated in housing; white households' wealth is more diversified into stocks and business equity --- assets that have boomed since 1980
+
+## Implications for policy
+
+- If the *only* wealth-accumulating condition you equalize is income (the target of most traditional anti-poverty policy), the wealth gap would **still** take 200+ years to close
+
+- Two kinds of policies can attack the wealth gap:
+
+    - **Stock-based** (e.g., reparations, baby bonds): directly change the wealth you start with. These can move the gap immediately
+    - **Flow-based** (e.g., financial inclusion, portfolio diversification, education and labor market policies): change the savings and returns going forward
+
+- The authors argue these are **complementary**: a one-time transfer without equalizing the flows would wear off over generations; equalizing the flows without addressing the stock would take centuries
+
+- Closing the wealth gap requires **both**
