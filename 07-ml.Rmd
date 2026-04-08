@@ -34,8 +34,8 @@ As usual, we need to load the data. In this case, we are loading two datasets: o
 
 ```{r, eval=FALSE}
 # Load data:
-train<- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds")))
-test<-readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds")))
+train<- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_train.rds")))
+test<-readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_test.rds")))
 
 ```
 

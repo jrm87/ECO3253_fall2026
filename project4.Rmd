@@ -21,8 +21,8 @@ You do not need to use all the variables in atlas_training for your prediction! 
 You can load the data by using the following code:
 
 ```{r eval=FALSE}
-train <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds")))
-test <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds")))
+train <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_train.rds")))
+test <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_test.rds")))
 ```
 
 ## Instructions {-}

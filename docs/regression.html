@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-03-03" />
+<meta name="date" content="2026-04-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -594,7 +594,7 @@ Let's briefly recap where we have been so far and where we are headed.  In Chapt
 <p>If needed, read Section <a href="getting-started.html#packages">11.6</a> for information on how to install and load R packages. We will also load the <code>atlas</code> dataset.</p>
 <div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="regression.html#cb52-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb52-2"><a href="regression.html#cb52-2" tabindex="-1"></a><span class="fu">library</span>(skimr)</span>
-<span id="cb52-3"><a href="regression.html#cb52-3" tabindex="-1"></a>atlas <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds&quot;</span>)))</span></code></pre></div>
+<span id="cb52-3"><a href="regression.html#cb52-3" tabindex="-1"></a>atlas <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas.rds&quot;</span>)))</span></code></pre></div>
 <hr />
 </div>
 <div id="model1" class="section level2 hasAnchor" number="14.1">
@@ -852,12 +852,12 @@ ann_avg_job_growth_2004_2013
 </tbody>
 </table>
 <p>Now that we’ve looked at the raw values in our <code>atlas_mob_jobs</code> data frame and got a preliminary sense of the data, let’s move on to the next common step in an exploratory data analysis: computing summary statistics. Let’s start by computing the mean and median of our numerical outcome variable <code>kfr_pooled_p25</code> and our numerical explanatory variable on ob growth denoted as <code>ann_avg_job_growth_2004_2013</code>. We’ll do this by using the <code>summarize()</code> function from <code>dplyr</code> along with the <code>mean()</code> and <code>median()</code> summary functions, in a function that although we did not cover, is fairly intuitive: <code>summarize</code>. It will take some data, and summarize it according to what you ask.</p>
-<pre><code>## # A tibble: 1 × 4
-##   mean_ann_avg_job_growth_2004_2013 mean_kfr_pooled_p25 median_ann_avg_job_gro…¹
+<pre><code>## # A tibble: 1 x 4
+##   mean_ann_avg_job_growth_2004_2013 mean_kfr_pooled_p25 median_ann_avg_job_gro~1
 ##                               &lt;dbl&gt;               &lt;dbl&gt;                    &lt;dbl&gt;
 ## 1                            0.0153              34443.                  0.00850
-## # ℹ abbreviated name: ¹​median_ann_avg_job_growth_2004_2013
-## # ℹ 1 more variable: median_kfr_pooled_p25 &lt;dbl&gt;</code></pre>
+## # i abbreviated name: 1: median_ann_avg_job_growth_2004_2013
+## # i 1 more variable: median_kfr_pooled_p25 &lt;dbl&gt;</code></pre>
 <div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="regression.html#cb57-1" tabindex="-1"></a>atlas_mob_jobs <span class="sc">%&gt;%</span></span>
 <span id="cb57-2"><a href="regression.html#cb57-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_ann_avg_job_growth_2004_2013 =</span> <span class="fu">mean</span>(ann_avg_job_growth_2004_2013, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
 <span id="cb57-3"><a href="regression.html#cb57-3" tabindex="-1"></a>            <span class="at">mean_kfr_pooled_p25 =</span> <span class="fu">mean</span>(kfr_pooled_p25, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
@@ -905,7 +905,7 @@ Figure 14.1: Different correlation coefficients
 <p>The correlation coefficient is computed using the <code>cor()</code> function, where the inputs to the function are the two numerical variables for which we want to quantify the strength of the linear relationship. Note, however, that because the dataset has missing values for some neighborhoods, if you run <code>cor()</code> without the option <code>use = "pairwise.complete.obs"</code>, you will get <code>NA</code> - which is a missing value. See that we add this option below:</p>
 <div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="regression.html#cb60-1" tabindex="-1"></a>atlas_mob_jobs <span class="sc">%&gt;%</span> </span>
 <span id="cb60-2"><a href="regression.html#cb60-2" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">correlation =</span> <span class="fu">cor</span>(kfr_pooled_p25, ann_avg_job_growth_2004_2013, <span class="at">use =</span> <span class="st">&quot;pairwise.complete.obs&quot;</span>))</span></code></pre></div>
-<pre><code>## # A tibble: 1 × 1
+<pre><code>## # A tibble: 1 x 1
 ##   correlation
 ##         &lt;dbl&gt;
 ## 1      0.0716</code></pre>

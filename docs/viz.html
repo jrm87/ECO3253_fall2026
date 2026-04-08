@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-03-03" />
+<meta name="date" content="2026-04-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -552,7 +552,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="needed-data-and-packages" class="section level3 unnumbered hasAnchor">
 <h3>Needed data and packages<a href="viz.html#needed-data-and-packages" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s load all the packages and data needed for this chapter (this assumes you’ve already installed them). Read Section <a href="getting-started.html#packages">11.6</a> for information on how to install and load R packages. As before, we will load the atlas dataset as well. We will also plot some of the information in the package <code>gapminder</code> for some of our examples.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="viz.html#cb11-1" tabindex="-1"></a>atlas <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds&quot;</span>)))</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="viz.html#cb11-1" tabindex="-1"></a>atlas <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas.rds&quot;</span>)))</span></code></pre></div>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="viz.html#cb12-1" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb12-2"><a href="viz.html#cb12-2" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb12-3"><a href="viz.html#cb12-3" tabindex="-1"></a><span class="fu">library</span>(gapminder)</span></code></pre></div>
@@ -1051,7 +1051,7 @@ Figure 12.10: Histogram with binwidth 10.
 <span id="cb25-6"><a href="viz.html#cb25-6" tabindex="-1"></a>  <span class="at">number =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>)</span>
 <span id="cb25-7"><a href="viz.html#cb25-7" tabindex="-1"></a>)</span></code></pre></div>
 <p>We see both the <code>fruits</code> and <code>fruits_counted</code> data frames represent the same collection of fruit. Whereas <code>fruits</code> just lists the fruit individually…</p>
-<pre><code>## # A tibble: 5 × 1
+<pre><code>## # A tibble: 5 x 1
 ##   fruit 
 ##   &lt;chr&gt; 
 ## 1 apple 
@@ -1060,7 +1060,7 @@ Figure 12.10: Histogram with binwidth 10.
 ## 4 apple 
 ## 5 orange</code></pre>
 <p>… <code>fruits_counted</code> has a variable <code>count</code> which represents pre-counted values of each fruit.</p>
-<pre><code>## # A tibble: 2 × 2
+<pre><code>## # A tibble: 2 x 2
 ##   fruit  number
 ##   &lt;chr&gt;   &lt;dbl&gt;
 ## 1 apple       3

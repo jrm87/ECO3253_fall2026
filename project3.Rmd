@@ -19,7 +19,7 @@ The data file `atlas_socialk.rds` consists of the same information in `atlas` th
 You can load the data by using the following code:
 
 ```{r eval=FALSE}
-atlas_socialk <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_socialk_tract.rds")))
+atlas_socialk <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_socialk_tract.rds")))
 ```
 
 ## Instructions {-}

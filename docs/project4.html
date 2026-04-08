@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-03-03" />
+<meta name="date" content="2026-04-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -558,8 +558,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>You do not need to use all the variables in atlas_training for your prediction! Follow the instructions for each question.</p>
 </div>
 <p>You can load the data by using the following code:</p>
-<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="project4.html#cb140-1" tabindex="-1"></a>train <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds&quot;</span>)))</span>
-<span id="cb140-2"><a href="project4.html#cb140-2" tabindex="-1"></a>test <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds&quot;</span>)))</span></code></pre></div>
+<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="project4.html#cb140-1" tabindex="-1"></a>train <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_train.rds&quot;</span>)))</span>
+<span id="cb140-2"><a href="project4.html#cb140-2" tabindex="-1"></a>test <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="fu">gzcon</span>(<span class="fu">url</span>(<span class="st">&quot;https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas_test.rds&quot;</span>)))</span></code></pre></div>
 </div>
 <div id="instructions-3" class="section level2 unnumbered hasAnchor">
 <h2>Instructions<a href="project4.html#instructions-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -965,17 +965,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 <tr class="even">
 <td>clustering_zip</td>
-<td>The average fraction of an individual’s friend pairs who are also friends with each other. See equations (4) and (5) of Chetty et al. (2022a). They include links to people outside the ZIP code when calculating individual clustering (equation 4), but only average individual clustering over users in the relevant ZIP code to compute clustering at the ZIP code level (equation 5).</td>
+<td>The average fraction of an individual&lt;U+2019&gt;s friend pairs who are also friends with each other. See equations (4) and (5) of Chetty et al. (2022a). They include links to people outside the ZIP code when calculating individual clustering (equation 4), but only average individual clustering over users in the relevant ZIP code to compute clustering at the ZIP code level (equation 5).</td>
 <td>71,950</td>
 </tr>
 <tr class="odd">
 <td>volunteering_rate_zip</td>
-<td>The percentage of Facebook users who are members of a group which is predicted to be about ‘volunteering’ or ‘activism’ based on group title and other group characteristics. We do not include groups that have the privacy setting ‘secret’ enabled. We additionally manually review the 50 largest such groups in the United States and the largest group in each state, and remove the very small number of groups that are clearly misclassified.</td>
+<td>The percentage of Facebook users who are members of a group which is predicted to be about &lt;U+2018&gt;volunteering&lt;U+2019&gt; or &lt;U+2018&gt;activism&lt;U+2019&gt; based on group title and other group characteristics. We do not include groups that have the privacy setting &lt;U+2018&gt;secret&lt;U+2019&gt; enabled. We additionally manually review the 50 largest such groups in the United States and the largest group in each state, and remove the very small number of groups that are clearly misclassified.</td>
 <td>71,950</td>
 </tr>
 <tr class="even">
 <td>civic_organizations_zip</td>
-<td>The number of Facebook Pages predicted to be “Public Good” pages based on page title, category, and other page characteristics, per 1,000 users in the ZIP code. They remove pages that do not have a website linked, do not have a description on their Facebook page or do not have an address listed. We then assign the page to a ZIP code on the basis of its listed address.</td>
+<td>The number of Facebook Pages predicted to be &lt;U+201C&gt;Public Good&lt;U+201D&gt; pages based on page title, category, and other page characteristics, per 1,000 users in the ZIP code. They remove pages that do not have a website linked, do not have a description on their Facebook page or do not have an address listed. We then assign the page to a ZIP code on the basis of its listed address.</td>
 <td>71,938</td>
 </tr>
 <tr class="odd">
@@ -1095,17 +1095,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 <tr class="even">
 <td>Median_Income_Household_ HouseholderRaceHispanic OrLatino_2020</td>
-<td>Median household income for households where the householder’s race is Hispanic or Latino in 2020</td>
+<td>Median household income for households where the householder&lt;U+2019&gt;s race is Hispanic or Latino in 2020</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Median_Income_Household_ HouseholderRaceWhite Alone_2020</td>
-<td>Median household income for households where the householder’s race is White only in 2020</td>
+<td>Median household income for households where the householder&lt;U+2019&gt;s race is White only in 2020</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>count_hh_bachhigher_ married_belowp2019</td>
-<td>Number of households in 2019 where the householder has a bachelor’s degree or higher, for a married household below the poverty level in the past 12 months</td>
+<td>Number of households in 2019 where the householder has a bachelor&lt;U+2019&gt;s degree or higher, for a married household below the poverty level in the past 12 months</td>
 <td></td>
 </tr>
 </tbody>

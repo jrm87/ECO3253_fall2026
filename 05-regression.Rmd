@@ -75,11 +75,11 @@ If needed, read Section \@ref(packages) for information on how to install and lo
 ```{r, eval=FALSE}
 library(tidyverse)
 library(skimr)
-atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds")))
+atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas.rds")))
 ```
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
-atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds")))
+atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/data/atlas.rds")))
 # DO NOT load the skimr package as a whole as it will break all kable() code for 
 # the remaining chapters in the book.
 # Furthermore all skimr::skim() output in this Chapter has been hard coded. 
