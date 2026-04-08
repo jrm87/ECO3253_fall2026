@@ -171,7 +171,7 @@ To see all other social capital variables not defined above, see [here](https://
 
 ***
 
-## Cheatsheat commands  {- #cheatsheetproject3}
+## Cheatsheat commands  {- #cheatsheetproject4}
 
 **R command	Description**
 

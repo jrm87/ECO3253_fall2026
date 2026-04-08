@@ -126,6 +126,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -511,7 +533,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#specific-questions"><i class="fa fa-check"></i>Specific questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#data-description-1"><i class="fa fa-check"></i>Data Description</a></li>
-<li class="chapter" data-level="" data-path="project3.html"><a href="project3.html#cheatsheetproject3"><i class="fa fa-check"></i>Cheatsheat commands</a>
+<li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#cheatsheetproject4"><i class="fa fa-check"></i>Cheatsheat commands</a>
 <ul>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable"><i class="fa fa-check"></i>How to tell R that you have a categorical variable?</a></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#load-package-2"><i class="fa fa-check"></i>Load package</a></li>
@@ -543,9 +565,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="regression" class="section level1 hasAnchor" number="14">
 <h1><span class="header-section-number">Chapter 14</span> Simple and Multivariate Regression<a href="regression.html#regression" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<!--
-Let's briefly recap where we have been so far and where we are headed.  In Chapter \@ref(tidy), we discussed what it means for data to be tidy.  We saw that this refers to observations corresponding to rows and variables being stored in columns (one variable for every column).  The entries in the data frame correspond to different combinations of observations (specific instances of observational units) and variables.  In the `flights` data frame, we saw that each row corresponds to a different flight leaving New York City.  In other words, the **observational unit** of the `flights` tidy data frame is a flight.  The variables are listed as columns, and for `flights` these columns include both quantitative variables like `dep_delay` and `distance` and also categorical variables like `carrier` and `origin`.  An entry in the table corresponds to a particular flight on a given day and a particular value of a given variable representing that flight.
--->
 <blockquote>
 <p>As a reminder, this is not a course on econometrics, so I will not delve deep into the issues of regression. Nonetheless, there are basic intuitions we can construct when analyzing the data with these models. I will summarize the main issues in this chapter. Nonetheless, feel free to dive deeper <a href="https://nustat.github.io/intro-stat-ds/5-regression.html">here</a>.</p>
 </blockquote>
@@ -589,7 +608,7 @@ Let's briefly recap where we have been so far and where we are headed.  In Chapt
 <li><code>dplyr</code> for data wrangling</li>
 <li>As well as the more advanced <code>purrr</code>, <code>tidyr</code>, <code>readr</code>, <code>tibble</code>, <code>stringr</code>, and <code>forcats</code> packages</li>
 </ul></li>
-<li>The <code>skimr</code> <span class="citation">(<a href="#ref-R-skimr"><strong>R-skimr?</strong></a>)</span> package, which provides a simple-to-use function to quickly compute a wide array of commonly-used summary statistics. </li>
+<li>The <code>skimr</code> <span class="citation">(<a href="#ref-R-skimr">Waring et al. 2022</a>)</span> package, which provides a simple-to-use function to quickly compute a wide array of commonly-used summary statistics. </li>
 </ol>
 <p>If needed, read Section <a href="getting-started.html#packages">11.6</a> for information on how to install and load R packages. We will also load the <code>atlas</code> dataset.</p>
 <div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="regression.html#cb52-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
@@ -985,7 +1004,7 @@ Figure 14.4: Regression line without error bands
 <li>the intercept coefficient is <span class="math inline">\(b_0\)</span>, or the value of <span class="math inline">\(\widehat{y}\)</span> when <span class="math inline">\(x=0\)</span>, and</li>
 <li>the slope coefficient <span class="math inline">\(b_1\)</span>, or the increase in <span class="math inline">\(\widehat{y}\)</span> for every increase of one in <span class="math inline">\(x\)</span>.</li>
 </ul>
-<p>Why do we put a “hat” on top of the <span class="math inline">\(y\)</span>? It’s a form of notation commonly used in regression, which we’ll introduce in the next Subsection <a href="#model1points"><strong>??</strong></a> when we discuss <em>fitted values</em>. For now, let’s ignore the hat and treat the equation of the line as you would from secondary school / high school algebra recognizing the slope and the intercept. We know looking at Figure <a href="regression.html#fig:numxplot4">14.4</a> that the slope coefficient corresponding to <code>ann_avg_job_growth_2004_2013</code> should be positive. Why? Because as <code>ann_avg_job_growth_2004_2013</code> increases, professors tend to roughly have higher teaching evaluation <code>kfr_pooled_p25</code>. However, what are the specific values of the intercept and slope coefficients? Let’s not worry about computing these by hand, but instead let the computer do the work for us. Specifically, let’s use R!</p>
+<p>Why do we put a “hat” on top of the <span class="math inline">\(y\)</span>? It’s a form of notation commonly used in regression, which we’ll introduce later when we discuss <em>fitted values</em>. For now, let’s ignore the hat and treat the equation of the line as you would from secondary school / high school algebra recognizing the slope and the intercept. We know looking at Figure <a href="regression.html#fig:numxplot4">14.4</a> that the slope coefficient corresponding to <code>ann_avg_job_growth_2004_2013</code> should be positive. Why? Because as <code>ann_avg_job_growth_2004_2013</code> increases, professors tend to roughly have higher teaching evaluation <code>kfr_pooled_p25</code>. However, what are the specific values of the intercept and slope coefficients? Let’s not worry about computing these by hand, but instead let the computer do the work for us. Specifically, let’s use R!</p>
 <p>Let’s get the value of the intercept and slope coefficients by outputting something called the <em>linear regression table</em>. We will fit the linear regression model to the <code>data</code> using the <code>lm()</code> function and save this to <code>mob_model</code>. <code>lm</code> stands for “linear model.” When we say “fit”, we are saying find the best fitting line to this data.</p>
 <p>The <code>lm()</code> function that “fits” the linear regression model is typically used as <code>lm(y ~ x, data = data_frame_name)</code> where:</p>
 <ul>
@@ -1466,6 +1485,12 @@ poor_share2010
 <p>As we suggested in Subsection <a href="regression.html#model1EDA">14.1.1</a>, interpreting coefficients that are not close to the extreme values of -1, 0, and 1 can be somewhat subjective. To help develop your sense of correlation coefficients, we suggest you play the following 80’s-style video game called “Guess the correlation” at <a href="http://guessthecorrelation.com/" class="uri">http://guessthecorrelation.com/</a>.</p>
 
 </div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-R-skimr" class="csl-entry">
+Waring, Elin, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu, and Shannon Ellis. 2022. <em>Skimr: Compact and Flexible Summaries of Data</em>. <a href="https://docs.ropensci.org/skimr/">https://docs.ropensci.org/skimr/</a>.
 </div>
 </div>
             </section>

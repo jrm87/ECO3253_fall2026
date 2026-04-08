@@ -126,6 +126,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -511,7 +533,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#specific-questions"><i class="fa fa-check"></i>Specific questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#data-description-1"><i class="fa fa-check"></i>Data Description</a></li>
-<li class="chapter" data-level="" data-path="project3.html"><a href="project3.html#cheatsheetproject3"><i class="fa fa-check"></i>Cheatsheat commands</a>
+<li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#cheatsheetproject4"><i class="fa fa-check"></i>Cheatsheat commands</a>
 <ul>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable"><i class="fa fa-check"></i>How to tell R that you have a categorical variable?</a></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#load-package-2"><i class="fa fa-check"></i>Load package</a></li>
@@ -736,7 +758,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><strong>Errors</strong>: When the red text is a legitimate error, it will be prefaced with “Error in…” and try to explain what went wrong. Generally when there’s an error, the code will not run. For example, we’ll see in Subsection <a href="getting-started.html#package-use">11.6.3</a> if you see <code>Error in ggplot(...) : could not find function "ggplot"</code>, it means that the <code>ggplot()</code> function is not accessible because the package that contains the function (<code>ggplot2</code>) was not loaded with <code>library(ggplot2)</code>. Thus you cannot use the <code>ggplot()</code> function without the <code>ggplot2</code> package being loaded first.</li>
 <li><strong>Warnings</strong>: When the red text is a warning, it will be prefaced with “Warning:” and R will try to explain why there’s a warning. Generally your code will still work, but with some caveats. For example, you will see in Chapter <a href="viz.html#viz">12</a> if you create a scatterplot based on a dataset where one of the values is missing, you will see this warning: <code>Warning: Removed 1 rows containing missing values (geom_point)</code>. R will still produce the scatterplot with all the remaining values, but it is warning you that one of the points isn’t there.</li>
-<li><strong>Messages</strong>: When the red text doesn’t start with either “Error” or “Warning”, it’s <em>just a friendly message</em>. You’ll see these messages when you load <em>R packages</em> in the upcoming Subsection <a href="getting-started.html#package-loading">11.6.2</a> or when you read data saved in spreadsheet files with the <code>read_csv()</code> function as you’ll see in Chapter <a href="#tidy"><strong>??</strong></a>. These are helpful diagnostic messages and they don’t stop your code from working. Additionally, you’ll see these messages when you install packages too using <code>install.packages()</code>.</li>
+<li><strong>Messages</strong>: When the red text doesn’t start with either “Error” or “Warning”, it’s <em>just a friendly message</em>. You’ll see these messages when you load <em>R packages</em> in the upcoming Subsection <a href="getting-started.html#package-loading">11.6.2</a> or when you read data saved in spreadsheet files with the <code>read_csv()</code> function. These are helpful diagnostic messages and they don’t stop your code from working. Additionally, you’ll see these messages when you install packages too using <code>install.packages()</code>.</li>
 </ul>
 <div class="blackbox">
 <div class="center">

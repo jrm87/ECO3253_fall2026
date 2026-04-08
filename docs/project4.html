@@ -126,6 +126,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -511,7 +533,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#specific-questions"><i class="fa fa-check"></i>Specific questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#data-description-1"><i class="fa fa-check"></i>Data Description</a></li>
-<li class="chapter" data-level="" data-path="project3.html"><a href="project3.html#cheatsheetproject3"><i class="fa fa-check"></i>Cheatsheat commands</a>
+<li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#cheatsheetproject4"><i class="fa fa-check"></i>Cheatsheat commands</a>
 <ul>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable"><i class="fa fa-check"></i>How to tell R that you have a categorical variable?</a></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#load-package-2"><i class="fa fa-check"></i>Load package</a></li>
@@ -1113,8 +1135,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>To see all other social capital variables not defined above, see <a href="https://data.humdata.org/dataset/85ee8e10-0c66-4635-b997-79b6fad44c71/resource/fbe5b0b9-e81c-41c7-a9f2-3ebf8212cf64/download/data_release_readme_31_07_2022_nomatrix.pdf">here</a>.</p>
 <hr />
 </div>
-<div id="cheatsheetproject3" class="section level2 unnumbered hasAnchor">
-<h2>Cheatsheat commands<a href="project3.html#cheatsheetproject3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="cheatsheetproject4" class="section level2 unnumbered hasAnchor">
+<h2>Cheatsheat commands<a href="project4.html#cheatsheetproject4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>R command Description</strong></p>
 <div id="how-to-tell-r-that-you-have-a-categorical-variable" class="section level3 unnumbered hasAnchor">
 <h3>How to tell R that you have a categorical variable?<a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -1179,6 +1201,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb152-2"><a href="project4.html#cb152-2" tabindex="-1"></a><span class="co"># RMSE out of sample = 5965.278</span></span>
 <span id="cb152-3"><a href="project4.html#cb152-3" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>((test<span class="sc">$</span>kfr_pooled_p25 <span class="sc">-</span> pred_tree_outofsample)<span class="sc">^</span><span class="dv">2</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
 
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Waring, Elin, Michael Quinn, Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu, and Shannon Ellis. 2022. <em>Skimr: Compact and Flexible Summaries of Data</em>. <a href="https://docs.ropensci.org/skimr/">https://docs.ropensci.org/skimr/</a>.
+</div>
+<div class="csl-entry">
+Wickham, Hadley, Winston Chang, Lionel Henry, et al. 2024. <em>Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics</em>. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
+</div>
+<div class="csl-entry">
+Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly Media. <a href="https://r4ds.had.co.nz/">https://r4ds.had.co.nz/</a>.
+</div>
+<div class="csl-entry">
+Wilkinson, Leland. 2005. <em>The Grammar of Graphics</em>. 2nd ed. Springer.
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -27,10 +27,6 @@ set.seed(76)
 
 
 
-<!--
-Let's briefly recap where we have been so far and where we are headed.  In Chapter \@ref(tidy), we discussed what it means for data to be tidy.  We saw that this refers to observations corresponding to rows and variables being stored in columns (one variable for every column).  The entries in the data frame correspond to different combinations of observations (specific instances of observational units) and variables.  In the `flights` data frame, we saw that each row corresponds to a different flight leaving New York City.  In other words, the **observational unit** of the `flights` tidy data frame is a flight.  The variables are listed as columns, and for `flights` these columns include both quantitative variables like `dep_delay` and `distance` and also categorical variables like `carrier` and `origin`.  An entry in the table corresponds to a particular flight on a given day and a particular value of a given variable representing that flight.
--->
-
 > As a reminder, this is not a course on econometrics, so I will not delve deep into the issues of regression. Nonetheless, there are basic intuitions we can construct when analyzing the data with these models. I will summarize the main issues in this chapter. Nonetheless, feel free to dive deeper [here](https://nustat.github.io/intro-stat-ds/5-regression.html). 
 
 Now that we are equipped with data visualization skills from Chapter \@ref(viz), and data wrangling skills from Chapter \@ref(wrangling), we now proceed with data modeling. The fundamental premise of data modeling is *to make explicit the relationship* between:
@@ -350,7 +346,7 @@ However, when defining a line specifically for regression, like the blue regress
 * the intercept coefficient is $b_0$, or the value of $\widehat{y}$ when $x=0$, and 
 * the slope coefficient $b_1$, or the increase in $\widehat{y}$ for every increase of one in $x$.
 
-Why do we put a "hat" on top of the $y$? It's a form of notation commonly used in regression, which we'll introduce in the next Subsection \@ref(model1points) when we discuss *fitted values*. For now, let's ignore the hat and treat the equation of the line as you would from secondary school / high school algebra recognizing the slope and the intercept. We know looking at Figure \@ref(fig:numxplot4) that the slope coefficient corresponding to `ann_avg_job_growth_2004_2013` should be positive. Why? Because as `ann_avg_job_growth_2004_2013` increases, professors tend to roughly have higher teaching evaluation `kfr_pooled_p25`. However, what are the specific values of the intercept and slope coefficients? Let's not worry about computing these by hand, but instead let the computer do the work for us. Specifically, let's use R!
+Why do we put a "hat" on top of the $y$? It's a form of notation commonly used in regression, which we'll introduce later when we discuss *fitted values*. For now, let's ignore the hat and treat the equation of the line as you would from secondary school / high school algebra recognizing the slope and the intercept. We know looking at Figure \@ref(fig:numxplot4) that the slope coefficient corresponding to `ann_avg_job_growth_2004_2013` should be positive. Why? Because as `ann_avg_job_growth_2004_2013` increases, professors tend to roughly have higher teaching evaluation `kfr_pooled_p25`. However, what are the specific values of the intercept and slope coefficients? Let's not worry about computing these by hand, but instead let the computer do the work for us. Specifically, let's use R!
 
 Let's get the value of the intercept and slope coefficients by outputting something called the *linear regression table*. We will fit the linear regression model to the `data` using the `lm()` function and save this to `mob_model`. `lm` stands for "linear model." When we say "fit", we are saying find the best fitting line to this data.
 

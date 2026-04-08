@@ -155,7 +155,7 @@ data_frame(
 
 There are other components of the Grammar of Graphics we can control as well.  As you start to delve deeper into the Grammar of Graphics, you'll start to encounter these topics more frequently. In this book however, we'll keep things simple and only work with the two additional components listed below:
 
-- `facet`ing breaks up a plot into small multiples corresponding to the levels of another variable (Section \@ref(facets))
+- `facet`ing breaks up a plot into small multiples corresponding to the levels of another variable
 - `position` adjustments for barplots (Section \@ref(geombar))
 
 <!--
@@ -175,7 +175,7 @@ In this book, we will be using the `ggplot2` package for data visualization, whi
 * The data frame where the variables exist: the `data` argument.
 * The mapping of the variables to aesthetic attributes: the `mapping` argument which specifies the `aes`thetic attributes involved.
 
-After we've specified these components, we then add *layers* to the plot using the `+` sign. The most essential layer to add to a plot is the layer that specifies which type of `geom`etric object we want the plot to involve: points, lines, bars, and others. Other layers we can add to a plot include layers specifying the plot title, axes labels, visual themes for the plots, and facets (which we'll see in Section \@ref(facets)).
+After we've specified these components, we then add *layers* to the plot using the `+` sign. The most essential layer to add to a plot is the layer that specifies which type of `geom`etric object we want the plot to involve: points, lines, bars, and others. Other layers we can add to a plot include layers specifying the plot title, axes labels, visual themes for the plots, and facets.
 
 Let's now put the theory of the Grammar of Graphics into practice.
 
@@ -491,7 +491,7 @@ Barplots are the preferred way of displaying the distribution of a categorical v
 
 ### Summary table
 
-Let's recap all five of the three main figures in Table \@ref(tab:viz-summary-table) summarizing their differences. Using these 5NG, you'll be able to visualize the distributions and relationships of variables contained in a wide array of datasets. 
+Let's recap the main figures we've covered, summarizing their differences. Using these 5NG, you'll be able to visualize the distributions and relationships of variables contained in a wide array of datasets.
 
 ### Argument specification
 

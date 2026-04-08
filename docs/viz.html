@@ -126,6 +126,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -511,7 +533,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#specific-questions"><i class="fa fa-check"></i>Specific questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#data-description-1"><i class="fa fa-check"></i>Data Description</a></li>
-<li class="chapter" data-level="" data-path="project3.html"><a href="project3.html#cheatsheetproject3"><i class="fa fa-check"></i>Cheatsheat commands</a>
+<li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#cheatsheetproject4"><i class="fa fa-check"></i>Cheatsheat commands</a>
 <ul>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#how-to-tell-r-that-you-have-a-categorical-variable"><i class="fa fa-check"></i>How to tell R that you have a categorical variable?</a></li>
 <li class="chapter" data-level="" data-path="project4.html"><a href="project4.html#load-package-2"><i class="fa fa-check"></i>Load package</a></li>
@@ -546,7 +568,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <blockquote>
 <p>This chapter is based in big part on the <a href="https://nulib.github.io/moderndive_book/2-viz.html">chapter on visualization</a> by the folks at Northwestern. Please be check that link if you want to dive into how to make even cooler graphs than the ones we will cover here.</p>
 </blockquote>
-<p>We will learn basic tools to visualize our data. By visualizing our data, we gain valuable insights that we couldn’t initially see from just looking at the raw data in spreadsheet form. We will use the <code>ggplot2</code> package as it provides an easy way to customize your plots. <code>ggplot2</code> is rooted in the data visualization theory known as <em>The Grammar of Graphics</em> <span class="citation">(<a href="#ref-wilkinson2005"><strong>wilkinson2005?</strong></a>)</span>.</p>
+<p>We will learn basic tools to visualize our data. By visualizing our data, we gain valuable insights that we couldn’t initially see from just looking at the raw data in spreadsheet form. We will use the <code>ggplot2</code> package as it provides an easy way to customize your plots. <code>ggplot2</code> is rooted in the data visualization theory known as <em>The Grammar of Graphics</em> <span class="citation">(<a href="#ref-wilkinson2005">Wilkinson 2005</a>)</span>.</p>
 <p>At the most basic level, graphics/plots/charts (we use these terms interchangeably in this guide) provide a nice way for us to get a sense for how quantitative variables compare in terms of their center (where the values tend to be located) and their spread (how they vary around the center). Graphics should be designed to emphasize the findings and insight you want your audience to understand. This does however require a balancing act. On the one hand, you want to highlight as many meaningful relationships and interesting findings as possible; on the other you don’t want to include so many as to overwhelm your audience.</p>
 <p>As we will see, plots/graphics also help us to identify patterns in our data. We will see that a common extension of these ideas is to compare the <em>distribution</em> of one quantitative variable (i.e., what the spread of a variable looks like or how the variable is <em>distributed</em> in terms of its values) as we go across the levels of a different categorical variable.</p>
 <div id="needed-data-and-packages" class="section level3 unnumbered hasAnchor">
@@ -560,7 +582,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="grammarofgraphics" class="section level2 hasAnchor" number="12.1">
 <h2><span class="header-section-number">12.1</span> The Grammar of Graphics<a href="viz.html#grammarofgraphics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>We begin with a discussion of a theoretical framework for data visualization known as “The Grammar of Graphics,” which serves as the foundation for the <code>ggplot2</code> package. Think of how we construct sentences in English to form sentences by combining different elements, like nouns, verbs, particles, subjects, objects, etc. However, we can’t just combine these elements in any arbitrary order; we must do so following a set of rules known as a linguistic grammar. Similarly to a linguistic grammar, “The Grammar of Graphics” define a set of rules for constructing <em>statistical graphics</em> by combining different types of <em>layers</em>. This grammar was created by Leland Wilkinson <span class="citation">(<a href="#ref-wilkinson2005"><strong>wilkinson2005?</strong></a>)</span> and has been implemented in a variety of data visualization software including R.</p>
+<p>We begin with a discussion of a theoretical framework for data visualization known as “The Grammar of Graphics,” which serves as the foundation for the <code>ggplot2</code> package. Think of how we construct sentences in English to form sentences by combining different elements, like nouns, verbs, particles, subjects, objects, etc. However, we can’t just combine these elements in any arbitrary order; we must do so following a set of rules known as a linguistic grammar. Similarly to a linguistic grammar, “The Grammar of Graphics” define a set of rules for constructing <em>statistical graphics</em> by combining different types of <em>layers</em>. This grammar was created by Leland Wilkinson <span class="citation">(<a href="#ref-wilkinson2005">Wilkinson 2005</a>)</span> and has been implemented in a variety of data visualization software including R.</p>
 <div id="components-of-the-grammar" class="section level3 hasAnchor" number="12.1.1">
 <h3><span class="header-section-number">12.1.1</span> Components of the Grammar<a href="viz.html#components-of-the-grammar" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In short, the grammar tells us that:</p>
@@ -802,7 +824,7 @@ point
 <h3><span class="header-section-number">12.1.3</span> Other components<a href="viz.html#other-components" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There are other components of the Grammar of Graphics we can control as well. As you start to delve deeper into the Grammar of Graphics, you’ll start to encounter these topics more frequently. In this book however, we’ll keep things simple and only work with the two additional components listed below:</p>
 <ul>
-<li><code>facet</code>ing breaks up a plot into small multiples corresponding to the levels of another variable (Section <a href="#facets"><strong>??</strong></a>)</li>
+<li><code>facet</code>ing breaks up a plot into small multiples corresponding to the levels of another variable</li>
 <li><code>position</code> adjustments for barplots (Section <a href="viz.html#geombar">12.5</a>)</li>
 </ul>
 <!--
@@ -812,16 +834,16 @@ point
 - `coord`inate system for x/y values: typically `cartesian`, but can also be `map` or `polar`.
 - `stat`istical transformations: this includes smoothing, binning values into a histogram, or no transformation at all (known as the `"identity"` transformation).
 -->
-<p>Other more complex components like <code>scales</code> and <code>coord</code>inate systems are left for a more advanced text such as <a href="http://r4ds.had.co.nz/data-visualisation.html#aesthetic-mappings">R for Data Science</a> <span class="citation">(<a href="#ref-rds2016"><strong>rds2016?</strong></a>)</span>. Generally speaking, the Grammar of Graphics allows for a high degree of customization of plots and also a consistent framework for easily updating and modifying them.</p>
+<p>Other more complex components like <code>scales</code> and <code>coord</code>inate systems are left for a more advanced text such as <a href="http://r4ds.had.co.nz/data-visualisation.html#aesthetic-mappings">R for Data Science</a> <span class="citation">(<a href="#ref-rds2016">Wickham and Grolemund 2017</a>)</span>. Generally speaking, the Grammar of Graphics allows for a high degree of customization of plots and also a consistent framework for easily updating and modifying them.</p>
 </div>
 <div id="ggplot2-package" class="section level3 hasAnchor" number="12.1.4">
 <h3><span class="header-section-number">12.1.4</span> ggplot2 package<a href="viz.html#ggplot2-package" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In this book, we will be using the <code>ggplot2</code> package for data visualization, which is an implementation of the Grammar of Graphics for R <span class="citation">(<a href="#ref-R-ggplot2"><strong>R-ggplot2?</strong></a>)</span>. As we noted earlier, a lot of the previous section was written in a computer code type font. This is because the various components of the Grammar of Graphics are specified in the <code>ggplot()</code> function included in the <code>ggplot2</code> package, which expects at a minimum as arguments (i.e. inputs):</p>
+<p>In this book, we will be using the <code>ggplot2</code> package for data visualization, which is an implementation of the Grammar of Graphics for R <span class="citation">(<a href="#ref-R-ggplot2">Wickham et al. 2024</a>)</span>. As we noted earlier, a lot of the previous section was written in a computer code type font. This is because the various components of the Grammar of Graphics are specified in the <code>ggplot()</code> function included in the <code>ggplot2</code> package, which expects at a minimum as arguments (i.e. inputs):</p>
 <ul>
 <li>The data frame where the variables exist: the <code>data</code> argument.</li>
 <li>The mapping of the variables to aesthetic attributes: the <code>mapping</code> argument which specifies the <code>aes</code>thetic attributes involved.</li>
 </ul>
-<p>After we’ve specified these components, we then add <em>layers</em> to the plot using the <code>+</code> sign. The most essential layer to add to a plot is the layer that specifies which type of <code>geom</code>etric object we want the plot to involve: points, lines, bars, and others. Other layers we can add to a plot include layers specifying the plot title, axes labels, visual themes for the plots, and facets (which we’ll see in Section <a href="#facets"><strong>??</strong></a>).</p>
+<p>After we’ve specified these components, we then add <em>layers</em> to the plot using the <code>+</code> sign. The most essential layer to add to a plot is the layer that specifies which type of <code>geom</code>etric object we want the plot to involve: points, lines, bars, and others. Other layers we can add to a plot include layers specifying the plot title, axes labels, visual themes for the plots, and facets.</p>
 <p>Let’s now put the theory of the Grammar of Graphics into practice.</p>
 <hr />
 </div>
@@ -1124,7 +1146,7 @@ Figure 12.13: Number of neighborhoods by State in the atlas data using geom_bar
 <h2><span class="header-section-number">12.6</span> Conclusion<a href="viz.html#conclusion-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="summary-table" class="section level3 hasAnchor" number="12.6.1">
 <h3><span class="header-section-number">12.6.1</span> Summary table<a href="viz.html#summary-table" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Let’s recap all five of the three main figures in Table <a href="#tab:viz-summary-table"><strong>??</strong></a> summarizing their differences. Using these 5NG, you’ll be able to visualize the distributions and relationships of variables contained in a wide array of datasets.</p>
+<p>Let’s recap the main figures we’ve covered, summarizing their differences. Using these 5NG, you’ll be able to visualize the distributions and relationships of variables contained in a wide array of datasets.</p>
 </div>
 <div id="argument-specification" class="section level3 hasAnchor" number="12.6.2">
 <h3><span class="header-section-number">12.6.2</span> Argument specification<a href="viz.html#argument-specification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -1150,6 +1172,18 @@ Figure 12.14: Data Visualization with ggplot2 cheatsheat
 </div>
 
 </div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-R-ggplot2" class="csl-entry">
+Wickham, Hadley, Winston Chang, Lionel Henry, et al. 2024. <em>Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics</em>. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
+</div>
+<div id="ref-rds2016" class="csl-entry">
+Wickham, Hadley, and Garrett Grolemund. 2017. <em>R for Data Science</em>. O’Reilly Media. <a href="https://r4ds.had.co.nz/">https://r4ds.had.co.nz/</a>.
+</div>
+<div id="ref-wilkinson2005" class="csl-entry">
+Wilkinson, Leland. 2005. <em>The Grammar of Graphics</em>. 2nd ed. Springer.
 </div>
 </div>
             </section>
