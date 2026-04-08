@@ -43,7 +43,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -79,7 +79,7 @@ We will have a cool website with the materials covered in class:
 
 [https://jrm87.github.io/ECO3253_spring2026/](https://jrm87.github.io/ECO3253_spring2026/index.html)
 
-Info on blackboard. Write it down. Keep in in mind!
+Info on Canvas. Write it down. Keep it in mind!
 
 ## Topics to be covered - 1
 
@@ -197,15 +197,13 @@ Back to the content! We will cover and use several economic concepts you probabl
 
 ```{r tableGrades, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 tabl <- "
-| Activity              | Perc. Weight |
-| --------------------- | ------------ |
-| Project 0             | 5%          |
-| Projects              | 40%          |
-| Midterm               | 25%          |
-| Final                 | 25%          |
-| Lecture Attendance    | 5%          |
-| Class and lab participation | 5%          |
-| **Total**             | 105%          |
+| Activity                       | Perc. Weight |
+| ------------------------------ | ------------ |
+| Projects 0--4                  | 20%          |
+| Midterm                        | 25%          |
+| Final                          | 25%          |
+| Attendance and participation   | 30%          |
+| **Total**                      | **100%**     |
 "
 cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
 ```
@@ -213,12 +211,30 @@ cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
 
 ## Projects
 
-- A big part of the course 
-- **4 projects** through the semester
-- These are more involved than most homeworks you have probably worked on
-- Hands-on experience working with real data on real problems. 
-- To be submitted on Blackboard.
-- Start early!
-- Many new elements. You need time to try, fail, experiment. They are not hard, but require that you give yourself time!
+- A big part of the course: **4 projects** (plus a warm-up "project 0")
+- More involved than typical homeworks: real data, real problems, real code
+- Submitted on **Canvas** by **11:59 pm** on the due date
+- **How they are graded:**
+    - Each on-time submission earns **full credit** ($\checkmark$) toward the **Projects 0--4 (20%)** bucket --- I do not line-by-line correct them
+    - The **substance** of what you submitted (your reasoning, assumptions, code choices, interpretation) is evaluated separately, through the **Attendance & participation (30%)** bucket --- see next slide
+- You may use generative AI tools, but you are responsible for verifying outputs and being able to explain every line you submit
+- Start early! Many new elements --- give yourself time to try, fail, and experiment
 
->Do not work on these projects just the day before! 
+> Do not work on these projects the day before!
+
+## Participation: how the 30% works
+
+This is a face-to-face course built around active discussion and frequent reference to the projects you submit.
+
+- On any class day, I may **randomly call on you** to:
+    - answer or expand on the topic we are covering in lecture, or
+    - **explain a piece of your submitted project** (code logic, identification assumptions, interpretation of a result)
+- If you prefer, you can "**call on a friend**" --- a classmate volunteers to help expand the answer
+- If you are **called and absent** without documentation, that missed opportunity counts toward the participation score (see UTSA policies for excused absences)
+
+## What strong participation looks like
+
+- **Preparation & relevance.** You come prepared, reference the assigned readings or methods, and tie comments back to your own submitted work
+- **Reasoning & evidence.** You state your assumptions, defend your identification strategy, and recognize when an estimate or AI suggestion needs to be verified
+- **Code fluency.** You can walk through key parts of your code (data wrangling, estimation, diagnostics), make a small on-the-spot edit, and explain *why* it addresses the question
+- **Dialogue.** Respectful engagement, clarifying questions, willingness to call on a friend to extend a point
