@@ -141,7 +141,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 - [Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan (QJE 2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) compare the accuracy of human decisions and machine predictions in the criminal justice system
 
-- Every year, $\sim$10 million people are arrested in the U.S.
+- Every year, about **10 million** people are arrested in the U.S.
 
 - After arrest, judges decide whether to hold defendants in jail or let them go
 
