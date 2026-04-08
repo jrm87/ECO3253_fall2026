@@ -70,13 +70,13 @@ set.seed(76)
     - More recent approach: analyzing big data to evaluate impacts
 
 
->Reference 1: Chetty, Friedman, Hilger, Saez, Schanzenbach, Yagan. “How Does Your Kindergarten Classroom Affect Your Earnings? Evidence from Project STAR” QJE 2011.
+>Reference 1: [Chetty, Friedman, Hilger, Saez, Schanzenbach, Yagan. "How Does Your Kindergarten Classroom Affect Your Earnings? Evidence from Project STAR" QJE 2011](https://academic.oup.com/qje/article/126/4/1593/1923939).
 
->Reference 2: Reardon, Kalogrides, Fahle, Shores. “The Geography of Racial/Ethnic Test Score Gaps.” Stanford CEPA Working Paper 2016
+>Reference 2: [Reardon, Kalogrides, Fahle, Shores. "The Geography of Racial/Ethnic Test Score Gaps." (AJS 2019)](https://www.journals.uchicago.edu/doi/10.1086/700678)
 
->Reference 3: Fredriksson, Ockert, Oosterbeek. “Long-Term Effects of Class Size.” QJE 2012
+>Reference 3: [Fredriksson, Ockert, Oosterbeek. "Long-Term Effects of Class Size." QJE 2013](https://academic.oup.com/qje/article/128/1/249/1838780)
 
->Reference 4: Chetty, Friedman, Rockoff. “Measuring the Impacts of Teachers I and II” AER 2014
+>Reference 4: [Chetty, Friedman, Rockoff. "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213)
 
 
 ## Using Test Score Data to Study K-12 Education
@@ -94,7 +94,7 @@ set.seed(76)
 
     - Do improvements in test scores reflect better test-taking ability or acquisition of skills that have value later in life?
 
-- Chetty et al. (2011) examine this issue using data on 12,000 children who were in Kindergarten in Tennessee in 1985
+- [Chetty et al. (QJE 2011)](https://academic.oup.com/qje/article/126/4/1593/1923939) examine this issue using data on 12,000 children who were in Kindergarten in Tennessee in 1985
 
     - Link school district and test score data to tax records
 
@@ -160,7 +160,7 @@ knitr::include_graphics("../../images/lec7_k12/marriagetest.png")
 - Problem: tests are not the same across school districts and grades 
     - $\rightarrow$ makes comparisons very difficult
 
-- Reardon et al. (2016) solve this problem and create a standardized measure of test score performance for all schools in America
+- [Reardon et al. (2016)](https://cepa.stanford.edu/content/geography-racialethnic-test-score-gaps) solve this problem and create a standardized measure of test score performance for all schools in America
 
     - Use 215 million test scores for students from 11,000 school districts across the U.S. from 2009-13 in grades 3-8
 
@@ -277,7 +277,7 @@ knitr::include_graphics("../../images/lec7_k12/test_exp.png")
 
 - Evaluate impacts of STAR experiment by comparing mean outcomes of students in small vs. large classes.
 
-- Report impacts using regressions of outcomes on an indicator (0-1 variable) for being in a small class [Krueger 1999, Chetty et al. 2011]
+- Report impacts using regressions of outcomes on an indicator (0-1 variable) for being in a small class [[Krueger (QJE 1999)](https://academic.oup.com/qje/article-abstract/114/2/497/1844226), [Chetty et al. (QJE 2011)](https://academic.oup.com/qje/article/126/4/1593/1923939)]
 
 ## STAR Experiment: Impacts of Class Size
 
@@ -320,7 +320,7 @@ knitr::include_graphics("../../images/lec7_k12/star6.png")
 
 - Limitation of STAR experiment: sample is too small to estimate impacts of class size on earnings precisely
 
-- Fredriksson et al. (2013) use administrative data from Sweden to obtain more precise estimates
+- [Fredriksson et al. (QJE 2013)](https://academic.oup.com/qje/article/128/1/249/1838780) use administrative data from Sweden to obtain more precise estimates
 
     - No experiment here; instead use a quasi-experimental method: regression discontinuity.
 

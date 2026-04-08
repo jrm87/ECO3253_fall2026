@@ -49,6 +49,8 @@ set.seed(76)
 
 - Intergenerational Perspective of Racial Disparities
 
+> Reference: [Chetty, Hendren, Jones, Porter. "Race and Economic Opportunity in the United States: An Intergenerational Perspective" QJE 2020](https://academic.oup.com/qje/article/135/2/711/5687353)
+
 # An Intergenerational Perspective on Racial Disparities
 
 ## Median Household Income by Race and Ethnicity in 2016
@@ -257,7 +259,7 @@ Family-Level Factors:
 
 ## The Geography of Upward Mobility in the United States
 
-```{r mobCZ, fig.cap="Source: Chetty, Friedman, Hendren, Jones and Porter (2018)", echo=FALSE, out.width = '90%'}
+```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '90%'}
 knitr::include_graphics("../../images/mobility_CZ_chetty18.png")
 ```
 
@@ -350,7 +352,7 @@ Four key results:
 
 - (Very!) recent work has started to make important progress in estimating wealth gaps as well (beyond income)
 
-> Ellora Derenoncourt, Chi Hyun Kim, Moritz Kuhn, Moritz Schularick (2022) "Wealth of two nations: The U.S. racial wealth gap, 1860-2020"
+> [Ellora Derenoncourt, Chi Hyun Kim, Moritz Kuhn, Moritz Schularick (QJE 2024) "Wealth of two nations: The U.S. racial wealth gap, 1860-2020"](https://academic.oup.com/qje/article/139/2/693/7404432)
 
 ## wealth gap, 1860-2020
 

@@ -59,7 +59,7 @@ set.seed(76)
 
 2/3 of expenditures are at Federal Level 
 
-```{r, echo=FALSE, source="Gruber (2016)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: Gruber, *Public Finance and Public Policy* (Worth, 5th ed. 2016)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/tax_federal.png")
 ```
 
@@ -67,13 +67,13 @@ knitr::include_graphics("../../images/lec16_tax1/tax_federal.png")
 
 1/3 of expenditures are at State Level 
 
-```{r, echo=FALSE, source="Gruber (2016)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: Gruber, *Public Finance and Public Policy* (Worth, 5th ed. 2016)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/tax_state.png")
 ```
 
 ## International Tax Revenues by Type of Tax in 2001
 
-```{r, echo=FALSE, source="Gruber (2016)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: Gruber, *Public Finance and Public Policy* (Worth, 5th ed. 2016)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/tax_int.png")
 ```
 
@@ -280,7 +280,7 @@ knitr::include_graphics("../../images/lec16_tax1/debacker1.png")
 
 - But we can form a “synthetic” Kansas by constructing a composite average of other states that mirror its trends prior to the reform
 
-- Synthetic control: form a control group by choosing a set of weights on other observations to match treated group [Abadie et al. 2010]
+- Synthetic control: form a control group by choosing a set of weights on other observations to match treated group [[Abadie, Diamond, Hainmueller (JASA 2010)](https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746)]
 
 - Commonly used to construct a control group in difference-in-differences designs
 
@@ -312,6 +312,8 @@ knitr::include_graphics("../../images/lec16_tax1/hayes3.png")
 
 ## .
 
+Based on [Diamond and Saez. "The Case for a Progressive Tax: From Basic Research to Policy Recommendations." JEP 2011](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306227)
+
 ```{r, echo=FALSE, out.width = '90%'}
 knitr::include_graphics("../../images/lec16_tax1/diamond_ocasiocortez.png")
 ```
@@ -331,7 +333,7 @@ knitr::include_graphics("../../images/lec16_tax1/diamond_ocasiocortez.png")
     
 ## Measuring Public Preferences for Redistribution
 
-- Kuziemko et al. (2015) measure preferences for redistribution using online surveys of about 4,000 Americans  
+- [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360) measure preferences for redistribution using online surveys of about 4,000 Americans
 
     - Conducted online using Amazon’s mTurk platform
 
@@ -343,26 +345,26 @@ knitr::include_graphics("../../images/lec16_tax1/diamond_ocasiocortez.png")
 
 ## Where are you in the income distribution?
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko1.png")
 ```
 
 
 ## Where would you have been in the income distribution?
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko2.png")
 ```
 
 ## The Correlation Between Taxes and Economic Growth
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko3.png")
 ```
 
 ## The Correlation Between Taxes and Economic Growth
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko4.png")
 ```
 
@@ -370,13 +372,13 @@ knitr::include_graphics("../../images/lec16_tax1/kuziemko4.png")
 
 Is Inequality is “a very serious problem”?
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko5.png")
 ```
 
 ## Effect of Information on Respondents’ Preferred Tax Rate on Top 1% Households
 
-```{r, echo=FALSE, source= "Kuziemko, Norton, Saez, Stantcheva (2015)", out.width = '70%'}
+```{r, echo=FALSE, fig.cap="Source: [Kuziemko, Norton, Saez, Stantcheva (AER 2015)](https://www.aeaweb.org/articles?id=10.1257/aer.20130360)", out.width = '70%'}
 knitr::include_graphics("../../images/lec16_tax1/kuziemko6.png")
 ```
 

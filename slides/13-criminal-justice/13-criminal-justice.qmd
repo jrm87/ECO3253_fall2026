@@ -62,7 +62,7 @@ set.seed(76)
 
 ## Racial Discrimination in Hiring
 
-- Bertrand and Mullainathan (2004) study biases in hiring by sending out fictitious resumes with identical credentials in response to real job ads
+- [Bertrand and Mullainathan (AER 2004)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306215) study biases in hiring by sending out fictitious resumes with identical credentials in response to real job ads
 
 - Vary name of applicant to be “white-sounding” (e.g., Emily Walsh or Greg Backer) vs. “black-sounding” (e.g., Lakisha Washington or Jamal Jones)
 
@@ -78,7 +78,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/bertrand1.png")
 
 ## Racial Discrimination Among Airbnb Hosts
 
-- Edelman, Luca, and Sversky (2017) use an analogous “audit study” to analyze discrimination among  Airbnb hosts
+- [Edelman, Luca, and Svirsky (AEJ Applied 2017)](https://www.aeaweb.org/articles?id=10.1257/app.20160213) use an analogous "audit study" to analyze discrimination among Airbnb hosts
 
 - Send out fictitious requests to book listings in response to real postings
 
@@ -105,7 +105,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/edellman1.png")
 
 - Decisions also vary greatly based on transitory factors unrelated to substantive features of the issue at hand
 
-- Danziger et al. (2011) demonstrate this by analyzing data on judges’ decisions to grant prisoners parole
+- [Danziger, Levav, and Avnaim-Pesso (PNAS 2011)](https://www.pnas.org/doi/10.1073/pnas.1018033108) demonstrate this by analyzing data on judges' decisions to grant prisoners parole
 
 ## Studying Decision Fatigue in Parole Decisions
 
@@ -139,7 +139,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 ## Decisions to Jail vs. Release Defendants
 
-- Kleinberg et al. (2017) compare the accuracy of human decisions and machine predictions in the criminal justice system
+- [Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan (QJE 2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) compare the accuracy of human decisions and machine predictions in the criminal justice system
 
 - Every year, $\sim$10 million people are arrested in the U.S.
 
@@ -147,7 +147,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 - By law, decision is made with the objective of minimizing risk of flight (failure to appear at trial)
 
-- Kleinberg et al. compare machine learning predictions and judges’ actual decisions in terms of performance in achieving this objective
+- [Kleinberg et al.](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) compare machine learning predictions and judges' actual decisions in terms of performance in achieving this objective
 
 ## Decisions to Jail vs. Release Defendants
 
@@ -286,6 +286,8 @@ knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg6.png")
     - Spatial methods rely on clustering of criminal activity by area and time
 
 ## Times Between Burglary Events Separated by 0.1 Miles or Less
+
+Source: [Mohler, Short, Brantingham, Schoenberg, Tita. "Self-Exciting Point Process Modeling of Crime." JASA 2011](https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.ap09546)
 
 ```{r, echo=FALSE, out.width = '70%'}
 knitr::include_graphics("../../images/lec10_criminal_justice/mohler1.png")

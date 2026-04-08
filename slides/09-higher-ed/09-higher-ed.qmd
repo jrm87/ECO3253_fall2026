@@ -99,13 +99,13 @@ knitr::include_graphics("../../images/lec6_higher_ed/relative_earnings.png")
 
 - Challenging problem because one needs one experiment per college
 
-    - Example: Zimmerman (2014) estimates causal effects by exploiting admissions cutoffs at Florida International University (**Regression Discontinuity Design**)
+    - Example: [Zimmerman (JOLE 2014)](https://www.journals.uchicago.edu/doi/10.1086/676661) estimates causal effects by exploiting admissions cutoffs at Florida International University (**Regression Discontinuity Design**)
 
 ## Regression Discontinuity Methods
 
 - Another quasi-experimental method to uncover causality instead of only correlation of outcomes
 
-- Zimmerman (2014) compares students just above and just below state-level GPA cutoff for admission to the Florida State University System 
+- [Zimmerman (JOLE 2014)](https://www.journals.uchicago.edu/doi/10.1086/676661) compares students just above and just below state-level GPA cutoff for admission to the Florida State University System
 
 
 ## Admission Rules at FIU 
@@ -216,7 +216,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/income_access.png")
 
 - Under-representation of low-income students at these colleges is partly driven by lower application rates of well qualified low-income students
 
-- This “undermatching” phenomenon is not simply explained by differences in costs of attendance [Hoxby and Avery 2013]
+- This "undermatching" phenomenon is not simply explained by differences in costs of attendance [[Hoxby and Avery (Brookings 2013)](https://www.brookings.edu/wp-content/uploads/2013/03/2013a_hoxby.pdf)]
 
 ## Cost of Attending College
 
@@ -226,9 +226,9 @@ knitr::include_graphics("../../images/lec6_higher_ed/cost_attending.png")
 
 ## University of Michigan HAIL Experiment
 
-- Alternative hypothesis: lack of information or application support for low-income students limits their applications even when tuition cost is low [Hoxby and Turner 2013]
+- Alternative hypothesis: lack of information or application support for low-income students limits their applications even when tuition cost is low [[Hoxby and Turner (2013)](https://siepr.stanford.edu/publications/working-paper/expanding-college-opportunities-high-achieving-low-income-students)]
 
-- **Dynarski et al. (2018)** test this hypothesis in a recent experiment at the University of Michigan that exploits big data for targeting
+- **[Dynarski et al. (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306212)** test this hypothesis in a recent experiment at the University of Michigan that exploits big data for targeting
 
     - Provide information about applying to U of M to high-achieving (GPA > 3.3, SAT > 1100) students from low-income families (incomes < $47K)
 

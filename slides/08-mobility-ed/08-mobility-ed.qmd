@@ -76,7 +76,7 @@ set.seed(76)
 
 - Start with higher education, then turn to K-12 education
 
->Reference: Chetty, Friedman, Saez, Turner, Yagan. “Mobility Report Cards: The Role of Colleges in Intergenerational Mobility” Working Paper 201
+>Reference: [Chetty, Friedman, Saez, Turner, Yagan. "Mobility Report Cards: The Role of Colleges in Intergenerational Mobility" NBER WP 23618 (2017)](https://www.nber.org/papers/w23618)
 
 
 ## How Do Colleges Shape Income Mobility in the U.S.?
@@ -101,7 +101,7 @@ set.seed(76)
 
 ## Estimating the Three Parameters: Data
 
-- Chetty et al. (2017) estimate these three parameters using data covering all college students in the U.S. from 1999-2013 (30 million students) 
+- [Chetty et al. (2017)](https://www.nber.org/papers/w23618) estimate these three parameters using data covering all college students in the U.S. from 1999-2013 (30 million students)
 
 - Combine information from three sources to construct an anonymized dataset:
 

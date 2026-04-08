@@ -59,7 +59,7 @@ School district records |  Tax records
 2.5 million children; 18 million test scores |  Earnings, College Attendance, Teen Birth
 ![](../../images/lec8_teachers_charters/test.png){ height=1.0in } |  ![](../../images/lec8_teachers_charters/tax.png){ height=1.0in }
 
-> Reference: Chetty, Friedman, Rockoff: “Measuring the Impacts of Teachers I and II” AER 2014
+> Reference: [Chetty, Friedman, Rockoff: "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213)
 
 ## Measuring Teacher Quality: Test-Score Based Metrics
 
@@ -248,13 +248,13 @@ knitr::include_graphics("../../images/lec8_teachers_charters/earninggains.png")
 
 References:
 
-> Abdulkadiroǧlu, Angrist, Dynarski, Kane, Pathak. “Accountability and Flexibility in Public Schools: Evidence from Boston’s Charters and Pilots.” QJE 2011.
+> [Abdulkadiroǧlu, Angrist, Dynarski, Kane, Pathak. "Accountability and Flexibility in Public Schools: Evidence from Boston's Charters and Pilots." QJE 2011](https://academic.oup.com/qje/article/126/2/699/1869154).
 
-> Chabrier, Cohodes, Oreopoulous. “What Can We Learn From Charter School Lotteries?” JEP 2016
+> [Chabrier, Cohodes, Oreopoulos. "What Can We Learn From Charter School Lotteries?" JEP 2016](https://www.aeaweb.org/articles?id=10.1257/jep.30.3.57)
 
 ## Effects of Boston Area Charter Schools
 
-- Abdulkadiroglu et al. (2011): compare effects of charter schools and pilot schools in Boston
+- [Abdulkadiroglu et al. (QJE 2011)](https://academic.oup.com/qje/article/126/2/699/1869154): compare effects of charter schools and pilot schools in Boston
 
     - Charter schools are exempt from all public school regulations
 
@@ -270,7 +270,7 @@ knitr::include_graphics("../../images/lec8_teachers_charters/abdikaduroglu1.png"
 
 ## Effects of Boston Area Charter Schools
 
-- Subsequent study by Angrist et al. (2013) shows that Boston charters have significant effects on college attendance rates
+- Subsequent study by [Angrist, Cohodes, Dynarski, Pathak, Walters (JOLE 2016)](https://www.journals.uchicago.edu/doi/10.1086/683822) shows that Boston charters have significant effects on college attendance rates
 
 - Lesson: charters generate positive effects on average; pilots are no better than public schools
 
@@ -278,7 +278,7 @@ knitr::include_graphics("../../images/lec8_teachers_charters/abdikaduroglu1.png"
 
 ## Effects of Charter Schools: Summary
 
-- Chabrier et al. (2016) summarize literature on charter schools
+- [Chabrier et al. (JEP 2016)](https://www.aeaweb.org/articles?id=10.1257/jep.30.3.57) summarize literature on charter schools
 
     - Small positive mean effects on test scores on average
 
@@ -288,7 +288,7 @@ knitr::include_graphics("../../images/lec8_teachers_charters/abdikaduroglu1.png"
 
 - Does market discipline lead to growth of better schools and improvement in performance over time?
 
-- Baude, Casey, Hanushek, and Rivkin (2014) study how quality of charter schools in Texas changed over time
+- [Baude, Casey, Hanushek, Hanushek, and Rivkin (NBER WP 2014)](https://www.nber.org/papers/w20645) study how quality of charter schools in Texas changed over time
 
 ## Distribution of School Math Value-Added by Year: Texas Charters vs. Public Schools
 
@@ -335,7 +335,7 @@ knitr::include_graphics("../../images/lec8_teachers_charters/baude2.png")
 
     3. Parents may not make well-informed choices
 
-        - Hastings, Kane, and Staiger (2007) study introduction of school choice in Charlotte, NC in 2002
+        - [Hastings, Kane, and Staiger (NBER WP 2007)](https://www.nber.org/papers/w12995) study introduction of school choice in Charlotte, NC in 2002
 
         - Low income parents are much less likely to choose schools with high test scores than high income parents
 

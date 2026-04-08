@@ -76,7 +76,7 @@ knitr::include_graphics("../../images/lec17_tax2/mg_tax.png")
 ## Number of Pages of Instructions that Come with Form 1040 (Basic Individual Tax Form)
 
 
-```{r, echo=FALSE, source="Gruber (2016)", out.width = '80%'}
+```{r, echo=FALSE, fig.cap="Source: Gruber, *Public Finance and Public Policy* (Worth, 5th ed. 2016)", out.width = '80%'}
 knitr::include_graphics("../../images/lec17_tax2/pages_gruber.png")
 ```
 
@@ -84,7 +84,7 @@ knitr::include_graphics("../../images/lec17_tax2/pages_gruber.png")
 
 - Begin by considering one of the simplest taxes: sales taxes on purchases in grocery stores
 
-- Chetty, Looney, Kroft (2009) test whether consumers are aware of and respond “rationally” to these simple taxes
+- [Chetty, Looney, Kroft (AER 2009)](https://www.aeaweb.org/articles?id=10.1257/aer.99.4.1145) test whether consumers are aware of and respond "rationally" to these simple taxes
 
 - Sales taxes not included in posted prices in the U.S.
 
@@ -125,7 +125,7 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_exp_fig2.png")
 
     - Is the EITC successful in achieving this goal?
 
-- Chetty, Friedman, and Saez (2013) study this question, focusing on importance of knowledge and information about EITC
+- [Chetty, Friedman, and Saez (AER 2013)](https://www.aeaweb.org/articles?id=10.1257/aer.103.7.2683) study this question, focusing on importance of knowledge and information about EITC
 
 ## 2008 Federal EITC Schedule for a Single Filer with Children
 
@@ -279,7 +279,7 @@ knitr::include_graphics("../../images/lec17_tax2/chetty_eitc16.png")
 
 ## The Power of Defaults
 
-- Madrian and Shea (2001) analyze impacts of employer defaults on individuals' 401(k) retirement account contributions
+- [Madrian and Shea (QJE 2001)](https://academic.oup.com/qje/article/116/4/1149/1903159) analyze impacts of employer defaults on individuals' 401(k) retirement account contributions
 
 - Defaults just change whether employees opt-in or opt-out of retirement saving
 
@@ -307,7 +307,7 @@ knitr::include_graphics("../../images/lec17_tax2/madrian2.png")
 
     - Even inattentive individuals still have to satisfy budget constraint by cutting consumption or savings in non-retirement accounts
 
--  Chetty et al. (2014) analyze this question using third-party reported data on all financial wealth for population of Denmark
+- [Chetty, Friedman, Leth-Petersen, Nielsen, Olsen (QJE 2014)](https://academic.oup.com/qje/article/129/3/1141/1817647) analyze this question using third-party reported data on all financial wealth for population of Denmark
 
 ## Impacts of Defaults in Denmark
 

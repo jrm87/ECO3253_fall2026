@@ -150,7 +150,7 @@ knitr::include_graphics("../../images/mob_jobs.png")
 
 Residents: White (\textcolor{blue}{blue}), Black (\textcolor{green}{green}), Asian (\textcolor{red}{red}), Hispanic (\textcolor{orange}{orange})
 
-```{r fig_seg_atlanta, fig.cap="Source: Source: Cable (2013) based on Census 2010", echo=FALSE, out.width = '60%'}
+```{r fig_seg_atlanta, fig.cap="Source: [Dustin Cable, U. of Virginia Racial Dot Map (2013)](https://demographics.virginia.edu/DotMap/index.html), based on Census 2010", echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/seg_atlanta.png")
 ```
 
@@ -158,7 +158,7 @@ knitr::include_graphics("../../images/seg_atlanta.png")
 
 Residents: White (\textcolor{blue}{blue}), Black (\textcolor{green}{green}), Asian (\textcolor{red}{red}), Hispanic (\textcolor{orange}{orange})
 
-```{r fig_seg_sacramento, fig.cap="Source: Source: Cable (2013) based on Census 2010", echo=FALSE, out.width = '60%'}
+```{r fig_seg_sacramento, fig.cap="Source: [Dustin Cable, U. of Virginia Racial Dot Map (2013)](https://demographics.virginia.edu/DotMap/index.html), based on Census 2010", echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/seg_sacramento.png")
 ```
 
@@ -166,7 +166,7 @@ knitr::include_graphics("../../images/seg_sacramento.png")
 
 Residents: White (\textcolor{blue}{blue}), Black (\textcolor{green}{green}), Asian (\textcolor{red}{red}), Hispanic (\textcolor{orange}{orange})
 
-```{r fig_seg_sanantonio, fig.cap="Source: Source: Cable (2013) based on Census 2010", echo=FALSE, out.width = '60%'}
+```{r fig_seg_sanantonio, fig.cap="Source: [Dustin Cable, U. of Virginia Racial Dot Map (2013)](https://demographics.virginia.edu/DotMap/index.html), based on Census 2010", echo=FALSE, out.width = '60%'}
 knitr::include_graphics("../../images/seg_sanantonio.png")
 ```
 
@@ -190,11 +190,11 @@ knitr::include_graphics("../../images/seg_sanantonio.png")
 5. Social Capital
 
     - “It takes a village to raise a child”
-    - Putnam (1995): “Bowling Alone”
+    - [Putnam (1995): "Bowling Alone"](https://en.wikipedia.org/wiki/Bowling_Alone)
 
 ## New Map of Social Capital
 
-A few weeks ago Chetty and co-authors published a paper and a website exploring social capital across the US:
+Chetty and co-authors published a [Nature paper](https://www.nature.com/articles/s41586-022-04996-4) and a website exploring social capital across the US:
 
 - [https://socialcapital.org/](https://socialcapital.org/)
 
@@ -233,7 +233,7 @@ Go to the Section on [Simple and Multivariate Regression](https://jrm87.github.i
 
     - Useful benchmark: cash grants of an equivalent dollar amount to families with children
 
-> Based on Chetty, Hendren, Katz. “The Long-Term Effects of Exposure to Better Neighborhoods: New Evidence from the Moving to Opportunity Experiment” AER 2016
+> Based on [Chetty, Hendren, Katz. "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment" AER 2016](https://www.aeaweb.org/articles?id=10.1257/aer.20150572)
 
 ## Affordable Housing Policies
 

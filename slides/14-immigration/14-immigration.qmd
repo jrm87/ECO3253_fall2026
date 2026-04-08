@@ -62,7 +62,7 @@ Immigration:
 6. How does the general public think about migration policy?
 
 
-> Slides based on those of David Card (2017)
+> Slides based on those of [David Card (NBER Reporter 2009)](https://www.nber.org/reporter/2009number2/how-immigration-affects-us-cities); also see [Clemens "Economics and Emigration" JEP 2011](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306222)
 
 # Immigration
 
@@ -327,7 +327,7 @@ B)
 
 - Anaheim, Tucson: 10% loss
 
-- Lee, Peri and Yasenov (2017) find no effect on ‘native’ employment, unemployment. 
+- [Lee, Peri and Yasenov (NBER WP 2017)](https://www.nber.org/papers/w23885) find no effect on 'native' employment, unemployment.
 
     - If anything, where more people left, there are lower wages
 
@@ -337,7 +337,7 @@ B)
 
 - How do immigrants do in terms of mobility versus natives?
 
-- Abramitzky, Boustan, Jacome and Perez (2019) use millions of father-son pairs across more than 100 years of US history
+- [Abramitzky, Boustan, Jacome and Perez (AER 2021)](https://www.aeaweb.org/articles?id=10.1257/aer.20191586) use millions of father-son pairs across more than 100 years of US history
 
 - Big recent study using same (and more) big data as Chetty et al (2017) + GSS Survey to capture unauthorized immigrants
 

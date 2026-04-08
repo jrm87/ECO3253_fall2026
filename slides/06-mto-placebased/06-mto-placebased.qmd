@@ -87,9 +87,9 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_nyc.png")
 
 - Early research on MTO found little impact of moving to a better area on economic outcomes such as earnings
 
-    - But it focused primarily on adults and older youth at point of move [e.g., Kling, Liebman, and Katz 2007]
+    - But it focused primarily on adults and older youth at point of move [e.g., [Kling, Liebman, and Katz (QJE 2007)](https://academic.oup.com/qje/article/122/1/83/1924719)]
 
-- Motivated by quasi-experimental study (Chetty and Hendren 2018), Chetty and ao-authors test for exposure effects among children
+- Motivated by quasi-experimental study ([Chetty and Hendren QJE 2018](https://academic.oup.com/qje/article/133/3/1107/4850660)), Chetty and co-authors test for exposure effects among children
 
     - Does MTO improve outcomes for children who moved when young?
 
@@ -102,9 +102,9 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_mto_nyc.png")
 
 - Early research on MTO found little impact of moving to a better area on economic outcomes such as earnings
 
-    - But it focused primarily on adults and older youth at point of move [e.g., Kling, Liebman, and Katz 2007]
+    - But it focused primarily on adults and older youth at point of move [e.g., [Kling, Liebman, and Katz (QJE 2007)](https://academic.oup.com/qje/article/122/1/83/1924719)]
 
-- Motivated by quasi-experimental study (Chetty and Hendren 2018), Chetty and ao-authors test for exposure effects among children
+- Motivated by quasi-experimental study ([Chetty and Hendren QJE 2018](https://academic.oup.com/qje/article/133/3/1107/4850660)), Chetty and co-authors test for exposure effects among children
 
     - Does MTO improve outcomes for children who moved when young?
 
@@ -220,7 +220,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_exposure_world.pn
 
         - In MTO experiment, unrestricted “Section 8” vouchers produced smaller gains even though families could have made same moves
 
-        - More generally, low-income families rarely use cash transfers to move to better neighborhoods [Jacob et al. 2015]
+        - More generally, low-income families rarely use cash transfers to move to better neighborhoods [[Jacob, Kapustin, Ludwig (QJE 2015)](https://academic.oup.com/qje/article/130/1/465/2337966)]
 
         - 80% of the 2.1 million Section 8 vouchers are currently used in high-poverty, low-opportunity neighborhoods
 
@@ -288,6 +288,8 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_coef_stability.pn
 # CMTO (Creating Moves to Opportunity)
 
 ## CMTO
+
+> References: [CMTO summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306205); [Bergman, Chetty, DeLuca, Hendren, Katz, Palmer "Creating Moves to Opportunity" (2019)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306208)
 
 ```{r , echo=FALSE, out.width = '90%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_cmto.png")

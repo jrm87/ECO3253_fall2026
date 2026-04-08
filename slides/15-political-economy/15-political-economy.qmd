@@ -55,7 +55,7 @@ Political Economy:
 
 3. Intergenerational Mobility and Preferences for Redistribution
 
-> Slides based on those of Stantcheca (2019)
+> Slides based on those of [Stefanie Stantcheva (Harvard, 2019)](https://scholar.harvard.edu/stantcheva)
 
 # Political Economy
 
@@ -80,7 +80,7 @@ We will focus on 3) today
     - So, what explains many native’s attitudes of opposition (or deep ambivalence) to immigration? 
     - Not necessarily the economics of it. 
 
-> Alesina, Miano and Stantcheva (2020)
+> [Alesina, Miano and Stantcheva. "Immigration and Redistribution." RES 2023](https://academic.oup.com/restud/article/90/1/1/6586673)
 
 
 ## How are voter preferences formed?
@@ -90,7 +90,7 @@ We will focus on 3) today
     - What are their views on fairness (effort vs luck)?
     - Link between perceived intergenerational mobility and redistribution policies?
 
-> Alesina, Stantcheva and Teso (2021)
+> [Alesina, Stantcheva and Teso. "Intergenerational Mobility and Preferences for Redistribution." AER 2018](https://www.aeaweb.org/articles?id=10.1257/aer.20162015)
 
 
 # Immigration and redistribution
@@ -197,7 +197,7 @@ knitr::include_graphics("../../images/lec15_political_economy/immigration_redist
 
 ## Gifts of the Immigrants, Woes of the Natives
 
-- Tabellini (2020) studies the political and economic effect of immigration and study the causes of anti-immigrant sentiments in the US between 1910 and 1930
+- [Tabellini (RES 2020)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306223) studies the political and economic effect of immigration and study the causes of anti-immigrant sentiments in the US between 1910 and 1930
 
 - Time of large waves of European immigration (WW1 and Immigration Acts of 1920s)
 
@@ -221,7 +221,7 @@ knitr::include_graphics("../../images/lec15_political_economy/tabellini1.png")
 knitr::include_graphics("../../images/lec15_political_economy/tabellini2.png")
 ```
 
-## Are you a Kandinsky or Klee type of person? Tajfel et al (1971)
+## Are you a Kandinsky or Klee type of person? [Tajfel et al (1971)](https://onlinelibrary.wiley.com/doi/10.1002/ejsp.2420010202)
 
 ```{r, echo=FALSE, out.width = '80%'}
 knitr::include_graphics("../../images/lec15_political_economy/tajfel1.png")
@@ -234,7 +234,7 @@ Subjects are more likely to give rewards (e.g. in dictator game) to those with t
 
 - Subjects also report higher opinions of members of their own group
 
-- Chen and Li (2009) have experiment with players being divided in groups that liked more Klee or Kandisky 
+- [Chen and Li (AER 2009)](https://www.aeaweb.org/articles?id=10.1257/aer.99.1.431) have experiment with players being divided in groups that liked more Klee or Kandinsky
 
 - Then they discuss, by groups, which is the painter of a new painting they see. If they are right, they get money. 
 
@@ -264,7 +264,7 @@ knitr::include_graphics("../../images/lec15_political_economy/chen_li2.png")
 
 ## Do people know about intergenerational mobility?
 
-Alesina, Stantcheva and Teso (2020) ask: 
+[Alesina, Stantcheva and Teso (AER 2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20162015) ask:
 
 1. Do people have realistic views about intergenerational mobility? 
 2. What are their views on fairness (effort vs luck)?

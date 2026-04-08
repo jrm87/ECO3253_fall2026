@@ -72,7 +72,7 @@ set.seed(76)
 
 - What fraction of children earn more than their parents, and how has this changed over time?
 
->Reference: Chetty, Grusky, Hell, Hendren, Manduca, Narang. “The Fading American Dream: Trends in Absolute Income Mobility Since 1940.” Science 2017.
+>Reference: [Chetty, Grusky, Hell, Hendren, Manduca, Narang. "The Fading American Dream: Trends in Absolute Income Mobility Since 1940." Science 2017](https://www.science.org/doi/10.1126/science.aal4617).
 
 
 ## Data issues 
@@ -85,7 +85,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_halikiasreeves16.png")
 
 - Key challenge: don’t have data linking parents to kids historically
 
-- Chetty et al. (Science, 2017) develop a method of estimating historical rates of mobility even in the absence of parent-child links
+- [Chetty et al. (Science, 2017)](https://www.science.org/doi/10.1126/science.aal4617) develop a method of estimating historical rates of mobility even in the absence of parent-child links
 
 - First describe basic results and then explain methodology
 
@@ -233,7 +233,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_mobhist_hipot3.png")
 
 - How does the American experience compare to other countries?
 
-- Berman (2018) applies methodology of Chetty et al. (Science, 2017) in other countries to answer this question
+- [Berman (2022)](https://www.aeaweb.org/articles?id=10.1257/aer.20181655) applies methodology of [Chetty et al. (Science, 2017)](https://www.science.org/doi/10.1126/science.aal4617) in other countries to answer this question
 
 ## Mobility in the US
 
@@ -270,9 +270,9 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_berman18_4.png")
  
 - Two broad approaches: redistribution (taxes/transfers, min wages) or increasing skills of lower-income Americans (“human capital”)
 
-    1. Piketty and Saez: reductions in top income taxes and erosion of unions and minimum wages have led working-class Americans to fall behind 
+    1. [Piketty and Saez (QJE 2003)](https://eml.berkeley.edu/~saez/pikettyqje.pdf): reductions in top income taxes and erosion of unions and minimum wages have led working-class Americans to fall behind
 
-    2. Goldin and Katz: race between education and technology – need education to keep pace with technological change to increase wage rates
+    2. [Goldin and Katz (2008), *The Race between Education and Technology*](https://scholar.harvard.edu/lkatz/publications/race-between-education-and-technology): need education to keep pace with technological change to increase wage rates
 
 
 ## What is education?
@@ -281,7 +281,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_berman18_4.png")
 
 - Important note: “education” is not just about technical skills
 
-- Deming (2018) demonstrates this by investigating how wage rates vary with technical and social skills over time
+- [Deming (QJE 2017)](https://academic.oup.com/qje/article/132/4/1593/3861633) demonstrates this by investigating how wage rates vary with technical and social skills over time
 
 ## Growth in Real Hourly Wage Rates by Occupation Task Intensity
 
@@ -307,7 +307,7 @@ knitr::include_graphics("../../images/lec4_hist_mob/lec4_deming_3.png")
 
 - Important note: “education” is not just about technical skills
 
-- Deming (2018) demonstrates this by investigating how wage rates vary with technical and social skills over time
+- [Deming (QJE 2017)](https://academic.oup.com/qje/article/132/4/1593/3861633) demonstrates this by investigating how wage rates vary with technical and social skills over time
 
 - Policies to improve such skills could range from changes in education and training programs to housing voucher policies
 
