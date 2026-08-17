@@ -2,7 +2,7 @@
 
 ## Important: Site Needs to be Rebuilt
 
-The `docs/` folder currently contains pre-built HTML from Fall 2024. After updating the source files (`.Rmd` files) to Spring 2026, the site needs to be rebuilt to reflect these changes.
+The `docs/` folder currently contains pre-built HTML from Fall 2024. After updating the source files (`.Rmd` files) to Fall 2026, the site needs to be rebuilt to reflect these changes.
 
 ## How to Rebuild the Site
 
@@ -50,12 +50,12 @@ The `docs/` folder currently contains pre-built HTML from Fall 2024. After updat
 4. **Verify the Build**:
    - Check that `docs/index.html` has been updated
    - Open `docs/index.html` in a browser to preview
-   - Verify that all pages show "Spring 2026" instead of "Fall 2024"
+   - Verify that all pages show "Fall 2026" instead of "Fall 2024"
 
 5. **Commit and Push**:
    ```bash
    git add docs/
-   git commit -m "Rebuild site for Spring 2026"
+   git commit -m "Rebuild site for Fall 2026"
    git push
    ```
 
@@ -63,14 +63,14 @@ The `docs/` folder currently contains pre-built HTML from Fall 2024. After updat
 
 The site is configured to deploy from the `docs/` folder on the `main` branch:
 
-1. Go to: https://github.com/jrm87/ECO3253_spring2026/settings/pages
+1. Go to: https://github.com/jrm87/ECO3253_fall2026/settings/pages
 2. Verify settings:
    - **Source**: Deploy from a branch
    - **Branch**: `main`
    - **Folder**: `/docs`
 
 After pushing the rebuilt `docs/` folder, GitHub Pages will automatically update the site at:
-https://jrm87.github.io/ECO3253_spring2026/
+https://jrm87.github.io/ECO3253_fall2026/
 
 ## Troubleshooting
 
@@ -124,7 +124,7 @@ Consider setting up GitHub Actions to automatically rebuild the site when change
 
 ## Current Status
 
-- ✅ Source files (`.Rmd`) updated to Spring 2026
+- ✅ Source files (`.Rmd`) updated to Fall 2026
 - ⚠️ **PENDING**: `docs/` folder needs to be rebuilt
 - ✅ README.md updated with local build instructions
 - ✅ GitHub Pages configured to serve from `docs/` folder
@@ -132,6 +132,6 @@ Consider setting up GitHub Actions to automatically rebuild the site when change
 ## Next Steps
 
 1. **Rebuild the site** using the instructions above
-2. Verify all pages show correct Spring 2026 information
+2. Verify all pages show correct Fall 2026 information
 3. Push the updated `docs/` folder
-4. Check the live site at https://jrm87.github.io/ECO3253_spring2026/
+4. Check the live site at https://jrm87.github.io/ECO3253_fall2026/

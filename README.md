@@ -1,11 +1,11 @@
-# ECO 3253 – Spring 2026
+# ECO 3253 – Fall 2026
 
 ## Economics of Public and Social Issues
 
-This is the course website for ECO 3253 at UTSA, taught in the Spring of 2026 by Jonathan Moreno-Medina.
+This is the course website for ECO 3253 at UTSA, taught in the Fall of 2026 by Jonathan Moreno-Medina.
 
 **Course Information:**
-- **Semester:** Spring 2026
+- **Semester:** Fall 2026
 - **Class Days:** Tuesday and Thursday
 - **Time:** 1:00 PM
 - **First Class:** January 20, 2026
@@ -23,7 +23,7 @@ The site includes:
 
 ## Viewing the Website
 
-The published course website is available at: https://jrm87.github.io/ECO3253_spring2026/
+The published course website is available at: https://jrm87.github.io/ECO3253_fall2026/
 
 ## Building the Site Locally
 
@@ -38,8 +38,8 @@ If you want to run and build this website on your own computer, follow these ste
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/jrm87/ECO3253_spring2026.git
-   cd ECO3253_spring2026
+   git clone https://github.com/jrm87/ECO3253_fall2026.git
+   cd ECO3253_fall2026
    ```
 
 2. **Create and Activate the Environment**:
@@ -52,8 +52,8 @@ If you want to run and build this website on your own computer, follow these ste
 
 1. **Clone this repository**:
 ```bash
-git clone https://github.com/jrm87/ECO3253_spring2026.git
-cd ECO3253_spring2026
+git clone https://github.com/jrm87/ECO3253_fall2026.git
+cd ECO3253_fall2026
 ```
 
 2. **Open the project in RStudio**:
