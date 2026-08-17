@@ -11,7 +11,7 @@ p_load(here, tidyverse, readxl, stringr, stringi, tidylog, Hmisc)
 socialcap<-read_csv(here("data", "social_capital_zip.csv"))
 
 # 73278 tracts in atlas data:
-atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas.rds")))
+atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/data/atlas.rds")))
 
 # Data from HUD on crosswalk between ZIP and tract: https://www.huduser.gov/portal/datasets/usps/ZIP_TRACT_122010.xlsx
 # https://www.huduser.gov/portal/datasets/usps_crosswalk.html

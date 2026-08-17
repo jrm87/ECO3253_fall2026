@@ -18,8 +18,8 @@ library(randomForest)
 options(error=recover)
 
 # Load data:
-train<- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_train.rds")))
-test<-readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_repo/master/data/atlas_test.rds")))
+train<- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/data/atlas_train.rds")))
+test<-readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/data/atlas_test.rds")))
 
 # Check out all the possible variables in this new dataset:
 names(train)
