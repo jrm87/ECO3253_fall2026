@@ -23,6 +23,10 @@ The published site lives at <https://jrm87.github.io/ECO3253_fall2026/> and is s
 
 ## Building the site
 
+> See **[BUILD.md](BUILD.md)** for the full toolchain (R, pandoc, quarto, TinyTeX — none of
+> which are on `PATH` by default), how to build the **slide decks**, how to verify a Pages
+> deploy actually landed, and the semester-rollover checklist.
+
 Use the `eco3253` conda env. The trick is that `Rscript` needs the env's `pandoc` on `PATH`, otherwise it errors with "pandoc version 1.12.3 or higher is required":
 
 ```bash
@@ -50,4 +54,6 @@ The `conda run -n eco3253 …` form documented in `README.md` does not work here
 - **Cross-references** (`\@ref(label)`) only resolve to chapters listed in `_bookdown.yml`. After a render, look at the build output for `WARNING ... label(s) ... not found` lines.
 - **Don't commit secrets** — Canvas links (`utsa.instructure.com/courses/92072/...`) are fine to commit, they require login to actually access.
 - Conda env name is `eco3253`. R lives at `/opt/homebrew/anaconda3/envs/eco3253/bin/Rscript`.
-- The course site is built for students — when fixing or adding content, prefer clarity and concrete examples over jargon. Jon teaches Tue/Thu at 1pm; the semester started January 20, 2026.
+- The course site is built for students — when fixing or adding content, prefer clarity and concrete examples over jargon. Jon teaches Tue/Thu 2:30–3:45 pm in McKinney Humanities 2.01.08; Fall 2026 classes began
+  August 19, 2026 (first meeting Thu 08/20) and the last class is Thu 12/03. Weekly quizzes run
+  in iClicker at the start of each Thursday class.

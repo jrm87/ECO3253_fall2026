@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -59,7 +59,7 @@ School district records |  Tax records
 2.5 million children; 18 million test scores |  Earnings, College Attendance, Teen Birth
 ![](../../images/lec8_teachers_charters/test.png){ height=1.0in } |  ![](../../images/lec8_teachers_charters/tax.png){ height=1.0in }
 
-> Reference: [Chetty, Friedman, Rockoff: "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213)
+> Reference: [Chetty, Friedman, Rockoff: "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424722)
 
 ## Measuring Teacher Quality: Test-Score Based Metrics
 

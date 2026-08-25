@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -51,7 +51,7 @@ Reminder: Friday is deadline for submission of Project Part 1 **and** Part 2
 
 1. MTO Experiment
 1. Place based policies
-1. 15 minutes for regression analysis in R: see [https://jrm87.github.io/ECO3253_spring2026/regression.html](https://jrm87.github.io/ECO3253_spring2026/regression.html)
+1. 15 minutes for regression analysis in R: see [https://jrm87.github.io/ECO3253_fall2026/regression.html](https://jrm87.github.io/ECO3253_fall2026/regression.html)
 
 ## Two Approaches to Increasing Upward Mobility
 
@@ -289,7 +289,7 @@ knitr::include_graphics("../../images/lec3_mto_placebased/lec3_coef_stability.pn
 
 ## CMTO
 
-> References: [CMTO summary](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306205); [Bergman, Chetty, DeLuca, Hendren, Katz, Palmer "Creating Moves to Opportunity" (2019)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306208)
+> References: [CMTO summary](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424716); [Bergman, Chetty, DeLuca, Hendren, Katz, Palmer "Creating Moves to Opportunity" (2019)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424713)
 
 ```{r , echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/lec3_mto_placebased/lec3_cmto.png")

@@ -43,7 +43,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -77,7 +77,7 @@ Let me briefly tell you about me:
 
 We will have a cool website with the materials covered in class: 
 
-[https://jrm87.github.io/ECO3253_spring2026/](https://jrm87.github.io/ECO3253_spring2026/index.html)
+[https://jrm87.github.io/ECO3253_fall2026/](https://jrm87.github.io/ECO3253_fall2026/index.html)
 
 Info on Canvas. Write it down. Keep it in mind!
 
@@ -199,9 +199,10 @@ Back to the content! We will cover and use several economic concepts you probabl
 tabl <- "
 | Activity                       | Perc. Weight |
 | ------------------------------ | ------------ |
-| Projects 0--4                  | 20%          |
-| Midterm                        | 25%          |
-| Final                          | 25%          |
+| Projects 0--4                  | 12%          |
+| Quizzes (weekly, 2 lowest dropped) | 12%      |
+| Midterm                        | 23%          |
+| Final                          | 23%          |
 | Attendance and participation   | 30%          |
 | **Total**                      | **100%**     |
 "
@@ -209,13 +210,36 @@ cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
 ```
 
 
+## Quizzes
+
+- **Short quiz at the start of class every Thursday** (~5 min), run through **iClicker**
+    - It **opens when class starts and closes a few minutes later** --- arrive on time
+    - Covers the previous sessions and the assigned readings
+- **No quiz** on Thursdays we do not meet (09/24, 10/08, Thanksgiving 11/26), and none on day one
+- That gives **12 quizzes**. Your **2 lowest scores are dropped** --- only your best 10 count
+- Because the 2 drops already cover missed or bad days, there are **no make-up quizzes**
+
+> Miss the window and that quiz simply becomes one of your two drops.
+
+## iClicker --- set this up now
+
+We use **iClicker** every class: for the Thursday quizzes, and for short in-class polls on the
+material that count toward participation. It is **free for all UTSA students**.
+
+1. Create an account at **iclicker.com** with your **UTSA email**
+2. Install the **iClicker student app**, or use the browser version at iclicker.com
+3. Add this course --- it should appear via Canvas, or use the **QR code / join code** I show in class
+4. Bring a **charged device** to every class
+
+> Polls are graded for **answering and thinking**, not for being right. No device? Tell me --- do not just skip it.
+
 ## Projects
 
 - A big part of the course: **4 projects** (plus a warm-up "project 0")
 - More involved than typical homeworks: real data, real problems, real code
 - Submitted on **Canvas** by **11:59 pm** on the due date
 - **How they are graded:**
-    - Each on-time submission earns **full credit** ($\checkmark$) toward the **Projects 0--4 (20%)** bucket --- I do not line-by-line correct them
+    - Each on-time submission earns **full credit** ($\checkmark$) toward the **Projects 0--4 (12%)** bucket --- I do not line-by-line correct them
     - The **substance** of what you submitted (your reasoning, assumptions, code choices, interpretation) is evaluated separately, through the **Attendance & participation (30%)** bucket --- see next slide
 - You may use generative AI tools, but you are responsible for verifying outputs and being able to explain every line you submit
 - Start early! Many new elements --- give yourself time to try, fail, and experiment

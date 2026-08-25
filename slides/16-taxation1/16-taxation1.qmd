@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -312,7 +312,7 @@ knitr::include_graphics("../../images/lec16_tax1/hayes3.png")
 
 ## .
 
-Based on [Diamond and Saez. "The Case for a Progressive Tax: From Basic Research to Policy Recommendations." JEP 2011](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306227)
+Based on [Diamond and Saez. "The Case for a Progressive Tax: From Basic Research to Policy Recommendations." JEP 2011](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424726)
 
 ```{r, echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/lec16_tax1/diamond_ocasiocortez.png")

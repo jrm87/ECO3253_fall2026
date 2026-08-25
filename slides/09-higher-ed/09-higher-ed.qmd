@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -228,7 +228,7 @@ knitr::include_graphics("../../images/lec6_higher_ed/cost_attending.png")
 
 - Alternative hypothesis: lack of information or application support for low-income students limits their applications even when tuition cost is low [[Hoxby and Turner (2013)](https://siepr.stanford.edu/publications/working-paper/expanding-college-opportunities-high-achieving-low-income-students)]
 
-- **[Dynarski et al. (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306212)** test this hypothesis in a recent experiment at the University of Michigan that exploits big data for targeting
+- **[Dynarski et al. (2018)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424721)** test this hypothesis in a recent experiment at the University of Michigan that exploits big data for targeting
 
     - Provide information about applying to U of M to high-achieving (GPA > 3.3, SAT > 1100) students from low-income families (incomes < $47K)
 

@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -62,7 +62,7 @@ set.seed(76)
 
 ## Racial Discrimination in Hiring
 
-- [Bertrand and Mullainathan (AER 2004)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306215) study biases in hiring by sending out fictitious resumes with identical credentials in response to real job ads
+- [Bertrand and Mullainathan (AER 2004)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424723) study biases in hiring by sending out fictitious resumes with identical credentials in response to real job ads
 
 - Vary name of applicant to be “white-sounding” (e.g., Emily Walsh or Greg Backer) vs. “black-sounding” (e.g., Lakisha Washington or Jamal Jones)
 
@@ -139,7 +139,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 ## Decisions to Jail vs. Release Defendants
 
-- [Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan (QJE 2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) compare the accuracy of human decisions and machine predictions in the criminal justice system
+- [Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan (QJE 2018)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424725) compare the accuracy of human decisions and machine predictions in the criminal justice system
 
 - Every year, about **10 million** people are arrested in the U.S.
 
@@ -147,7 +147,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/danzinger1.png")
 
 - By law, decision is made with the objective of minimizing risk of flight (failure to appear at trial)
 
-- [Kleinberg et al.](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) compare machine learning predictions and judges' actual decisions in terms of performance in achieving this objective
+- [Kleinberg et al.](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424725) compare machine learning predictions and judges' actual decisions in terms of performance in achieving this objective
 
 ## Decisions to Jail vs. Release Defendants
 
@@ -251,7 +251,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/loss1.png")
 knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig2_judgesvsml.png")
 ```
 
-*Source: [Kleinberg et al. (QJE 2018), Figure II](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220). Each dot is a 1000th-percentile bin of predicted risk.*
+*Source: [Kleinberg et al. (QJE 2018), Figure II](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424725). Each dot is a 1000th-percentile bin of predicted risk.*
 
 ## What does Figure II tell us?
 
@@ -281,7 +281,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig2_judg
 knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig5_contraction.png")
 ```
 
-*Source: [Kleinberg et al. (QJE 2018), Figure V](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220).*
+*Source: [Kleinberg et al. (QJE 2018), Figure V](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424725).*
 
 ## Reading Figure V
 
@@ -311,7 +311,7 @@ knitr::include_graphics("../../images/lec10_criminal_justice/kleinberg_fig5_cont
 
 - So the algorithm doesn't just reduce crime or the jail population --- it reduces both **and** the racial disparity. Whatever judges are picking up on that the algorithm misses, it isn't an unobserved feature that makes their decisions more racially balanced
 
-*Source: [Kleinberg et al. (QJE 2018), Tables VI and VII](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220).*
+*Source: [Kleinberg et al. (QJE 2018), Tables VI and VII](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424725).*
 
 # What are judges actually looking at?
 

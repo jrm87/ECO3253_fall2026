@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -76,7 +76,7 @@ set.seed(76)
 
 >Reference 3: [Fredriksson, Ockert, Oosterbeek. "Long-Term Effects of Class Size." QJE 2013](https://academic.oup.com/qje/article/128/1/249/1838780)
 
->Reference 4: [Chetty, Friedman, Rockoff. "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213)
+>Reference 4: [Chetty, Friedman, Rockoff. "Measuring the Impacts of Teachers I and II" AER 2014](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424722)
 
 
 ## Using Test Score Data to Study K-12 Education

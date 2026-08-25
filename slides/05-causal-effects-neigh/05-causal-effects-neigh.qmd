@@ -54,7 +54,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -200,7 +200,7 @@ Chetty and co-authors published a [Nature paper](https://www.nature.com/articles
 
 ## Check the correlation yourself
 
-Go to the Section on [Simple and Multivariate Regression](https://jrm87.github.io/ECO3253_spring2026/regression.html) and check for yourself the correlation of `kfr_pooled_p25` and at least one of these: 
+Go to the Section on [Simple and Multivariate Regression](https://jrm87.github.io/ECO3253_fall2026/regression.html) and check for yourself the correlation of `kfr_pooled_p25` and at least one of these: 
 
 - `gsmn_math_g3_2013`
 - `ann_avg_job_growth_2004_2013`

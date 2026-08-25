@@ -42,7 +42,7 @@ options(scipen = 99, digits = 3)
 # https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 #alternative way of loading data:
-#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_spring2026/main/rds/trials.rds")
+#githubURL <- ("https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/rds/trials.rds")
 #download.file(githubURL,"trials.rds", method="curl")
 #data <- readRDS("trials.rds")
 ```
@@ -259,7 +259,7 @@ Family-Level Factors:
 
 ## The Geography of Upward Mobility in the United States
 
-```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202)", echo=FALSE, out.width = '85%'}
+```{r mobCZ, fig.cap="Source: [Chetty, Friedman, Hendren, Jones and Porter (2018)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424717)", echo=FALSE, out.width = '85%'}
 knitr::include_graphics("../../images/mobility_CZ_chetty18.png")
 ```
 
