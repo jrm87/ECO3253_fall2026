@@ -2,7 +2,7 @@
 
 The goal of this project is to replicate the analysis performed in the [Explore your first dataset](#mobilitydata) section of the "Getting Started" chapter. You should do this on your own and submit the output as a PDF.
 
-- **Due**: In class on Thursday, September 3, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments)
+- **Due**: In class on Thursday, September 3, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391944)
 
 ## Question 1
 

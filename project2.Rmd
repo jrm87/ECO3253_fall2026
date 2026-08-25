@@ -4,7 +4,7 @@
 
 - **Posted**: Thursday, August 20, 2026
 
-- **Due**: At midnight on Thursday, October 22, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments)
+- **Due**: At midnight on Thursday, October 22, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391947)
 
 In this empirical project, you will use a regression discontinuity design to estimate the causal effect of class size on test scores. To answer some of the questions, you will need to refer to the following papers:
 

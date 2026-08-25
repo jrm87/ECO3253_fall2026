@@ -70,7 +70,7 @@ s_introR2 <- c(
   "Intro to [Visualization](#viz), [Wrangling](#wrangling) and [RMarkdown](#rmarkdown)", # topic with link
   " ", # reading
   " ", # method
-  "**Quiz 2** (start of class)<br>First short report (In class) - [Project 0](#project0)"
+  "**Quiz 2** (start of class)<br>First short report (In class) - [Project 0](#project0) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391944))"
 ) # deliverable
 
 s_causaleffects <- c(
@@ -88,7 +88,7 @@ s_causaleffects2 <- c(
   "[Characteristics of High-Mobility Areas](#lec2_causaleffect) and [Correlation Analysis](#regression) ", # topic with link
   "[Bergman, Chetty, DeLuca, Hendren, Katz and Palmer (2019) -<br>Introduction](https://utsa.instructure.com/courses/92072/files/folder/papers) ", # reading
   "Quasi-experiments ", # method
-  "**Quiz 3** (start of class)<br>[Project 1](#project1) – Part 1 (for Saturday 09/12)"
+  "**Quiz 3** (start of class)<br>[Project 1](#project1) – Part 1 (for Saturday 09/12) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391945))"
 ) # deliverable
 
 s_mto <- c(
@@ -106,7 +106,7 @@ s_mob_hist_int <- c(
   "[Historical and International Evidence on](#lec4_mob-hist-int) and [Drivers of Inequality and Mobility](#lec4_mob-hist-int) ", # topic with link
   " ", # reading
   " ", # method
-  "**Quiz 4** (start of class)<br>[Project 1](#project1) – Part 1 and 2 (for Saturday 09/19)"
+  "**Quiz 4** (start of class)<br>[Project 1](#project1) – Part 1 and 2 (for Saturday 09/19) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391946))"
 ) # deliverable
 
 s_hist_int_cont <- c(
@@ -187,7 +187,7 @@ s_recap_quarto <- c(
   "Recap of R and Quarto Documents ", # topic with link
   " ", # reading
   " ", # method
-  "[Project 2](#project2) (for Thursday 10/22) "
+  "[Project 2](#project2) (for Thursday 10/22) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391947))"
 ) # deliverable
 
 s_ed_higher <- c(
@@ -259,7 +259,7 @@ s_ml2 <- c(
   "Implementing a simple machine learning model in R - Part 2", # topic with link
   "  ", # reading
   "  ", # method
-  "[Project 3](#project3) (for Thursday 11/19)"
+  "[Project 3](#project3) (for Thursday 11/19) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391948))"
 ) # deliverable
 
 s_polecon <- c(
@@ -295,7 +295,7 @@ s_pollution <- c(
   "Intro to air and water pollution, and externalities ", # topic with link
   "[Isen, Rossin-Slater, and Walker (2017)-<br>Non-technical summary](https://utsa.instructure.com/courses/92072/files/folder/papers)", # reading
   "Difference in difference ", # method
-  "[Project 4](#project4) - (for Thursday 12/03)"
+  "[Project 4](#project4) - (for Thursday 12/03) ([Canvas Link](https://utsa.instructure.com/courses/92072/assignments/1391949))"
 ) # deliverable
 
 s_review_final <- c(
