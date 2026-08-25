@@ -10,20 +10,20 @@ The 14 IDs you provided map to the readings folder as follows. I used these to a
 
 | # | Paper | File in `readings/` | Canvas link |
 |---|---|---|---|
-| 1 | Chetty, Friedman, Hendren, Jones, Porter — *The Opportunity Atlas* (NBER WP 2018) | `1_opportunity_atlas_summary.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306202> |
-| 2 | Creating Moves to Opportunity (CMTO) summary | `2_cmto_summary.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306205> |
-| 3 | Bergman, Chetty, DeLuca, Hendren, Katz, Palmer — *Creating Moves to Opportunity* (2019) | `3_bergman_et_al_creating_moves_opportunity_2019.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306208> |
-| 4 | Bian, Leslie, Cimpian — *Gender stereotypes about intellectual ability emerge early* (Science 2017) | `4_bian_et_al_2017_gender_stereotypes.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306210> |
-| 5 | Dynarski, Libassi, Michelmore, Owen — *Closing the Gap: Targeted, Tuition-Free Promise* (2018) | `5_dynarski_et_al_2018_targeted_tuitionfree_promise.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306212> |
-| 6 | Chetty, Friedman, Rockoff — *Measuring the Impacts of Teachers I/II* (AER 2014) summary | `6_teachers_summary.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306213> |
-| 7 | Bertrand & Mullainathan — *Are Emily and Greg More Employable Than Lakisha and Jamal?* (AER 2004) | `7_bertrand_mullainathan_2004.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306215> |
-| 8 | Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan — *Human Decisions and Machine Predictions* (QJE 2018) | `8_kleinberg_et_al_human_decision_machine_predictions_2018.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220> |
-| 9 | Clemens — *Economics and Emigration: Trillion-Dollar Bills on the Sidewalk?* (JEP 2011) | `9_clemens_economics_emigration_2011.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306222> |
-| 9b | Tabellini — *Gifts of the Immigrants, Woes of the Natives* (RES 2020) | `9_tabellini_2020.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306223> |
-| 10 | Diamond & Saez — *The Case for a Progressive Tax* (JEP 2011) | `10_diamond_saez_progressive_tax_2011.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306227> |
-| 11 | Glaeser et al. — *Big Data and Big Cities* (2018) | `11_glaeser_et_al_2018_big_data_cities.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306230> |
-| 12 | Isen, Rossin-Slater, Walker — *Every Breath You Take* (JPE 2017) | `12_isen_et_al_2017.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306233> |
-| 13 | Moore, Obradovich, Lehner, Baylis — *Rapidly declining remarkability of temperature anomalies* (PNAS 2019) | `12_moore_et_al_temperature_perception_2019.pdf` | <https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306235> |
+| 1 | Chetty, Friedman, Hendren, Jones, Porter — *The Opportunity Atlas* (NBER WP 2018) | `1_opportunity_atlas_summary.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306202> |
+| 2 | Creating Moves to Opportunity (CMTO) summary | `2_cmto_summary.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306205> |
+| 3 | Bergman, Chetty, DeLuca, Hendren, Katz, Palmer — *Creating Moves to Opportunity* (2019) | `3_bergman_et_al_creating_moves_opportunity_2019.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306208> |
+| 4 | Bian, Leslie, Cimpian — *Gender stereotypes about intellectual ability emerge early* (Science 2017) | `4_bian_et_al_2017_gender_stereotypes.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306210> |
+| 5 | Dynarski, Libassi, Michelmore, Owen — *Closing the Gap: Targeted, Tuition-Free Promise* (2018) | `5_dynarski_et_al_2018_targeted_tuitionfree_promise.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306212> |
+| 6 | Chetty, Friedman, Rockoff — *Measuring the Impacts of Teachers I/II* (AER 2014) summary | `6_teachers_summary.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306213> |
+| 7 | Bertrand & Mullainathan — *Are Emily and Greg More Employable Than Lakisha and Jamal?* (AER 2004) | `7_bertrand_mullainathan_2004.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306215> |
+| 8 | Kleinberg, Lakkaraju, Leskovec, Ludwig, Mullainathan — *Human Decisions and Machine Predictions* (QJE 2018) | `8_kleinberg_et_al_human_decision_machine_predictions_2018.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306220> |
+| 9 | Clemens — *Economics and Emigration: Trillion-Dollar Bills on the Sidewalk?* (JEP 2011) | `9_clemens_economics_emigration_2011.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306222> |
+| 9b | Tabellini — *Gifts of the Immigrants, Woes of the Natives* (RES 2020) | `9_tabellini_2020.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306223> |
+| 10 | Diamond & Saez — *The Case for a Progressive Tax* (JEP 2011) | `10_diamond_saez_progressive_tax_2011.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306227> |
+| 11 | Glaeser et al. — *Big Data and Big Cities* (2018) | `11_glaeser_et_al_2018_big_data_cities.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306230> |
+| 12 | Isen, Rossin-Slater, Walker — *Every Breath You Take* (JPE 2017) | `12_isen_et_al_2017.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306233> |
+| 13 | Moore, Obradovich, Lehner, Baylis — *Rapidly declining remarkability of temperature anomalies* (PNAS 2019) | `12_moore_et_al_temperature_perception_2019.pdf` | <https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306235> |
 
 The papers in `readings/supplementary/` (Berman, Reardon, Peri-Yasenov, Derenoncourt et al., Alesina-Stantcheva-Teso, Race & Economic Opportunity, etc.) are **not** in the Canvas papers folder according to your mapping, so I linked those to their journal/working-paper pages instead. If you'd like any of them uploaded to Canvas as well, I can swap the external links for Canvas previews once you give me the new IDs.
 
@@ -170,7 +170,7 @@ No paper citations in this deck — it's the welcome / logistics deck. (The grad
 | `## Times Between Burglary Events Separated by 0.1 Miles or Less` | (no source) | **Added** a Mohler et al. JASA 2011 caption + link |
 
 **⚠️ Content fix you flagged — the 3D plot:**
-The slide series titled `## Judges' Release Decisions vs. Machine Predictions and Crime Risk` (×5, using `kleinberg2.png` … `kleinberg6.png`) is the 3D rotation of judge decisions you mentioned. The published version of [Kleinberg et al. (QJE 2018)](https://utsa.instructure.com/courses/79928/files/folder/papers?preview=13306220) has this as **Figure II**, a side-by-side dual panel that shows the same information without 3D parallax. **I did not replace the image** because that requires extracting Figure II as a PNG from the published paper PDF — that's a content edit I want you to sign off on first. When you're ready, point me at the page in the PDF and I'll extract the figure into `images/lec10_criminal_justice/kleinberg_fig2.png` and update the slide.
+The slide series titled `## Judges' Release Decisions vs. Machine Predictions and Crime Risk` (×5, using `kleinberg2.png` … `kleinberg6.png`) is the 3D rotation of judge decisions you mentioned. The published version of [Kleinberg et al. (QJE 2018)](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=13306220) has this as **Figure II**, a side-by-side dual panel that shows the same information without 3D parallax. **I did not replace the image** because that requires extracting Figure II as a PNG from the published paper PDF — that's a content edit I want you to sign off on first. When you're ready, point me at the page in the PDF and I'll extract the figure into `images/lec10_criminal_justice/kleinberg_fig2.png` and update the slide.
 
 **Figures with no source label otherwise:**
 - `tree1.png`, `tree2.png`, `tree3.png` — these are illustrative decision trees, not from any specific paper. Likely Jon's own diagrams. Leave as-is.

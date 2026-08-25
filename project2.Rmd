@@ -2,9 +2,9 @@
 
 ## Do Smaller Classes Improve Test Scores? Evidence from a Regression Discontinuity Design {-}
 
-- **Posted**: Tuesday, January 20, 2026
+- **Posted**: Thursday, August 20, 2026
 
-- **Due**: At midnight on Tuesday, March 10, 2026 [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203158)
+- **Due**: At midnight on Thursday, October 22, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments)
 
 In this empirical project, you will use a regression discontinuity design to estimate the causal effect of class size on test scores. To answer some of the questions, you will need to refer to the following papers:
 

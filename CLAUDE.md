@@ -48,6 +48,6 @@ The `conda run -n eco3253 …` form documented in `README.md` does not work here
 - **Data URLs** must point at `https://raw.githubusercontent.com/jrm87/ECO3253_fall2026/main/data/<file>`. The old `jrm87/ECO3253_repo` repo is gone — never use it. The `jrm87/ECO3253_fall2023` repo still works but prefer the fall2026 one for consistency.
 - **`07-ml.Rmd` is gone** as of April 2026 (it was leftover ModernDive content). If a future ML chapter is needed, write a new one with course-specific content and add it to `_bookdown.yml`.
 - **Cross-references** (`\@ref(label)`) only resolve to chapters listed in `_bookdown.yml`. After a render, look at the build output for `WARNING ... label(s) ... not found` lines.
-- **Don't commit secrets** — Canvas links (`utsa.instructure.com/courses/79928/...`) are fine to commit, they require login to actually access.
+- **Don't commit secrets** — Canvas links (`utsa.instructure.com/courses/92072/...`) are fine to commit, they require login to actually access.
 - Conda env name is `eco3253`. R lives at `/opt/homebrew/anaconda3/envs/eco3253/bin/Rscript`.
 - The course site is built for students — when fixing or adding content, prefer clarity and concrete examples over jargon. Jon teaches Tue/Thu at 1pm; the semester started January 20, 2026.

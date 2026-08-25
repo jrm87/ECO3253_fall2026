@@ -4,11 +4,11 @@
 
 ## Stories from the Atlas: Describing Data using Maps, Regressions, and Correlations {-}
 
-- **Posted**: Tuesday, January 20, 2026
+- **Posted**: Thursday, August 20, 2026
 
-- **Part 1**: Due at midnight on Saturday, February 7, 2026 [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203153)
+- **Part 1**: Due at midnight on Saturday, September 12, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments)
 
-- **Part 2**: Due at midnight on Saturday, February 14, 2026 [Canvas Link](https://utsa.instructure.com/courses/79928/assignments/1203154)
+- **Part 2**: Due at midnight on Saturday, September 19, 2026 [Canvas Link](https://utsa.instructure.com/courses/92072/assignments)
 
 The [Opportunity Atlas](https://www.opportunityatlas.org/) is a freely available interactive mapping tool that traces the roots of outcomes such as poverty and incarceration back to the neighborhoods in which children grew up. Once you are on the main landing page, select **Module 1 (Neighborhoods - MOBILITY OUTCOMES)**.  
 
