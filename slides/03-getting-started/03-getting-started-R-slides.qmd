@@ -67,38 +67,6 @@ We need to *analyze* data! We can do that analysis by hand... but that would be 
 - **R** is very flexible and powerful — adaptable to nearly any task ( _e.g._, correlations, econometrics, spatial data analysis, machine learning, web scraping, data cleaning, website building, teaching.)
 - Employers like **R** over alternatives
 
-## Added benefits of learning R
-
-```{r, statistical languages, echo = F, fig.height = 6, fig.width = 9}
-# The popularity data
-pop_df <- data.frame(
-  lang = c("SQL", "Python", "R", "SAS", "Matlab", "SPSS", "Stata"),
-  n_jobs = c(107130, 66976, 48772, 25644, 11464, 3717, 1624),
-  free = c(T, T, T, F, F, F, F)
-)
-pop_df %<>% mutate(lang = lang %>% factor(ordered = T))
-# Plot it
-red_pink <- "#e64173"
-ggplot(data = pop_df, aes(x = lang, y = n_jobs, fill = free)) +
-geom_col() +
-geom_hline(yintercept = 0) +
-aes(x = reorder(lang, -n_jobs), fill = reorder(free, -free)) +
-xlab("Statistical language") +
-scale_y_continuous(label = scales::comma) +
-ylab("Number of jobs") +
-ggtitle(
-  "Comparing statistical languages",
-  subtitle = "Number of job postings on Indeed.com, 2019/01/06"
-) +
-scale_fill_manual(
-  "Free?",
-  labels = c("True", "False"),
-  values = c(red_pink, "darkslategray")
-) +
-theme_pander(base_size = 17) +
-theme(legend.position = "bottom")
-```
-
 # Getting Started with Data in R {#getting-started}
 
 ## Basic questions

@@ -144,41 +144,9 @@ How can we know if going to school increases wages? Or if economic mobility is l
 - **R** is very flexible and powerful — adaptable to nearly any task ( _e.g._, correlations, econometrics, spatial data analysis, machine learning, web scraping, data cleaning, website building, teaching.)
 - Employers like **R** over alternatives
 
-## Added benefits of learning R
-
-```{r, statistical languages, echo = F, fig.height = 6, fig.width = 9}
-# The popularity data
-pop_df <- data.frame(
-  lang = c("SQL", "Python", "R", "SAS", "Matlab", "SPSS", "Stata"),
-  n_jobs = c(107130, 66976, 48772, 25644, 11464, 3717, 1624),
-  free = c(T, T, T, F, F, F, F)
-)
-pop_df %<>% mutate(lang = lang %>% factor(ordered = T))
-# Plot it
-red_pink <- "#e64173"
-ggplot(data = pop_df, aes(x = lang, y = n_jobs, fill = free)) +
-geom_col() +
-geom_hline(yintercept = 0) +
-aes(x = reorder(lang, -n_jobs), fill = reorder(free, -free)) +
-xlab("Statistical language") +
-scale_y_continuous(label = scales::comma) +
-ylab("Number of jobs") +
-ggtitle(
-  "Comparing statistical languages",
-  subtitle = "Number of job postings on Indeed.com, 2019/01/06"
-) +
-scale_fill_manual(
-  "Free?",
-  labels = c("True", "False"),
-  values = c(red_pink, "darkslategray")
-) +
-theme_pander(base_size = 17) +
-theme(legend.position = "bottom")
-```
-
 ## R, RStudio and Posit Cloud
 
-- We will talk more about R and RStudio next Monday. 
+- We will talk more about R and RStudio in our next class. 
 - I will reach out with very simple instructions sometime this week. 
 - You will not have to install **anything** in your computer. 
     - Will use cloud services. More on that later. 
@@ -262,3 +230,72 @@ This is a face-to-face course built around active discussion and frequent refere
 - **Reasoning & evidence.** You state your assumptions, defend your identification strategy, and recognize when an estimate or AI suggestion needs to be verified
 - **Code fluency.** You can walk through key parts of your code (data wrangling, estimation, diagnostics), make a small on-the-spot edit, and explain *why* it addresses the question
 - **Dialogue.** Respectful engagement, clarifying questions, willingness to call on a friend to extend a point
+
+# Using AI in this course
+
+## Does using AI actually help you learn?
+
+New evidence: [Strömberg, Lei and Wu (2026), *The Generative AI Learning Penalty*](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15426227)
+
+- **26,811 Chinese students**, grades 7--12, followed for **30 months**
+- AI use went from ~0% in 2022 to ~**80%** by June 2025, and students adopted it at
+  different times --- so we can compare a student **to herself**, before vs. after
+- A **difference-in-differences** design --- the method we learn in this course
+
+. . .
+
+A split between **doing the work** and **learning from it**:
+
+- **Homework got better:** scores **+18%**, time per assignment **64 → 45 min**
+- **Learning got worse:** closed-book exam scores **−20%** within six months
+
+## Homework up, learning down
+
+```{r stromberg_fig1, echo=FALSE, out.height='84%', fig.align='center'}
+knitr::include_graphics("../../images/stromberg_1.png")
+```
+
+\tiny Red = after AI; blue/green = before AI, or never used it.
+
+## The damage compounds
+
+```{r stromberg_fig2, echo=FALSE, out.height='62%', fig.align='center'}
+knitr::include_graphics("../../images/stromberg_2.png")
+```
+
+\small
+
+- Flat **before** adoption, falling sharply **after** --- that flat pre-trend is what makes this credible
+- The **full** penalty takes about **two years** to appear --- short studies miss it
+
+## Who gets hurt, and how much
+
+- High-stakes entrance exams: **−18%** (college) and **−24%** (high school)
+- Worst in **social sciences (−27%)**, then **STEM (−22%)**, then languages (−9 to −17%)
+- Hit hardest: **younger students**, **boys**, and **high-achieving students**
+
+. . .
+
+**The mechanism.** About **81%** of AI users showed *homework outsourcing*: very fast
+completion, high homework scores, poor closed-book performance.
+
+. . .
+
+> **But students who used AI and still spent as much time on the work as non-users
+> scored the same on exams.**
+
+The tool was not the problem. The **thinking time it replaced** was the problem.
+
+## How I want you to use AI in this course
+
+- Use AI to **check, explain, and debug** --- not to produce what you hand in
+- If it made the task faster, **spend the time you saved** on understanding it
+- **If you cannot explain it, you did not learn it** --- this is why I ask you to walk
+  through your own code in class
+- This is also why we have **weekly quizzes**: retrieval practice is what makes it stick
+
+. . .
+
+\footnotesize Want the short version first? I left a two-minute summary from *The Economist*
+on Canvas: [AI and children's learning](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15426991). The full paper is
+[here](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15426227) and in the readings folder.
