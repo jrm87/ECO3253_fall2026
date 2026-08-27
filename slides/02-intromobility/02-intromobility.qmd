@@ -63,7 +63,8 @@ Three questions on [Strömberg, Lei and Wu (2026), *The Generative AI Learning P
 
 - Answer in **iClicker** --- scan the QR code on screen or open the app
 - One answer per question; we look at the results together before moving on
-- Credit is for **answering**, not for being right
+- This is a **graded quiz**: you are scored on **getting it right**
+- Quizzes are **12%** of your grade, and your **two lowest scores are dropped**
 
 . . .
 
