@@ -202,6 +202,28 @@ knitr::include_graphics("../../images/mob_hyptract.png")
 knitr::include_graphics("../../images/mobility_CZ_chetty18.png")
 ```
 
+## Poll: what about San Antonio?
+
+You have just seen the map for the whole country. Before we open the Atlas:
+
+\vspace{0.5em}
+
+> **For a child growing up in a low-income family here in San Antonio, how do the chances
+> of moving up the income ladder compare with the rest of the country?**
+
+\vspace{0.5em}
+
+**A.** Higher than the national average
+
+**B.** Lower than the national average
+
+**C.** About the same
+
+\vspace{0.6em}
+
+\small This one is a **poll, not a quiz** --- you get credit for answering, and nothing is
+taken off for guessing wrong. I want to see what the room thinks *before* we look at the data.
+
 ## Jump to Opportunity Atlas website
 
 - [https://www.opportunityatlas.org/](https://www.opportunityatlas.org/)
