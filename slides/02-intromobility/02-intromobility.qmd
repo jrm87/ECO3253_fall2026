@@ -55,6 +55,93 @@ Lecture based primarily on the following paper:
 
 >[Chetty, Friedman, Hendren, Jones, Porter. "The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility" NBER WP, 2018](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424717)
 
+# Quiz: AI and learning
+
+## Today's quiz
+
+Three questions on [Strömberg, Lei and Wu (2026), *The Generative AI Learning Penalty*](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15426227).
+
+- Answer in **iClicker** --- scan the QR code on screen or open the app
+- One answer per question; we look at the results together before moving on
+- Credit is for **answering**, not for being right
+
+. . .
+
+\vspace{0.4em}
+Two of the three ask *how the study was done*, not just what it found --- that is the part
+that will matter for your own projects.
+
+## Q1. Where do the data come from?
+
+\small
+
+**A.** A survey in which students remembered their past grades
+
+**B.** Administrative records from the county education bureau --- the same digital systems
+that log exam scores, homework scores, and homework timestamps
+
+**C.** An experiment in which researchers assigned some students to use AI
+
+**D.** Test scores published online by the Chinese government
+
+. . .
+
+\vspace{0.3em}
+**Answer: B.** 26,811 students --- 90% of the county. The homework platform records *when*
+each assignment was opened and submitted, which is how the authors can spot homework that
+was finished very fast and scored very well.
+
+## Q2. Nobody was assigned to use AI. So how can the authors blame AI?
+
+\small
+
+**A.** They compare AI users with non-users at a single point in time
+
+**B.** They compare each student's scores **before vs. after she started using AI**, then
+subtract whatever happened over those same months to students who **never** started
+
+**C.** They asked students whether they felt AI had hurt their grades
+
+**D.** They compare schools that banned AI with schools that allowed it
+
+. . .
+
+\vspace{0.3em}
+**Answer: B.** Why subtract the never-users? Exams get harder, seasons change, students
+mature --- the never-users soak all of that up. And the two groups moved **in parallel
+before** anyone adopted, which is what makes the comparison believable.
+
+## Q3. What happened after students started using AI?
+
+\small
+
+**A.** Homework scores and exam scores both went **up**
+
+**B.** Homework scores and exam scores both went **down**
+
+**C.** Homework scores went **up** and homework took **less time**, but exam scores went **down**
+
+**D.** Homework was unchanged, but exam scores went **up**
+
+. . .
+
+\vspace{0.3em}
+**Answer: C.** Homework scores **+18%**, time per assignment **64 → 45 minutes**,
+closed-book exam scores **−20%**. The work got easier. The learning did not happen.
+
+## So what?
+
+- The students who lost the most were the ones who used AI to **finish faster**
+- The students who used AI **and kept their time on the task** scored about the same as
+  everyone else
+- Nobody here was punished for *using a tool* --- they were punished for *skipping the thinking*
+
+. . .
+
+\vspace{0.4em}
+Keep this in mind on Project 0: the goal is not a finished file, it is being able to
+**explain** the file.
+
 # Geographical Variation in Upward Mobility
 
 ## Differences in Opportunity Across Local Areas
