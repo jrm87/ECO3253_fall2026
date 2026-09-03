@@ -13,6 +13,68 @@ institute: ECO3253, UTSA
 date: today
 ---
 
+# Quiz: the Opportunity Atlas
+
+## Today's quiz
+
+Three questions on the non-technical summary of
+[Chetty, Friedman, Hendren, Jones and Porter, *The Opportunity Atlas*](https://utsa.instructure.com/courses/92072/files/folder/papers?preview=15424717).
+
+- Answer in **iClicker** --- scan the QR code on screen or open the app
+- This is a **graded quiz**: you are scored on getting it right
+- Quizzes are **12%** of your grade, and your **two lowest scores are dropped**
+
+## Q1. What are the Opportunity Atlas data built from?
+
+\small
+
+**A.** Test scores from public school districts
+
+**B.** Anonymized records for 20 million adults
+
+**C.** Interviews with families in ten big cities
+
+**D.** A yearly survey of 20,000 U.S. households
+
+. . .
+
+\vspace{0.3em}
+**Answer: B.** Americans now in their mid-thirties, traced back to the Census tract they grew up in --- about 70,000 tracts.
+
+## Q2. The Atlas finds that children's outcomes differ sharply...
+
+\small
+
+**A.** between cities, but rarely within a city
+
+**B.** between states, but rarely within a state
+
+**C.** between neighborhoods a mile or two apart
+
+**D.** between the coasts and the rural interior
+
+. . .
+
+\vspace{0.3em}
+**Answer: C.** Among black men from low-income families, 44% of those raised in Watts were incarcerated on Census day, against 6.2% in Compton --- 2.3 miles away.
+
+## Q3. Atlanta and Charlotte had very high job and wage growth. Upward mobility there was...
+
+\small
+
+**A.** among the lowest rates in the country
+
+**B.** very close to the national average
+
+**C.** among the highest rates in the country
+
+**D.** rising quickly, in step with job growth
+
+. . .
+
+\vspace{0.3em}
+**Answer: A.** Those cities grew by attracting skilled workers from elsewhere. What predicts mobility is not being near jobs, but growing up around adults who have them.
+
 # Why R again?
 
 ## Why are we learning R? I wanted to learn about social issues...
