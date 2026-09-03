@@ -15,8 +15,8 @@ fig:histogramexample
 fig:weather-histogram
 fig:weather-histogram-2
 fig:weather-histogram-3
-fig:unnamed-chunk-73
-fig:unnamed-chunk-74
+fig:unnamed-chunk-68
+fig:unnamed-chunk-69
 fig:geombar
 fig:geomcol
 fig:flightsbar
@@ -25,7 +25,7 @@ fig:filter
 fig:select
 fig:selectfig
 fig:dplyr-cheatsheet
-tab:unnamed-chunk-106
+tab:unnamed-chunk-101
 tab:five-random-courses
 fig:correlation1
 fig:numxplot1
@@ -39,8 +39,8 @@ tab:model3-correlation
 fig:2numxplot1
 fig:3D-scatterplot
 tab:model3-table-output
-fig:unnamed-chunk-146
-fig:unnamed-chunk-147
+fig:unnamed-chunk-141
+fig:unnamed-chunk-142
 lec1_geomobility
 parental-and-children-income-rank
 interpreting-the-regression-line
@@ -149,11 +149,11 @@ ok-but-why-r
 added-benefits-of-learning-r
 key-concepts-before-we-start
 r-rstudio
-r-and-rstudio-in-your-computer-or-in-the-cloud-the-benefit-of-posit-cloud
+r-and-rstudio-on-your-own-computer
 installing-r-and-rstudio-locally
 lets-open-r
-rstudio-in-posit-cloud
-using-r-via-rstudio-in-posit-cloud
+posit-cloud-optional
+using-r-via-rstudio
 code
 programming-concepts
 in-class-exercise

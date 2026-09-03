@@ -34,7 +34,7 @@ atlas <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_fall
 
 ## Instructions {-}
 
-You will work on RStudio through Posit Cloud for this project. Write the narrative within a Quarto file in the **project1** tab in Posit Cloud, and upload the final pdf document to Canvas. 
+You will work in RStudio for this project. Write the narrative within a Quarto file in the **project1** tab in Posit Cloud, and upload the final pdf document to Canvas. 
 
 The deliverables for Part 1 and Part 2 are the following: 
 

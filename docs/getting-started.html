@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-08-25" />
+<meta name="date" content="2026-09-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -317,13 +317,13 @@ div.csl-indent {
 <li class="chapter" data-level="11.2" data-path="getting-started.html"><a href="getting-started.html#key-concepts-before-we-start"><i class="fa fa-check"></i><b>11.2</b> Key concepts before we start:</a>
 <ul>
 <li class="chapter" data-level="11.2.1" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>11.2.1</b> What are R and RStudio?</a></li>
-<li class="chapter" data-level="11.2.2" data-path="getting-started.html"><a href="getting-started.html#r-and-rstudio-in-your-computer-or-in-the-cloud-the-benefit-of-posit-cloud"><i class="fa fa-check"></i><b>11.2.2</b> R and RStudio: In your computer or in the cloud? The benefit of Posit Cloud</a></li>
+<li class="chapter" data-level="11.2.2" data-path="getting-started.html"><a href="getting-started.html#r-and-rstudio-on-your-own-computer"><i class="fa fa-check"></i><b>11.2.2</b> R and RStudio: on your own computer</a></li>
 <li class="chapter" data-level="11.2.3" data-path="getting-started.html"><a href="getting-started.html#installing-r-and-rstudio-locally"><i class="fa fa-check"></i><b>11.2.3</b> Installing R and RStudio Locally</a></li>
 </ul></li>
 <li class="chapter" data-level="11.3" data-path="getting-started.html"><a href="getting-started.html#lets-open-r"><i class="fa fa-check"></i><b>11.3</b> Let’s open R!</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="getting-started.html"><a href="getting-started.html#rstudio-in-posit-cloud"><i class="fa fa-check"></i><b>11.3.1</b> RStudio in Posit cloud</a></li>
-<li class="chapter" data-level="11.3.2" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio-in-posit-cloud"><i class="fa fa-check"></i><b>11.3.2</b> Using R via RStudio in Posit Cloud</a></li>
+<li class="chapter" data-level="11.3.1" data-path="getting-started.html"><a href="getting-started.html#posit-cloud-optional"><i class="fa fa-check"></i><b>11.3.1</b> Optional: Posit Cloud</a></li>
+<li class="chapter" data-level="11.3.2" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>11.3.2</b> Using R via RStudio</a></li>
 </ul></li>
 <li class="chapter" data-level="11.4" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>11.4</b> How do I code in R?</a>
 <ul>
@@ -606,7 +606,7 @@ div.csl-indent {
 <h2><span class="header-section-number">11.2</span> Key concepts before we start:<a href="getting-started.html#key-concepts-before-we-start" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Before we can start exploring data in R, there are some key concepts to understand first:</p>
 <ol style="list-style-type: decimal">
-<li>What are R, Posit Cloud and RStudio?</li>
+<li>What are R and RStudio?</li>
 <li>How do I code in R?</li>
 <li>What are R packages?</li>
 </ol>
@@ -638,14 +638,16 @@ div.csl-indent {
 </table>
 <p>More precisely, R is a programming language that runs computations while RStudio is an <em>integrated development environment (IDE)</em> that provides an interface by adding many convenient features and tools. So just as having access to a speedometer, rearview mirrors, and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.</p>
 </div>
-<div id="r-and-rstudio-in-your-computer-or-in-the-cloud-the-benefit-of-posit-cloud" class="section level3 hasAnchor" number="11.2.2">
-<h3><span class="header-section-number">11.2.2</span> R and RStudio: In your computer or in the cloud? The benefit of Posit Cloud<a href="getting-started.html#r-and-rstudio-in-your-computer-or-in-the-cloud-the-benefit-of-posit-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="r-and-rstudio-on-your-own-computer" class="section level3 hasAnchor" number="11.2.2">
+<h3><span class="header-section-number">11.2.2</span> R and RStudio: on your own computer<a href="getting-started.html#r-and-rstudio-on-your-own-computer" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>To use R and RStudio, you can:</p>
 <ul>
-<li>install it in your computer (see the book) or …</li>
-<li>run it on someone else’s computer (the cloud!). We will do that, so you don’t have to worry about installations.</li>
+<li><strong>install both on your own computer</strong> — this is what we will do, and both are free, or …</li>
+<li>run them on someone else’s computer (the cloud)</li>
 </ul>
-<p>If you want to use Posit Cloud, you need to tell me in advance and I will send out the invite. If you would still like to install R and RStudio in your own computer, please follow the instructions in Section 1.1.1 in this <a href="https://nulib.github.io/moderndive_book/1-getting-started.html">link</a>. Of course, you are encouraged to experiment in your own machine as well. Notice, however, that you should carry out the assignments and projects in Posit Cloud.</p>
+<p>We will focus on the <strong>local installation</strong>, described just below. If you would rather work in
+a browser, there is an optional note on <a href="getting-started.html#posit-cloud-optional">Posit Cloud</a> further down —
+but it is your own free account, and <strong>there is no class invite this semester</strong>.</p>
 <div class="blackbox">
 <div class="center">
 <p><strong>Important!</strong></p>
@@ -665,43 +667,29 @@ div.csl-indent {
 </div>
 <div id="lets-open-r" class="section level2 hasAnchor" number="11.3">
 <h2><span class="header-section-number">11.3</span> Let’s open R!<a href="getting-started.html#lets-open-r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="rstudio-in-posit-cloud" class="section level3 hasAnchor" number="11.3.1">
-<h3><span class="header-section-number">11.3.1</span> RStudio in Posit cloud<a href="getting-started.html#rstudio-in-posit-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Let’s jump in! You should have received a link for you to access RStudio in the cloud through Posit Cloud. There is a monthly fee to use this service of $5. We will be using the service for the next 4 months, so you should be paying a total of $20 across these 4 months. Recall also that there is no required textbook for this class. Once the Fall semester finishes, it is your responsibility to cancel your subscription.</p>
-<p>Once more: remember that all the <strong>code is running on someone’s computer</strong>. In this case, it is running on a computer owned by the folks at RStudio.</p>
-<ol style="list-style-type: decimal">
-<li>Receive link with invitation</li>
-</ol>
-<p>You should have received an email with a link inviting you to join Posit Cloud. Once you click on the link, you should land in a page like this:</p>
-<p><img src="images/rstudio_cloud1.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
-<p>Then you should fill out the information for your account. Please use your utsa email account (the account you should have received the invitation to). Once you click on <strong>Sign Up</strong>, it will show this:</p>
-<p><img src="images/rstudio_cloud2.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
-<p>Then you need to go back to your email and verify it. Then log back in again!</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Inside Posit Cloud select <strong>ECO3523-Fall23</strong></li>
-</ol>
-<p>Once you have logged back in, you should land in the main page, which should look like this:</p>
-<p><img src="images/rstudio_cloud3.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
-<p>Click on the left where it says <strong>ECO3523-Fall23</strong>. That is where you will see all the material and projects for this class.</p>
-<p><img src="images/rstudio_cloud4.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
-<ol start="3" style="list-style-type: decimal">
-<li>Select the appropriate project you want to work on</li>
-</ol>
-<p>Once you are in the <strong>ECO3523-Fall23</strong> tab, you should see a list of individual projects we will work on throughout the semester. It should look something like this:</p>
-<p><img src="images/rstudio_cloud5.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
-<p>For our first class on R you will select the link that says <strong>introRClass</strong>. That is it! Now we are ready to get to work!</p>
+<div id="posit-cloud-optional" class="section level3 hasAnchor" number="11.3.1">
+<h3><span class="header-section-number">11.3.1</span> Optional: Posit Cloud<a href="getting-started.html#posit-cloud-optional" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If you would rather not install anything, <a href="https://posit.cloud/">Posit Cloud</a> runs RStudio
+inside your browser, and its <strong>free tier</strong> is enough for what we do in this course.</p>
+<p>A few things to know before you go that route:</p>
+<ul>
+<li>It is <strong>optional</strong>. We work with the local installation in class, and that is what I support.</li>
+<li><strong>There is no class invite this semester</strong> — you sign up for your own free account.</li>
+<li>All the <strong>code runs on someone else’s computer</strong>, in this case one owned by Posit.</li>
+<li>Either way, homework and projects are uploaded to Canvas as a PDF.</li>
+</ul>
 </div>
-<div id="using-r-via-rstudio-in-posit-cloud" class="section level3 hasAnchor" number="11.3.2">
-<h3><span class="header-section-number">11.3.2</span> Using R via RStudio in Posit Cloud<a href="getting-started.html#using-r-via-rstudio-in-posit-cloud" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="using-r-via-rstudio" class="section level3 hasAnchor" number="11.3.2">
+<h3><span class="header-section-number">11.3.2</span> Using R via RStudio<a href="getting-started.html#using-r-via-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Recall our car analogy from above. Much as we don’t drive a car by interacting directly with the engine but rather by interacting with elements on the car’s dashboard, we won’t be using R directly but rather we will use RStudio’s interface.</p>
-<p>After you open Posit Cloud and follow the previous instructions, you should see a panel like the following:</p>
+<p>When you open RStudio, you should see a panel like the following:</p>
 <p><img src="images/rstudio_cloud6.png" alt="" width="80%" style="display: block; margin: auto;" /></p>
 <p>Note the three panes, which are three panels dividing the screen: The <em>Console pane</em>, the <em>Files pane</em>, and the <em>Environment pane</em>. Over the course of this chapter, you’ll come to learn what purpose each of these panes serve.</p>
 </div>
 </div>
 <div id="code" class="section level2 hasAnchor" number="11.4">
 <h2><span class="header-section-number">11.4</span> How do I code in R?<a href="getting-started.html#code" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Now that you’re set up with Posit Cloud, you are probably asking yourself “OK. Now how do I use R?” The first thing to note as that unlike other statistical software programs like Excel, STATA, or SAS that provide <a href="https://en.wikipedia.org/wiki/Point_and_click">point and click</a> interfaces, R is an <a href="https://en.wikipedia.org/wiki/Interpreted_language">interpreted language</a>, meaning you have to enter in R commands written in R code. In other words, you have to code/program in R. Note that we’ll use the terms “coding” and “programming” interchangeably in this book.</p>
+<p>Now that you’re set up with R and RStudio, you are probably asking yourself “OK. Now how do I use R?” The first thing to note as that unlike other statistical software programs like Excel, STATA, or SAS that provide <a href="https://en.wikipedia.org/wiki/Point_and_click">point and click</a> interfaces, R is an <a href="https://en.wikipedia.org/wiki/Interpreted_language">interpreted language</a>, meaning you have to enter in R commands written in R code. In other words, you have to code/program in R. Note that we’ll use the terms “coding” and “programming” interchangeably in this book.</p>
 <p>While it is not required to be a seasoned coder/computer programmer to use R, there is still a set of basic programming concepts that R users need to understand. Consequently, while this course is not a book on programming, you will still learn just enough of these basic programming concepts needed to explore and analyze data effectively.</p>
 <div id="programming-concepts" class="section level3 hasAnchor" number="11.4.1">
 <h3><span class="header-section-number">11.4.1</span> Basic programming concepts and terminology<a href="getting-started.html#programming-concepts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -820,9 +808,9 @@ div.csl-indent {
 <p>Let’s now show you how to perform these two steps for the <code>ggplot2</code> package for data visualization.</p>
 <div id="package-installation" class="section level3 hasAnchor" number="11.6.1">
 <h3><span class="header-section-number">11.6.1</span> Package installation<a href="getting-started.html#package-installation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>For the most part, in Posit Cloud, I will pre-install the packages you are going to need to use. But just in case you also want to work on your own machine, or install your own packages, here I explain that a bit more. There are two ways to install an R package. For example, to install the <code>ggplot2</code> package:</p>
+<p>Working locally, you install the packages you need yourself. Here is how. There are two ways to install an R package. For example, to install the <code>ggplot2</code> package:</p>
 <ol style="list-style-type: decimal">
-<li><strong>Easy way</strong>: In the Files pane of RStudio/Posit Cloud:
+<li><strong>Easy way</strong>: In the Files pane of RStudio:
 <ol style="list-style-type: lower-alpha">
 <li>Click on the “Packages” tab</li>
 <li>Click on “Install”</li>

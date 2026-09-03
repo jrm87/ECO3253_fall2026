@@ -144,12 +144,14 @@ How can we know if going to school increases wages? Or if economic mobility is l
 - **R** is very flexible and powerful — adaptable to nearly any task ( _e.g._, correlations, econometrics, spatial data analysis, machine learning, web scraping, data cleaning, website building, teaching.)
 - Employers like **R** over alternatives
 
-## R, RStudio and Posit Cloud
+## R and RStudio
 
-- We will talk more about R and RStudio in our next class. 
-- I will reach out with very simple instructions sometime this week. 
-- You will not have to install **anything** in your computer. 
-    - Will use cloud services. More on that later. 
+- We will talk more about R and RStudio in our next class.
+- I will reach out with very simple instructions sometime this week.
+- We will work with a **local installation** on your own laptop --- both R and RStudio are
+  **free**.
+    - If you would rather try a free **Posit Cloud** account in the browser, there are notes
+      on the course site. That is optional, and **there is no class invite this semester**.
 
 ## Economic Concepts 
 

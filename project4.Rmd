@@ -27,7 +27,7 @@ test <- readRDS(gzcon(url("https://raw.githubusercontent.com/jrm87/ECO3253_fall2
 
 ## Instructions {-}
 
-As usual, you will work on Posit Cloud for this project. Write your responses within a [Quarto/RMarkdown here](#rmarkdown) file in the **project4** tab in Posit Cloud.
+As usual, you will work in RStudio for this project. Write your responses within a [Quarto/RMarkdown here](#rmarkdown) file in the **project4** tab in Posit Cloud.
 
 ### Specific questions  {-}
 

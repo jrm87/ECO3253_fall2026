@@ -32,7 +32,7 @@ knitr::include_graphics("images/project2/angristlevy99_2.png")
 
 ## Instructions {-}
 
-You will work on Posit Cloud for this project. Write the replication within a Quarto/RMarkdown file in the **project2** tab in Posit Cloud.
+You will work in RStudio for this project. Write the replication within a Quarto/RMarkdown file in the **project2** tab in Posit Cloud.
 
 Recall that I created a Section to help you get up to speed with [Quarto/RMarkdown here](#rmarkdown). The Quarto/RMarkdown file is where you will write your report, run all your analysis, and the output of each code block should be visible. The output should include references, graphs, maps, and tables. 
 

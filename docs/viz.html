@@ -23,7 +23,7 @@
 <meta name="author" content="Jonathan Moreno-Medina" />
 
 
-<meta name="date" content="2026-08-25" />
+<meta name="date" content="2026-09-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -317,13 +317,13 @@ div.csl-indent {
 <li class="chapter" data-level="11.2" data-path="getting-started.html"><a href="getting-started.html#key-concepts-before-we-start"><i class="fa fa-check"></i><b>11.2</b> Key concepts before we start:</a>
 <ul>
 <li class="chapter" data-level="11.2.1" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>11.2.1</b> What are R and RStudio?</a></li>
-<li class="chapter" data-level="11.2.2" data-path="getting-started.html"><a href="getting-started.html#r-and-rstudio-in-your-computer-or-in-the-cloud-the-benefit-of-posit-cloud"><i class="fa fa-check"></i><b>11.2.2</b> R and RStudio: In your computer or in the cloud? The benefit of Posit Cloud</a></li>
+<li class="chapter" data-level="11.2.2" data-path="getting-started.html"><a href="getting-started.html#r-and-rstudio-on-your-own-computer"><i class="fa fa-check"></i><b>11.2.2</b> R and RStudio: on your own computer</a></li>
 <li class="chapter" data-level="11.2.3" data-path="getting-started.html"><a href="getting-started.html#installing-r-and-rstudio-locally"><i class="fa fa-check"></i><b>11.2.3</b> Installing R and RStudio Locally</a></li>
 </ul></li>
 <li class="chapter" data-level="11.3" data-path="getting-started.html"><a href="getting-started.html#lets-open-r"><i class="fa fa-check"></i><b>11.3</b> Let’s open R!</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="getting-started.html"><a href="getting-started.html#rstudio-in-posit-cloud"><i class="fa fa-check"></i><b>11.3.1</b> RStudio in Posit cloud</a></li>
-<li class="chapter" data-level="11.3.2" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio-in-posit-cloud"><i class="fa fa-check"></i><b>11.3.2</b> Using R via RStudio in Posit Cloud</a></li>
+<li class="chapter" data-level="11.3.1" data-path="getting-started.html"><a href="getting-started.html#posit-cloud-optional"><i class="fa fa-check"></i><b>11.3.1</b> Optional: Posit Cloud</a></li>
+<li class="chapter" data-level="11.3.2" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>11.3.2</b> Using R via RStudio</a></li>
 </ul></li>
 <li class="chapter" data-level="11.4" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>11.4</b> How do I code in R?</a>
 <ul>
@@ -1028,8 +1028,8 @@ Figure 12.8: Histogram of mobility for children of p25 in the US with white bord
 <p>Using the first method, we have the power to specify how many bins we would like to cut the x-axis up in. As mentioned in the previous section, the default number of bins is 30. We can override this default, to say 40 bins, as follows:</p>
 <div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="viz.html#cb23-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> atlas, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> kfr_pooled_p25)) <span class="sc">+</span></span>
 <span id="cb23-2"><a href="viz.html#cb23-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">40</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-73"></span>
-<img src="_main_files/figure-html/unnamed-chunk-73-1.png" alt="Histogram with 40 bins." width="\textwidth" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-68"></span>
+<img src="_main_files/figure-html/unnamed-chunk-68-1.png" alt="Histogram with 40 bins." width="\textwidth" />
 <p class="caption">
 Figure 12.9: Histogram with 40 bins.
 </p>
@@ -1037,8 +1037,8 @@ Figure 12.9: Histogram with 40 bins.
 <p>Using the second method, instead of specifying the number of bins, we specify the width of the bins by using the <code>binwidth</code> argument in the <code>geom_histogram()</code> layer. For example, let’s set the width of each bin to be 10°F.</p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="viz.html#cb24-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> atlas, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> kfr_pooled_p25)) <span class="sc">+</span></span>
 <span id="cb24-2"><a href="viz.html#cb24-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">4000</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-74"></span>
-<img src="_main_files/figure-html/unnamed-chunk-74-1.png" alt="Histogram with binwidth 10." width="\textwidth" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-69"></span>
+<img src="_main_files/figure-html/unnamed-chunk-69-1.png" alt="Histogram with binwidth 10." width="\textwidth" />
 <p class="caption">
 Figure 12.10: Histogram with binwidth 10.
 </p>

@@ -85,7 +85,7 @@ Before we go further, I need to know where the room is.
 
 **B.** Downloaded, but **not installed** yet
 
-**C.** Something else --- not started, stuck, or working in the cloud
+**C.** Something else --- not started, or stuck partway
 
 \vspace{0.6em}
 
@@ -180,18 +180,27 @@ So just as having access to a speedometer, rearview mirrors, and a navigation sy
 
 
 
-## R and RStudio: In your computer or in the cloud?
+## R and RStudio: on your own computer
 
 To use R and RStudio, you can:
 
-- install it in your computer (see the book) or ...
-- run it on someone else's computer (the cloud!). We will do that, so you don't have to worry about installations. 
+- **install both on your own computer** --- this is what we will do, and both are free
+- or run them in a browser, on someone else's computer (the cloud)
+
+\vspace{0.4em}
+We will focus on the **local installation**, and that is what I will support in class. If you
+would rather try a free **Posit Cloud** account, there are notes on the course site --- but it
+is optional, and **there is no class invite this semester**.
 
 # Let's open R!
 
-## RStudio in the cloud
+## Let's open RStudio
 
-Let's jump in! You should have received a link for you to access Posit Cloud. Remember that all the **code is running on someone's computer**. In this case, it is running on a computer owned by the folks at RStudio/Posit. 
+Let's jump in! Open **RStudio** on your own laptop --- the copy you installed.
+
+\vspace{0.4em}
+Not installed yet? Follow the instructions on the course site, and for today sit next to
+someone who has it running so you can follow along.
 
 ## Using R via RStudio
 
