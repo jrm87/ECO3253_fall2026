@@ -75,6 +75,23 @@ Three questions on the non-technical summary of
 \vspace{0.3em}
 **Answer: A.** Those cities grew by attracting skilled workers from elsewhere. What predicts mobility is not being near jobs, but growing up around adults who have them.
 
+## Poll: where are you with R?
+
+Before we go further, I need to know where the room is.
+
+\vspace{0.5em}
+
+**A.** Downloaded **and** installed
+
+**B.** Downloaded, but **not installed** yet
+
+**C.** Something else --- not started, stuck, or working in the cloud
+
+\vspace{0.6em}
+
+\small This one is a **poll, not a quiz** --- credit is for answering, and there is no wrong
+answer. If you are in **B** or **C**, stay after class for two minutes and we will fix it.
+
 # Why R again?
 
 ## Why are we learning R? I wanted to learn about social issues...
@@ -691,4 +708,49 @@ It has screencast recordings that you can follow along and pause as you learn. F
 <!-- knitr::include_graphics("images/flowcharts/flowchart/flowchart.004.png") -->
 <!-- ``` -->
 
+# Project 0
 
+## Project 0: what your PDF has to contain
+
+You hand in **one PDF**, knitted from R Markdown, with five things:
+
+\small
+
+1. R code that computes the **square root of 12**
+2. R code that loads the Project 1 data into a data frame called `atlas`
+3. R code for the **mean and standard deviation** of average child income, for parents at the
+   **25th** and **75th** percentiles
+4. A **`ggplot`** showing the distribution of those variables across the **US, Texas, Utah,
+   and South Carolina**
+5. A short **description in your own words** of what you see in the numbers and the plot
+
+\vspace{0.4em}
+\normalsize
+Full instructions: [project0 on the course site](https://jrm87.github.io/ECO3253_fall2026/project0.html#project0)
+
+## Project 0: where to get help
+
+- Everything you need is **on the course site** --- Getting Started, Data Visualization,
+  Appendix A, and the Cheat Sheet
+- **You may use generative AI.** Ask it to explain an error message, or to tell you what a
+  line of code is doing
+- Remember Tuesday: the students who lost out were the ones who used AI to *finish faster*.
+  Use the time you save to actually understand the code
+- You must be able to **explain any line you hand in** --- I may ask you in class
+
+## Poll: did your PDF compile?
+
+**A.** Yes --- compiled, ready to upload
+
+**B.** It runs, but the PDF will not build
+
+**C.** Not there yet --- stuck earlier
+
+\vspace{0.5em}
+
+\small A **poll**, not a quiz --- credit for answering. I want to know how many people to help
+before tonight.
+
+\vspace{0.3em}
+\normalsize
+**Upload your PDF on [Canvas](https://utsa.instructure.com/courses/92072/assignments/1391944) tonight by 11:59 pm.**
